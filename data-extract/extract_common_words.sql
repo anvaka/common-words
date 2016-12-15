@@ -17,7 +17,7 @@ FROM (
       num_lines
     FROM ( FLATTEN( (
           SELECT
-            SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&\-!*/\}\\?\{\(\)\[\]<>|@:\n"\'.=]', ' '), ' ') word,
+            SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&\-`!*/\}\\?\{\(\)\[\]<>|@:\n"\'.=]', ' '), ' ') word,
             lines,
             num_lines
           FROM
@@ -26,7 +26,9 @@ FROM (
       )
             ), word) )
     WHERE
-      word IS NOT NULL ) ) rs
+      (word IS NOT NULL) and -- ignore empty words
+      (NOT REGEXP_MATCH(word, r'^\d+$')) -- ignore numbers only
+      ) ) rs
 INNER JOIN (
   SELECT
     word,
