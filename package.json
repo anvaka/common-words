@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "JSONStream": "^1.2.1",
+    "event-stream": "^3.3.4"
+  }
+}
