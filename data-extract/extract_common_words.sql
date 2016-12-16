@@ -17,7 +17,7 @@ FROM (
       num_lines
     FROM ( FLATTEN( (
           SELECT
-            SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&\-`!*/\}\\?\{\(\)\[\]<>|@:\n"\'.=]', ' '), ' ') word,
+            SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&^\-`!*/\}\\?\{\(\)\[\]<>|@:"\'.=]', ' '), ' ') word,
             lines,
             num_lines
           FROM
@@ -36,7 +36,7 @@ INNER JOIN (
   FROM
     FLATTEN((
       SELECT
-        SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&\-!*/\}\\?\{\(\)\[\]<>|@:\n"\'.=]', ' '), ' ') word,
+        SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&^\-`!*/\}\\?\{\(\)\[\]<>|@:"\'.=]', ' '), ' ') word,
         num_lines
       FROM
         (
