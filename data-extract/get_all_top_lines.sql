@@ -1,3 +1,6 @@
+-- WARNING: THIS SCRIPT IS DATA INTENSIVE. IT CAN SIGNIFICANTLY CONTRIBUTE
+-- TO YOUR FREE QUOTA USAGE. READ BELOW.
+--
 -- This script will fetch the entire 1.9TB of github content and group it into
 -- table:
 --
