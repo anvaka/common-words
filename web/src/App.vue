@@ -1,44 +1,56 @@
 <template>
   <div id="app">
-    <h3>Common Language</h3>
-    <h4>
-      Visualization of most common words in code
-    </h4>
-    <blockquote>
-      <p>I querried 1.9TB of source code to build this website!</p>
-      <footer>anvaka - author of `Common Language`</footer>
-    </blockquote>
+    <words-cloud-renderer></words-cloud-renderer>
+    <div class='language-picker'>
+      Most used words in <select v-model='languages.selected'>
+        <option v-for='lang in languages.list' :value='lang.extension'>{{lang.text}}</option>
+      </select> files.
+    </div>
+    <sidebar :vm='sideBar'></sidebar>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello';
+import appState from './state/appState';
+import WordsCloudRenderer from './components/WordsCloudRenderer';
+import Sidebar from './components/Sidebar';
 
 export default {
   name: 'app',
   components: {
-    Hello,
+    WordsCloudRenderer,
+    Sidebar,
+  },
+  data() {
+    return appState;
+  },
+  watch: {
+    'languages.selected': function updateSelected(newValue) {
+      appState.updateSelected(newValue);
+    },
   },
 };
 </script>
 
 <style lang="styl">
- * {
-    box-sizing: border-box;
-  }
-  body {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    font-family: Abel, sans-serif;
-  }
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Abel, sans-serif;
+}
+
+.language-picker {
+  position: absolute;
+  background: white;
+}
 #app {
   color: #2c3e50;
-  margin-top: 60px;
 }
-h3, h4 {
-  text-align: center;
-}
+
 blockquote {
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
   padding: .75em .5em .75em 1em;
