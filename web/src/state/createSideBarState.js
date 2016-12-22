@@ -45,6 +45,7 @@ function toLineViewModel(line, word) {
   const count = formatNumber(line[1]);
 
   return {
+    text: line[0],
     count,
     parts,
   };

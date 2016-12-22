@@ -3,7 +3,7 @@
     <h3>{{vm.header}}</h3>
     <div class='lines-with-word'>
       <div class='line' v-for='line in vm.lines'>
-        <div class='parts'>
+        <div class='parts' :title='line.text'>
           <span v-for='part in line.parts' :class='{highlight: part.bold}'>{{part.text}}</span>
         </div>
         <div class='count'>{{line.count}}</div>
@@ -63,6 +63,8 @@ export default {
     padding: 10px 0;
     .parts {
       padding-left: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
   }
 
