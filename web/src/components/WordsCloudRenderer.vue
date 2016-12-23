@@ -9,6 +9,7 @@ import panzoom from 'panzoom';
 import svg from 'simplesvg';
 import bus from '../state/bus';
 import appState from '../state/appState.js';
+import clap from '../utils/clap.js';
 
 export default {
   mounted() {
@@ -17,19 +18,16 @@ export default {
 
     this.zoomer = panzoom(this.$refs.scene);
     this.scene = svg(this.$refs.scene);
-    this.scene.addEventListener('click', this.selectText, true);
-    this.scene.addEventListener('touchstart', this.onTouchStart, true);
-    this.scene.addEventListener('touchend', this.onTouchEnd, true);
+    this.disposeClap = clap(this.scene, this.selectText.bind(this));
   },
 
   destroyed() {
     bus.off('loading', this.clearScene, this);
     bus.off('loaded', this.renderScene, this);
     this.zoomer.dispose();
-    this.scene.removeEvenetListener('click', this.selectText, true);
-    this.scene.removeEvenetListener('touchstart', this.onTouchStart, true);
-    this.scene.removeEvenetListener('touchend', this.onTouchEnd, true);
+    this.disposeClap();
   },
+
   methods: {
     clearScene() {
       this.scene.innerHTML = '';
@@ -41,15 +39,6 @@ export default {
       appState.selectWord(e.target.text());
     },
 
-    onTouchStart() {
-      this.lastTouch = new Date();
-    },
-
-    onTouchEnd(e) {
-      const diff = new Date() - this.lastTouchStart;
-      if (diff > 300) return;
-      this.selectText(e);
-    },
 
     renderScene(positions) {
       positions.forEach((p) => {
