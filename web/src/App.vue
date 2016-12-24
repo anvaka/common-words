@@ -2,31 +2,42 @@
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
     <div class='language-picker'>
-      Most used words in <select v-model='languages.selected'>
-        <option v-for='lang in languages.list' :value='lang.extension'>{{lang.text}}</option>
-      </select> files.
+      <div>
+      Most used words in
+      <drop-click :selected='languages.selected' :items='languages.list'
+                  @selected='updateSelectedLanguage'>
+        <template slot='item' scope='props'>
+          <option :value='props.item.extension'>{{props.item.text}}</option>
+        </template>
+      </drop-click> files
+      </div>
+      <div>
+        <a href='#' @click.prevent='openGlobalSideBar'>Show all as a list</a>
+      </div>
     </div>
-    <sidebar :vm='sideBar'></sidebar>
+    <word-context-sidebar :vm='sideBar'></word-context-sidebar>
   </div>
 </template>
 
 <script>
 import appState from './state/appState';
 import WordsCloudRenderer from './components/WordsCloudRenderer';
-import Sidebar from './components/Sidebar';
+import WordContextSidebar from './components/WordContextSidebar';
+import DropClick from './components/DropClick';
 
 export default {
   name: 'app',
   components: {
     WordsCloudRenderer,
-    Sidebar,
+    WordContextSidebar,
+    DropClick,
   },
   data() {
     return appState;
   },
-  watch: {
-    'languages.selected': function updateSelected(newValue) {
-      appState.updateSelected(newValue);
+  methods: {
+    updateSelectedLanguage(newLanguage) {
+      appState.updateSelected(newLanguage);
     },
   },
 };
