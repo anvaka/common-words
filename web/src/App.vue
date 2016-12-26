@@ -2,7 +2,7 @@
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
     <div class='language-picker'>
-      <div>
+      <div class='header'>
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
                   @selected='updateSelectedLanguage'>
@@ -11,8 +11,14 @@
         </template>
       </drop-click> files
       </div>
-      <div>
-        <a href='#' @click.prevent='openGlobalSideBar'>Show all as a list</a>
+      <div class='word-list'>
+        <table cellspacing='0'>
+          <tr class='line' v-for='line in allWords'>
+            <td align='right' class='place'>{{line.place}}</td>
+            <td>{{line.word}}</td>
+            <td class='count' align='right'>{{line.total}}</td>
+          </tr>
+        </table>
       </div>
     </div>
     <word-context-sidebar :vm='sideBar'></word-context-sidebar>
@@ -56,10 +62,43 @@ body {
 
 .language-picker {
   position: absolute;
-  background: white;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 300px;
+  box-shadow: 0 -2px 22px rgba(0,0,0,.4);
+  .header {
+    padding: 20px 10px;
+    font-size: 22px;
+    background-color: black;
+  }
+}
+.word-list {
+  overflow-y: auto;
+  width: 100%;
+  flex: 1;
+
+  table {
+    width: 100%;
+  }
+
+  tr.line {
+    cursor: pointer;
+    &:hover {
+      background-color: #333;
+      color: white;
+    }
+  }
+  td.place {
+    padding: 0 4px 0 10px;
+  }
+  td.count {
+    padding-right: 10px;
+  }
 }
 #app {
-  color: #2c3e50;
+  color: #999;
 }
 
 blockquote {

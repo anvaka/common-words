@@ -1,3 +1,5 @@
+import formatNumber from '../utils/formatNumber.js';
+
 export default function createSideBarState(languages) {
   const state = {
     show: false,
@@ -50,8 +52,3 @@ function toLineViewModel(line, word) {
     parts,
   };
 }
-
-function formatNumber(number) {
-  return number.toString(10).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
-}
-

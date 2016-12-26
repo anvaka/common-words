@@ -1,6 +1,8 @@
 import queryState from 'query-state';
 import LanguageCollection from './LanguageCollection';
 import createSideBarState from './createSideBarState.js';
+import bus from './bus.js';
+import formatNumber from '../utils/formatNumber.js';
 
 const qs = queryState.instance({
   lang: 'js',
@@ -41,6 +43,7 @@ function selectWord(word) {
 
 const appState = {
   languages,
+  allWords: [],
   sideBar: createSideBarState(languages),
   updateSelected,
   selectWord,
@@ -48,3 +51,12 @@ const appState = {
 
 export default appState;
 
+bus.on('context-changed', (context) => {
+  appState.allWords = Object.keys(context).map(key => context[key])
+    .sort((x, y) => y.total - x.total)
+    .map((value, idx) => ({
+      place: idx,
+      word: value.word,
+      total: formatNumber(value.total)
+    }));
+});

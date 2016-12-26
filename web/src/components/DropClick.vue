@@ -25,7 +25,7 @@
     width: 0;
     height: 0;
     border: 4px solid transparent;
-    border-top-color: #000;
+    border-top-color: white;
     opacity: 0.8;
     vertical-align: middle;
   }
@@ -41,7 +41,7 @@
   }
 
   .drop-click-name {
-    color: #000;
+    color: white;
     text-overflow: ellipsis;
     overflow: hidden;
     display: inline-block;

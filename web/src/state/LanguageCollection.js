@@ -24,8 +24,11 @@ export default class LanguageCollection {
 
     this.selected = extension;
     bus.fire('loading');
-    newSelected.load().then((positions) => {
+    newSelected.loadPositions().then((positions) => {
       bus.fire('loaded', positions);
+    });
+    newSelected.loadContext().then((context) => {
+      bus.fire('context-changed', context);
     });
   }
 
