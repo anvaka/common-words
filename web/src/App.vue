@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
-    <div class='language-picker'>
+    <div class='language-picker no-print'>
       <div class='header'>
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
@@ -220,5 +220,11 @@ blockquote {
   padding: .75em .5em .75em 1em;
   max-width: 400px;
   border-left: 0.5em solid #DDD;
+}
+
+@media print {
+  .no-print, .no-print * {
+    display: none !important;
+  }
 }
 </style>
