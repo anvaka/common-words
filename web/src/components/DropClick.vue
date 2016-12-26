@@ -42,7 +42,6 @@
 
   .drop-click-name {
     color: white;
-    text-overflow: ellipsis;
     overflow: hidden;
     display: inline-block;
     vertical-align: bottom;

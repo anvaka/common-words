@@ -12,16 +12,31 @@
       </drop-click> files
       </div>
       <div class='word-list'>
-        <table cellspacing='0'>
-          <tr class='line' v-for='line in allWords'>
-            <td align='right' class='place'>{{line.place}}</td>
-            <td>{{line.word}}</td>
-            <td class='count' align='right'>{{line.total}}</td>
-          </tr>
-        </table>
+        <div class='all-words' :class='{ "context-visible": isContextVisible }'>
+          <table cellspacing='0'>
+            <tr class='line' v-for='line in allWords'>
+              <td align='right' class='place'>{{line.place}}</td>
+              <td>{{line.word}}</td>
+              <td class='count' align='right'>{{line.total}}</td>
+            </tr>
+          </table>
+        </div>
+        <div class='context' :class='{ "context-visible": isContextVisible }'>
+          <h3>
+            <a href='#' class='close-context' @click.prevent='closeContext'>back to all</a>
+            {{sideBar.header}}
+          </h3>
+          <div class='lines-with-word'>
+            <div class='line' v-for='line in sideBar.lines'>
+              <div class='parts' :title='line.text'>
+                <span v-for='part in line.parts' :class='{highlight: part.bold}'>{{part.text}}</span>
+              </div>
+              <div class='count'>{{line.count}}</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <word-context-sidebar :vm='sideBar'></word-context-sidebar>
   </div>
 </template>
 
@@ -45,6 +60,14 @@ export default {
     updateSelectedLanguage(newLanguage) {
       appState.updateSelected(newLanguage);
     },
+    closeContext() {
+      this.sideBar.close();
+    }
+  },
+  computed: {
+    isContextVisible() {
+      return this.sideBar.show;
+    }
   },
 };
 </script>
@@ -75,10 +98,82 @@ body {
   }
 }
 .word-list {
-  overflow-y: auto;
+  overflow: hidden;
   width: 100%;
   flex: 1;
+  position: relative;
 
+  .all-words, .context {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: all .25s ease;
+  }
+  .all-words {
+    overflow-y: auto;
+  }
+
+  .context {
+    transform: translate(300px, 0);
+
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: white;
+
+    h3 {
+      margin: 0;
+      padding: 20px 10px;
+      background-color: #333;
+      position: relative;
+    }
+    .close-context {
+      position: absolute;
+      color: #999;
+      top: 4px;
+      right: 10px;
+      font-size: 12px;
+      text-decoration: none;
+    }
+    .lines-with-word {
+      overflow-y: auto;
+    }
+
+    .line {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid #333;
+      padding: 10px 0;
+      .parts {
+        padding-left: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .count {
+      padding-right: 10px;
+    }
+
+    .lines-with-word {
+    }
+
+    .highlight {
+      color: orangered;
+    }
+  }
+
+  .context-visible {
+    transform: translate(0, 0);
+    transition: all .25s ease;
+  }
+
+  .all-words.context-visible {
+    transform: translate(-300px, 0);
+  }
   table {
     width: 100%;
   }
