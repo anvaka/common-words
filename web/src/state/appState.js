@@ -29,16 +29,13 @@ qs.onChange(() => {
 });
 
 function updateSelected(newLanguage) {
+  appState.sideBar.close();
   languages.select(newLanguage);
   qs.set('lang', languages.selected);
 }
 
 function selectWord(word) {
   appState.sideBar.showContext(word);
-  // console.log('select', word);
-  // languages.getContextForWord(word).then(context => {
-  //   appState.
-  // });
 }
 
 const appState = {
@@ -56,7 +53,7 @@ bus.on('context-changed', (context) => {
     .sort((x, y) => y.total - x.total)
     .map((value, idx) => ({
       place: idx,
-      word: value.word,
+      text: value.word,
       total: formatNumber(value.total)
     }));
 });

@@ -13,13 +13,11 @@
       </div>
       <div class='word-list'>
         <div class='all-words' :class='{ "context-visible": isContextVisible }'>
-          <table cellspacing='0'>
-            <tr class='line' v-for='line in allWords'>
-              <td align='right' class='place'>{{line.place}}</td>
-              <td>{{line.word}}</td>
-              <td class='count' align='right'>{{line.total}}</td>
-            </tr>
-          </table>
+          <a class='line' v-for='word in allWords' @click.prevent='selectWord(word.text)' href='#' :title='word.text'>
+            <div class='place'>{{word.place}}</div>
+            <div class='word'>{{word.text}}</div>
+            <div class='count' align='right'>{{word.total}}</div>
+          </a>
         </div>
         <div class='context' :class='{ "context-visible": isContextVisible }'>
           <h3>
@@ -43,14 +41,12 @@
 <script>
 import appState from './state/appState';
 import WordsCloudRenderer from './components/WordsCloudRenderer';
-import WordContextSidebar from './components/WordContextSidebar';
 import DropClick from './components/DropClick';
 
 export default {
   name: 'app',
   components: {
     WordsCloudRenderer,
-    WordContextSidebar,
     DropClick,
   },
   data() {
@@ -62,7 +58,7 @@ export default {
     },
     closeContext() {
       this.sideBar.close();
-    }
+    },
   },
   computed: {
     isContextVisible() {
@@ -83,11 +79,15 @@ body {
   font-family: Abel, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .language-picker {
   position: absolute;
   display: flex;
   flex-direction: column;
-  background: rgba(0, 0, 0, 0.9);
+  background: #191919;
   height: 100%;
   width: 300px;
   box-shadow: 0 -2px 22px rgba(0,0,0,.4);
@@ -110,8 +110,41 @@ body {
     bottom: 0;
     transition: all .25s ease;
   }
+
   .all-words {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+
+    .line {
+      color: #999;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+
+      .place {
+        padding: 4px 4px 0 10px;
+        font-size: 12px;
+        color: #444;
+        width: 40px;
+      }
+
+      .word {
+        font-size: 1.17em;
+        padding: 8px 0;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+
+      &:hover {
+        background-color: #333;
+        color: white;
+      }
+    }
   }
 
   .context {
@@ -135,7 +168,6 @@ body {
       top: 4px;
       right: 10px;
       font-size: 12px;
-      text-decoration: none;
     }
     .lines-with-word {
       overflow-y: auto;
@@ -154,10 +186,6 @@ body {
       }
     }
 
-    .count {
-      padding-right: 10px;
-    }
-
     .lines-with-word {
     }
 
@@ -166,6 +194,9 @@ body {
     }
   }
 
+  .count {
+    padding-right: 10px;
+  }
   .context-visible {
     transform: translate(0, 0);
     transition: all .25s ease;
@@ -178,20 +209,8 @@ body {
     width: 100%;
   }
 
-  tr.line {
-    cursor: pointer;
-    &:hover {
-      background-color: #333;
-      color: white;
-    }
-  }
-  td.place {
-    padding: 0 4px 0 10px;
-  }
-  td.count {
-    padding-right: 10px;
-  }
 }
+
 #app {
   color: #999;
 }
