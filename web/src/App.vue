@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
-    <div class='language-picker no-print'>
+    <div class='language-picker no-print' :class='{ "list-expanded": listState.expanded }'>
       <div class='header'>
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
@@ -10,6 +10,7 @@
           <option :value='props.item.extension'>{{props.item.text}}</option>
         </template>
       </drop-click> files
+      <a href='#' class='expand-list context-action' @click.prevent='toggleList' >{{listState.expanded ? 'hide list' : 'show list'}}</a>
       </div>
       <div class='word-list'>
         <div class='all-words' :class='{ "context-visible": isContextVisible }'>
@@ -21,7 +22,7 @@
         </div>
         <div class='context' :class='{ "context-visible": isContextVisible }'>
           <h3>
-            <a href='#' class='close-context' @click.prevent='closeContext'>back to all</a>
+            <a href='#' class='context-action' @click.prevent='closeContext'>back to list</a>
             {{sideBar.header}}
           </h3>
           <div class='lines-with-word'>
@@ -59,6 +60,9 @@ export default {
     closeContext() {
       this.sideBar.close();
     },
+    toggleList() {
+      this.listState.expanded = !this.listState.expanded;
+    }
   },
   computed: {
     isContextVisible() {
@@ -69,6 +73,9 @@ export default {
 </script>
 
 <style lang="styl">
+
+sidebar-width = 300px;
+
 * {
   box-sizing: border-box;
 }
@@ -89,7 +96,7 @@ a {
   flex-direction: column;
   background: #191919;
   height: 100%;
-  width: 300px;
+  width: sidebar-width;
   box-shadow: 0 -2px 22px rgba(0,0,0,.4);
   .header {
     padding: 20px 10px;
@@ -97,6 +104,16 @@ a {
     background-color: black;
   }
 }
+
+.context-action {
+  position: absolute;
+  color: #999;
+  top: 4px;
+  right: 10px;
+  font-size: 12px;
+}
+.expand-list { display: none; }
+
 .word-list {
   overflow: hidden;
   width: 100%;
@@ -148,7 +165,7 @@ a {
   }
 
   .context {
-    transform: translate(300px, 0);
+    transform: translate(sidebar-width, 0);
 
     left: 0;
     display: flex;
@@ -161,13 +178,6 @@ a {
       padding: 20px 10px;
       background-color: #333;
       position: relative;
-    }
-    .close-context {
-      position: absolute;
-      color: #999;
-      top: 4px;
-      right: 10px;
-      font-size: 12px;
     }
     .lines-with-word {
       overflow-y: auto;
@@ -186,9 +196,6 @@ a {
       }
     }
 
-    .lines-with-word {
-    }
-
     .highlight {
       color: orangered;
     }
@@ -197,29 +204,19 @@ a {
   .count {
     padding-right: 10px;
   }
+
   .context-visible {
     transform: translate(0, 0);
     transition: all .25s ease;
   }
 
   .all-words.context-visible {
-    transform: translate(-300px, 0);
+    transform: translate(-(sidebar-width), 0);
   }
-  table {
-    width: 100%;
-  }
-
 }
 
 #app {
   color: #999;
-}
-
-blockquote {
-  box-shadow: 0 0 6px rgba(0,0,0,0.5);
-  padding: .75em .5em .75em 1em;
-  max-width: 400px;
-  border-left: 0.5em solid #DDD;
 }
 
 @media print {
@@ -227,4 +224,29 @@ blockquote {
     display: none !important;
   }
 }
+
+@media (max-width: 670px) {
+  .expand-list { display: block; }
+  .language-picker {
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    transition: height .25s ease-out;
+
+    .context {
+      transform: translate(100vw, 0);
+    }
+
+    .all-words.context-visible {
+      transform: translate(-(100vw), 0);
+    }
+    .context-visible {
+      transform: translate(0, 0);
+    }
+  }
+  .language-picker.list-expanded {
+    height: 100%;
+  }
+}
+
 </style>

@@ -40,6 +40,9 @@ function selectWord(word) {
 
 const appState = {
   languages,
+  listState: {
+    expanded: false,
+  },
   allWords: [],
   sideBar: createSideBarState(languages),
   updateSelected,
