@@ -5,10 +5,12 @@
 </template>
 
 <script>
+/* globals document */
 import panzoom from 'panzoom';
 import svg from 'simplesvg';
 import bus from '../state/bus';
 import appState from '../state/appState.js';
+import colors from '../utils/colors.js';
 import clap from '../utils/clap.js';
 
 export default {
@@ -41,6 +43,9 @@ export default {
 
 
     renderScene(positions) {
+      const theme = colors.brownee;
+      document.body.style.backgroundColor = theme.back;
+
       positions.forEach((p) => {
         let transform = `translate(${p.x}, ${p.y})`;
         if (p.rotate) transform += ' rotate(-90)';
@@ -51,7 +56,7 @@ export default {
           'font-size': p.fontSize,
           'font-family': p.fontFamily,
           'dominant-baseline': 'text-before-edge',
-          fill: '#000',
+          fill: randomFromArray(theme.text), //'#000',
         });
         text.text(p.text);
 
@@ -60,6 +65,11 @@ export default {
     },
   },
 };
+
+function randomFromArray(array) {
+  const idx = Math.round(Math.random() * 1000) % array.length;
+  return array[idx];
+}
 </script>
 
 <style lang='styl'>
