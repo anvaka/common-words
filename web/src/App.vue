@@ -22,7 +22,7 @@
         </div>
         <div class='context' :class='{ "context-visible": isContextVisible }'>
           <h3>
-            <a href='#' class='context-action' @click.prevent='closeContext'>back to list</a>
+            <a href='#' class='context-action' @click.prevent='closeContext'>back to all</a>
             {{sideBar.header}}
           </h3>
           <div class='lines-with-word'>
