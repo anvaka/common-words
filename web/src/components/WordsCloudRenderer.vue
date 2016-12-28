@@ -9,6 +9,7 @@
 <script>
 /* globals document window */
 import panzoom from 'panzoom';
+import asyncFor from 'rafor';
 import svg from 'simplesvg';
 import bus from '../state/bus';
 import appState from '../state/appState.js';
@@ -34,7 +35,7 @@ export default {
 
   methods: {
     clearScene() {
-      this.scene.innerHTML = '';
+      removeAllChildren(this.scene);
     },
 
     selectText(e) {
@@ -46,10 +47,15 @@ export default {
     renderScene(positions) {
       const theme = colors.brownee;
       document.body.style.backgroundColor = theme.back;
-      let maxX = 0;
-      let maxY = 0;
+      const scene = this.scene;
 
-      positions.forEach((p) => {
+      recenter(this.scene, this.zoomer, positions);
+
+      asyncFor(positions, renderWord, () => 0, {
+        probeElements: 20
+      });
+
+      function renderWord(p) {
         let transform = `translate(${p.x}, ${p.y})`;
         if (p.rotate) transform += ' rotate(-90)';
 
@@ -63,16 +69,23 @@ export default {
         });
         text.text(p.text);
 
-        if (p.x > maxX) maxX = p.x;
-        if (p.y > maxY) maxY = p.y;
-
-        this.scene.appendChild(text);
-      });
-
-      scaleToFit(this.scene.ownerSVGElement, this.zoomer, maxX, maxY);
+        scene.appendChild(text);
+      }
     },
   },
 };
+
+function recenter(scene, zoomer, positions) {
+  let maxX = 0;
+  let maxY = 0;
+
+  positions.forEach((p) => {
+    if (p.x > maxX) maxX = p.x;
+    if (p.y > maxY) maxY = p.y;
+  });
+
+  scaleToFit(scene.ownerSVGElement.parentNode, zoomer, maxX, maxY);
+}
 
 function scaleToFit(container, zoomer, sceneWidth, sceneHeight) {
   // This will make sure that our svg fits vertically and horizontally
@@ -92,6 +105,17 @@ function randomFromArray(array) {
   return array[idx];
 }
 
+// no worries! this function removes only DOM elements...
+function removeAllChildren(node) {
+  if ('innerHTML' in node) {
+    node.innerHTML = '';
+  } else {
+    // Say Hi to IE!
+    while (node.hasChildNodes()) {
+      node.removeChild(node.lastChild);
+    }
+  }
+}
 </script>
 
 <style lang='styl'>
