@@ -16,6 +16,8 @@
 </template>
 
 <style lang='stylus'>
+hover-color = #FF4081;
+
 .drop-click-container {
   display: inline-block;
   position: relative;
@@ -48,9 +50,9 @@
     height: 100%;
     white-space: nowrap;
     &.hover {
-      color: orange;
+      color: hover-color;
       .button-dropdown {
-        border-top-color: orange;
+        border-top-color: hover-color;
       }
     }
   }

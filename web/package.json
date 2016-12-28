@@ -12,6 +12,7 @@
   "dependencies": {
     "bluebird": "^3.4.6",
     "ngraph.events": "0.0.4",
+    "ngraph.random": "0.0.1",
     "panzoom": "^2.5.0",
     "query-state": "^3.0.3",
     "rafor": "^1.0.2",

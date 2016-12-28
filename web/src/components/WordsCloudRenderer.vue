@@ -11,10 +11,15 @@
 import panzoom from 'panzoom';
 import asyncFor from 'rafor';
 import svg from 'simplesvg';
+import { instance } from 'query-state';
+
 import bus from '../state/bus';
 import appState from '../state/appState.js';
 import colors from '../utils/colors.js';
 import clap from '../utils/clap.js';
+
+const queryState = instance();
+const random = require('ngraph.random').random(42);
 
 export default {
   mounted() {
@@ -45,7 +50,8 @@ export default {
     },
 
     renderScene(positions) {
-      const theme = colors.brownee;
+      const themeName = queryState.get('theme');
+      const theme = colors[themeName] || colors.brownee;
       document.body.style.backgroundColor = theme.back;
       const scene = this.scene;
 
@@ -101,8 +107,7 @@ function scaleToFit(container, zoomer, sceneWidth, sceneHeight) {
 }
 
 function randomFromArray(array) {
-  const idx = Math.round(Math.random() * 1000) % array.length;
-  return array[idx];
+  return array[random.next(array.length)];
 }
 
 // no worries! this function removes only DOM elements...
