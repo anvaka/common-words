@@ -2,7 +2,7 @@
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
     <div class='language-picker no-print' :class='{ "list-expanded": listState.expanded }'>
-      <div class='header'>
+      <div class='header' :class='{ "context-visible": isContextVisible }'>
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
                   @selected='updateSelectedLanguage'>
@@ -10,10 +10,11 @@
           <option :value='props.item.extension'>{{props.item.text}}</option>
         </template>
       </drop-click> files
-      <a href='#' class='expand-list context-action' @click.prevent='toggleList' >{{listState.expanded ? 'hide list' : 'show list'}}</a>
       </div>
+
+
       <div class='word-list'>
-        <div class='all-words' :class='{ "context-visible": isContextVisible }'>
+        <div class='all-words list' :class='{ "context-visible": isContextVisible }'>
           <a class='line' v-for='word in allWords' @click.prevent='selectWord(word.text)' href='#' :title='word.text'>
             <div class='place'>{{word.place}}</div>
             <div class='word'>{{word.text}}</div>
@@ -21,11 +22,11 @@
           </a>
         </div>
         <div class='context' :class='{ "context-visible": isContextVisible }'>
-          <h3>
-            <a href='#' class='context-action' @click.prevent='closeContext'>back to all</a>
-            {{sideBar.header}}
-          </h3>
-          <div class='lines-with-word'>
+          <div class='context-header'>
+            <a href='#' class='back-to-all' @click.prevent='closeContext'>all &rarr;&nbsp;</a>
+            <a href='#' class='context-word'  @click.prevent='toggleList'>{{sideBar.header}}</a>
+          </div>
+          <div class='list'>
             <div class='line' v-for='line in sideBar.lines'>
               <div class='parts' :title='line.text'>
                 <span v-for='part in line.parts' :class='{highlight: part.bold}'>{{part.text}}</span>
@@ -35,6 +36,8 @@
           </div>
         </div>
       </div>
+
+      <a href='#' class='expand-list context-action' @click.prevent='toggleList' >{{listState.expanded ? 'hide list' : 'show list'}}</a>
     </div>
   </div>
 </template>
@@ -102,6 +105,7 @@ a {
     padding: 20px 10px;
     font-size: 22px;
     background-color: black;
+    position: relative;
   }
 }
 
@@ -112,6 +116,11 @@ a {
   right: 10px;
   font-size: 12px;
 }
+
+.back-to-all {
+  color: #999;
+}
+
 .expand-list { display: none; }
 
 .word-list {
@@ -125,11 +134,14 @@ a {
     position: absolute;
     top: 0;
     bottom: 0;
-    transition: all .25s ease;
+    transition: transform .25s ease;
+  }
+
+  .list {
+    overflow-y: auto;
   }
 
   .all-words {
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
 
@@ -156,11 +168,6 @@ a {
         text-overflow: ellipsis;
       }
 
-
-      &:hover {
-        background-color: #333;
-        color: white;
-      }
     }
   }
 
@@ -173,14 +180,25 @@ a {
     overflow: hidden;
     color: white;
 
-    h3 {
+    .context-header {
       margin: 0;
-      padding: 20px 10px;
-      background-color: #333;
+      font-size: 1.17em;
+      height: 70px;
+      background-color: #111;
       position: relative;
-    }
-    .lines-with-word {
-      overflow-y: auto;
+      display: flex;
+      flex-shrink: 0;
+      padding: 0 10px;
+
+      a {
+        line-height: 70px;
+      }
+
+      .context-word {
+        color: white;
+        flex: 1;
+        display: block;
+      }
     }
 
     .line {
@@ -207,7 +225,7 @@ a {
 
   .context-visible {
     transform: translate(0, 0);
-    transition: all .25s ease;
+    transition: transform .25s ease;
   }
 
   .all-words.context-visible {
@@ -225,13 +243,31 @@ a {
   }
 }
 
+@media (min-width: 670px) {
+  .line:hover {
+    background-color: #333;
+    color: white;
+  }
+}
+
 @media (max-width: 670px) {
-  .expand-list { display: block; }
+  .expand-list {
+    display: block;
+    height: 60px;
+  }
+
+  .list {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
   .language-picker {
     width: 100%;
     height: 70px;
     bottom: 0;
-    transition: height .25s ease-out;
+
+    .header.context-visible {
+      display: none;
+    }
 
     .context {
       transform: translate(100vw, 0);

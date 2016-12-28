@@ -41,7 +41,6 @@ export default {
       appState.selectWord(e.target.text());
     },
 
-
     renderScene(positions) {
       const theme = colors.brownee;
       document.body.style.backgroundColor = theme.back;
