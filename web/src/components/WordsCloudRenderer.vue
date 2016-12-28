@@ -1,11 +1,13 @@
 <template>
-  <svg>
-    <g ref='scene'></g>
-  </svg>
+  <div class='scene-container'>
+    <svg>
+      <g ref='scene'></g>
+    </svg>
+  </div>
 </template>
 
 <script>
-/* globals document */
+/* globals document window */
 import panzoom from 'panzoom';
 import svg from 'simplesvg';
 import bus from '../state/bus';
@@ -44,6 +46,8 @@ export default {
     renderScene(positions) {
       const theme = colors.brownee;
       document.body.style.backgroundColor = theme.back;
+      let maxX = 0;
+      let maxY = 0;
 
       positions.forEach((p) => {
         let transform = `translate(${p.x}, ${p.y})`;
@@ -55,20 +59,39 @@ export default {
           'font-size': p.fontSize,
           'font-family': p.fontFamily,
           'dominant-baseline': 'text-before-edge',
-          fill: randomFromArray(theme.text), //'#000',
+          fill: randomFromArray(theme.text),
         });
         text.text(p.text);
 
+        if (p.x > maxX) maxX = p.x;
+        if (p.y > maxY) maxY = p.y;
+
         this.scene.appendChild(text);
       });
+
+      scaleToFit(this.scene.ownerSVGElement, this.zoomer, maxX, maxY);
     },
   },
 };
+
+function scaleToFit(container, zoomer, sceneWidth, sceneHeight) {
+  // This will make sure that our svg fits vertically and horizontally
+  const xScale = container.clientWidth / sceneWidth;
+  const yScale = container.clientHeight / sceneHeight;
+  const uniformScale = Math.min(xScale, yScale); // pick the smaller one so it fits when scaled
+  zoomer.zoomAbs(0, 0, uniformScale);
+
+  // also center it inside the screen:
+  const dx = (container.clientWidth - sceneWidth * uniformScale) / 2;
+  const dy = (container.clientHeight - sceneHeight * uniformScale) / 2;
+  zoomer.moveTo(dx, dy);
+}
 
 function randomFromArray(array) {
   const idx = Math.round(Math.random() * 1000) % array.length;
   return array[idx];
 }
+
 </script>
 
 <style lang='styl'>
@@ -79,5 +102,4 @@ svg {
   width: 100%;
   height: 100%;
 }
-
 </style>

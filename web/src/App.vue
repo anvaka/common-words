@@ -78,6 +78,7 @@ export default {
 <style lang="styl">
 
 sidebar-width = 300px;
+small-sidebar-height = 70px;
 
 * {
   box-sizing: border-box;
@@ -183,7 +184,7 @@ a {
     .context-header {
       margin: 0;
       font-size: 1.17em;
-      height: 70px;
+      height: small-sidebar-height;
       background-color: #111;
       position: relative;
       display: flex;
@@ -191,7 +192,7 @@ a {
       padding: 0 10px;
 
       a {
-        line-height: 70px;
+        line-height: small-sidebar-height;
       }
 
       .context-word {
@@ -237,6 +238,14 @@ a {
   color: #999;
 }
 
+.scene-container {
+  position: absolute;
+  left: sidebar-width;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
 @media print {
   .no-print, .no-print * {
     display: none !important;
@@ -255,6 +264,10 @@ a {
     display: block;
     height: 60px;
   }
+  .scene-container {
+    left: 0;
+    bottom: small-sidebar-height;
+  }
 
   .list {
     overflow-y: scroll;
@@ -262,7 +275,7 @@ a {
   }
   .language-picker {
     width: 100%;
-    height: 70px;
+    height: small-sidebar-height;
     bottom: 0;
 
     .header.context-visible {
