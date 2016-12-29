@@ -2,7 +2,7 @@
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
     <div class='language-picker no-print' :class='{ "list-expanded": listState.expanded }'>
-      <div class='header' :class='{ "context-visible": isContextVisible }'>
+      <a href='#' class='header no-select' :class='{ "context-visible": isContextVisible }'  @click.prevent='toggleList' >
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
                   @selected='updateSelectedLanguage'>
@@ -10,7 +10,7 @@
           <option :value='props.item.extension'>{{props.item.text}}</option>
         </template>
       </drop-click> files
-      </div>
+      </a>
 
 
       <div class='word-list'>
@@ -21,7 +21,7 @@
             <div class='count' align='right'>{{word.total}}</div>
           </a>
         </div>
-        <div class='context' :class='{ "context-visible": isContextVisible }'>
+        <div class='context no-select' :class='{ "context-visible": isContextVisible }'>
           <div class='context-header'>
             <a href='#' class='back-to-all' @click.prevent='closeContext'>all &rarr;&nbsp;</a>
             <a href='#' class='context-word'  @click.prevent='toggleList'>{{sideBar.header}}</a>
@@ -63,7 +63,9 @@ export default {
     closeContext() {
       this.sideBar.close();
     },
-    toggleList() {
+    toggleList(e) {
+      if (e.target.nodeName === 'SELECT') return;
+
       this.listState.expanded = !this.listState.expanded;
     }
   },
@@ -103,11 +105,17 @@ a {
   width: sidebar-width;
   box-shadow: 0 -2px 22px rgba(0,0,0,.4);
   .header {
+    color: #999;
     padding: 20px 10px;
     font-size: 22px;
     background-color: black;
     position: relative;
   }
+}
+
+.no-select {
+  user-select: none;
+  cursor: default;
 }
 
 .context-action {

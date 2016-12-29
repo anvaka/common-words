@@ -1,6 +1,6 @@
 const themes = {
   coffee: {
-    text: ['#3C3A40', '#817463', '#E0CAA9', '#B9424D', '#310E17'],
+    text: ['#3C3A40', '#817463', '#8a3c18', '#B9424D', '#310E17'],
     back: '#f6f9ff'
   },
   brownee: {
@@ -31,6 +31,18 @@ const themes = {
     text: ['#B58900', '#CB4B16', '#D33682', '#DC322F', '#6C71C4', '#268BD2', '#2AA198', '#859900'],
     back: '#002B36',
   },
+  github: {
+    text: ['#795da3', '#333333', '#ed6a43', '#a71d5d', '#0086b3', '#63a35c'],
+    back: 'ffffff'
+  },
+  nova: {
+    text: ['#D32F2F', '#C2185B', '#7B1FA2', '#512DA8'],
+    back: '#fafafa'
+  },
+  uni: {
+    text: ['#000'],
+    back: 'white'
+  }
 };
 
 export default themes;
