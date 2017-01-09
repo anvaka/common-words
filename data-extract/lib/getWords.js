@@ -7,28 +7,35 @@
 var fs = require('fs');
 var JSONStream = require('JSONStream');
 var es = require('event-stream');
-var fileName = process.argv[2];
 var recordsByWord = new Map();
-forEachRecord(fileName, function(r) {
-  var record = recordsByWord.get(r.rs_word);
-  if (!record) {
-    record = {
-      word: r.rs_word,
-      context: []
-    };
-    recordsByWord.set(r.rs_word, record);
-  }
-  var count = Number.parseInt(r.rs_num_lines, 10);
 
-  record.context.push([
-    r.rs_lines,
-    count
-  ]);
+module.exports = getWords;
 
-}, start);
+function getWords(fileName) {
+  return new Promise((resolve) => {
+    forEachRecord(fileName, function(r) {
+      var record = recordsByWord.get(r.rs_word);
+      if (!record) {
+        record = {
+          word: r.rs_word,
+          context: []
+        };
+        recordsByWord.set(r.rs_word, record);
+      }
+      var count = Number.parseInt(r.rs_num_lines, 10);
 
-function start() {
-  console.log(JSON.stringify(Array.from(recordsByWord).map(x => x[1])));
+      record.context.push([
+        r.rs_lines,
+        count
+      ]);
+
+    }, start);
+
+    function start() {
+      var words = Array.from(recordsByWord).map(x => x[1]);
+      resolve(words);
+    }
+  });
 }
 
 function forEachRecord(fileName, cb, done) {

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 var fs = require('fs');
 var ignore = require('./ignore/index.js');
-const spawn = require('child_process').spawn;
+var spawn = require('child_process').spawn;
+var getWords = require('./lib/getWords.js');
 
 var extension = "'go'";
 var fileName = encode(extension);
@@ -13,7 +14,12 @@ var query = text('./extract_words.sql')
 .replace(/\$\{IGNORE_WORDS\}/g, ignore.words)
 .replace(/\$\{EXTENSION\}/g, extension);
 
-extractCommonWords().then(exportData).then(downloadData).catch((err) => {
+extractCommonWords()
+  .then(exportData)
+  .then(downloadData)
+  .then(convertToWords)
+  .then(cleanUp)
+  .catch((err) => {
   console.log('error', err.toString());
   throw err;
 })
@@ -30,8 +36,25 @@ function exportData() {
 
 function downloadData() {
   console.log('Downloading data from ' + bucketName);
-  return promiseSpawn('gsutil', ['cp', bucketName, './']).then(() => {
+  return promiseSpawn('gsutil', ['cp', bucketName, './']);
+}
+
+function cleanUp(argument) {
+  console.log('Cleaning up resources...');
+  fs.unlinkSync(fileName + '.json');
+  console.log('  removing temporary gs file...');
+  return promiseSpawn('gsutil', ['rm', bucketName], 'remove gs ' + bucketName).then(() => {
+    console.log('  removing temporary bq table...');
+    return promiseSpawn('bq', ['--project_id', 'yasivcom', 'rm', '-f', tableName], 'remove ' + tableName);
+  }).then(()=> {
+    console.log('All is clean now');
   });
+}
+
+function convertToWords() {
+  return getWords(fileName + '.json').then((words) => {
+    fs.writeFileSync(fileName + '_words.json', JSON.stringify(words), 'utf8');
+  })
 }
 
 function promiseSpawn(command, args, prefix) {
