@@ -1,4 +1,3 @@
--- Search for `change here`
 SELECT
   rs.word,
   rs.lines,
@@ -17,12 +16,15 @@ FROM (
       num_lines
     FROM ( FLATTEN( (
           SELECT
-            SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&^\-`!*/\}\\?\{\(\)\[\]<>|@:"\'.=]', ' '), ' ') word,
+            SPLIT(REGEXP_REPLACE(lines, r'${IGNORE_SYMBOLS}', ' '), ' ') word,
             lines,
             num_lines
           FROM
-            (SELECT lines, num_lines FROM [yasivcom:github_watch.all_lines_aggregated]
-         where extension = 'cpp' -- change here
+            (
+            SELECT lines, num_lines FROM [yasivcom:github_watch.all_lines_aggregated]
+            where extension in (${EXTENSION}) -- change here
+            -- ignore license lines
+            and NOT REGEXP_MATCH(lower(lines), r'${IGNORE_WORDS}')
       )
             ), word) )
     WHERE
@@ -36,12 +38,14 @@ INNER JOIN (
   FROM
     FLATTEN((
       SELECT
-        SPLIT(REGEXP_REPLACE(lines, r'[,;\t#%$+&^\-`!*/\}\\?\{\(\)\[\]<>|@:"\'.=]', ' '), ' ') word,
+        SPLIT(REGEXP_REPLACE(lines, r'${IGNORE_SYMBOLS}', ' '), ' ') word,
         num_lines
       FROM
         (
         SELECT lines, num_lines FROM [yasivcom:github_watch.all_lines_aggregated]
-         where extension = 'cpp' -- change here
+         where extension in (${EXTENSION}) -- change here
+            -- ignore license lines
+            and NOT REGEXP_MATCH(lower(lines), r'${IGNORE_WORDS}')
       )
         ), word )
   WHERE

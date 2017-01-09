@@ -1,0 +1,6 @@
+#!/bin/bash
+# Name of your dataset name in google query
+DATASET_NAME=yasivcom:github_watch
+
+# Your project id in google cloud (split on : from DATASET_NAME)
+PROJECT_ID=(${DATASET_NAME/:/ })
