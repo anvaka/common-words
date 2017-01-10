@@ -4,12 +4,12 @@ var ignore = require('./ignore/index.js');
 var spawn = require('child_process').spawn;
 var getWords = require('./lib/getWords.js');
 
-var extension = "'go'";
+var extension = '"' + (process.argv[2] || 'go') + '"';
 var fileName = encode(extension);
 var bucketName = 'gs://gh_watch/' + fileName + '.json';
 var tableName = 'yasivcom:github_watch.result_' + fileName;
 
-var query = text('./extract_words.sql')
+var query = text('./sql/extract_words.sql')
   .replace(/\$\{IGNORE_SYMBOLS\}/g, ignore.symbols)
 .replace(/\$\{IGNORE_WORDS\}/g, ignore.words)
 .replace(/\$\{EXTENSION\}/g, extension);
@@ -90,5 +90,5 @@ function text(fileName) {
 }
 
 function encode(str) {
-  return str.replace(/[', ]/g, '_');
+  return str.replace(/['", ]/g, '_');
 }
