@@ -21,7 +21,7 @@
             <div class='count' align='right'>{{word.total}}</div>
           </a>
         </div>
-        <div class='context no-select' :class='{ "context-visible": isContextVisible }'>
+        <div class='context' :class='{ "context-visible": isContextVisible }'>
           <div class='context-header'>
             <a href='#' class='back-to-all' @click.prevent='closeContext'>all &rarr;&nbsp;</a>
             <a href='#' class='context-word'  @click.prevent='toggleList'>{{sideBar.header}}</a>
