@@ -9,19 +9,19 @@ const qs = queryState.instance({
 });
 
 const languages = new LanguageCollection();
-languages.add('js', 'JavaScript');
+languages.add('js', 'JavaScript'); // running
 languages.add('jsx', 'React');
 languages.add('css', 'Cascading Style Sheets');
-languages.add('java', 'Java');
+languages.add('java', 'Java'); // ok
 languages.add('py', 'Python');
-languages.add('R', 'R');
 languages.add('lua', 'Lua');
 languages.add('php', 'PHP');
 languages.add('rb', 'Ruby');
 languages.add('cpp', 'C++');
 languages.add('pl', 'Perl');
 languages.add('cs', 'C#');
-languages.add('go', 'Go');
+languages.add('scala', 'Scala');
+languages.add('go', 'Go'); // ok
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
