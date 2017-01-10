@@ -4,7 +4,7 @@ var ignore = require('./ignore/index.js');
 var spawn = require('child_process').spawn;
 var getWords = require('./lib/getWords.js');
 
-var extension = '"' + (process.argv[2] || 'go') + '"';
+var extension = (process.argv[2] || 'go').split(',').map(x => '"' + x + '"').join(',');
 var fileName = encode(extension);
 var bucketName = 'gs://gh_watch/' + fileName + '.json';
 var tableName = 'yasivcom:github_watch.result_' + fileName;
