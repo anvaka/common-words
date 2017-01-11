@@ -5,7 +5,7 @@ var spawn = require('child_process').spawn;
 var getWords = require('./lib/getWords.js');
 
 var extension = (process.argv[2] || 'go').split(',').map(x => '"' + x + '"').join(',');
-var fileName = encode(extension);
+var fileName = encodeExtension(extension);
 var bucketName = 'gs://gh_watch/' + fileName + '.json';
 var tableName = 'yasivcom:github_watch.result_' + fileName;
 
@@ -89,6 +89,6 @@ function text(fileName) {
   return fs.readFileSync(fileName, 'utf8')
 }
 
-function encode(str) {
-  return str.replace(/['", ]/g, '_');
+function encodeExtension(str) {
+  return str.replace(/['"+, ]/g, '');
 }
