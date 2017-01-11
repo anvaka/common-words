@@ -77,14 +77,26 @@ export default class Language {
 function makeContext(arrayOfWords) {
   const context = Object.create(null);
   arrayOfWords.forEach((word) => {
+    const lines = groupSameLines(word.context);
     context[word.word] = {
+      lines,
       word: word.word,
-      lines: word.context,
-      total: getTotal(word.context),
+      total: getTotal(lines),
     };
   });
 
   return context;
+}
+
+function groupSameLines(contextLines) {
+  // if the same word appears twice in the line it will result be rendered twice
+  // in the context
+  const uniqueLines = new Map();
+  contextLines.forEach((contextLine) => {
+    const line = contextLine[0];
+    uniqueLines.set(line, (uniqueLines.get(line) || 0) + contextLine[1]);
+  });
+  return Array.from(uniqueLines);
 }
 
 function getTotal(lines) {
