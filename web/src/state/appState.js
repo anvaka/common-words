@@ -12,6 +12,7 @@ const languages = new LanguageCollection();
 languages.add('js', 'JavaScript');
 languages.add('jsx', 'React');
 languages.add('css', 'Cascading Style Sheets');
+languages.add('html', 'HTML');
 languages.add('java', 'Java');
 languages.add('py', 'Python');
 languages.add('lua', 'Lua');
