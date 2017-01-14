@@ -4,8 +4,7 @@ This visualization shows which words are most often used in different programmin
 languages.
 
 The index was build between mid/end of 2016 from `~3 million` public open source
-licensed repositories on GitHub. Results are presented as a word cloud
-and as a plain list:
+licensed repositories on GitHub. Results are presented as word clouds and text:
 
 [TODO Insert image]
 
@@ -13,11 +12,15 @@ Below is description of whys and hows in much greater details. If you want to
 explore visualizations - please click here (TODO: link). I'll be waiting
 for you here :).
 
-# Why?
+# Why word clouds?
 
-Word clouds in general are considered bad for several reasons (taking words out of
-their context, scaling them to fit inside a picture, or dropping words if they don't
-fit at all). However, I was always fascinated by word cloud algorithm, that fits
+Word clouds in general are considered bad for several reasons:
+
+* They take words out of their context. So `good` does not necessarey mean something is good.
+* They scale words to fit inside a picture. So the size of the word cannot be trusted;
+* They drop some common words (like `a`, `the`, etc.)
+
+However, I was always fascinated by word cloud algorithm, that fits
 set of words inside given shape.
 
 I spent last couple months of my spare time, developing my own word cloud algorithm.
@@ -38,8 +41,7 @@ BigQuery stores contents of each indexed file in a table, as a plain text:
 | File 1  | // File 1 content\n#ifndef FOO\n#define FOO...|
 | File 2  | // File 2 content\n#ifndef BAR\n#define BAR...|
 
-Normally, to build a word cloud all you have to do, is assign `weight` to each
-word and scale words accordingly.
+To build a word cloud you have to assign `weight` to each word and scale words accordingly.
 
 To assign scale to each word we could split text content into individual words,
 and then just group table by each word:
