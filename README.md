@@ -35,13 +35,13 @@ this word has appeared.
 I apply several constraints before saving individual words:
 
 * The line where this word appears should be smaller than 120 characters. This helps
-me avoid computer generated code (like minified JavaScript)
+me filter out generated code (like minified JavaScript)
 * I ignore punctuation (`, ; : .`) and operators (`+ - * ...`). So if line is
 `a+b`, then only two words are extracted: `a` and `b`.
 * I ignore lines with "license markers" - words that predominantly appear inside license text
 (e.g. `license`, `noninfringement`, etc.). License text is very common in code.
 In Java out of 966 most popular words 127 were in license text. It was interesting
-to see at the beginning, but overwhelming at the end, so I filtering them out.
+to see at the beginning, but overwhelming at the end, so I filtered them out.
 
 There are several hows that I want to answer here.
 
