@@ -8,25 +8,40 @@ licensed repositories on GitHub. Results are presented as word clouds and text:
 
 [TODO Insert image]
 
-Below is description of whys and hows in much greater details. If you want to
-explore visualizations - please click here (TODO: link). I'll be waiting
-for you here :).
+Below is description of whys and hows. If you want to explore visualizations -
+please click here (TODO: link). I'll be waiting for you here :).
 
 # Why word clouds?
 
 Word clouds in general are considered bad for several reasons:
 
-* They take words out of their context. So `good` does not necessarey mean something is good.
-* They scale words to fit inside a picture. So the size of the word cannot be trusted;
-* They drop some common words (like `a`, `the`, etc.)
+* They take words out of their context. So `good` does not necessary mean something is good (e.g.
+when word `not` was dropped from visualization).
+* They scale words to fit inside a picture. So the size of a word cannot be trusted;
+* They drop some common words (like `a`, `the`, `not`, etc.)
 
-However, I was always fascinated by word cloud algorithm, that fits
-set of words inside given shape.
+However, I was always fascinated by algorithms that fit words inside give shape to
+produce word cloud.
 
 I spent last couple months of my spare time, developing my own word cloud algorithm.
 And this website was born.
 
 # How?
+
+I extracted individual words from the [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
+data set on BigQuery. A word is extracted along with top 10 lines of code where
+this word has appeared.
+
+I apply several constraints before saving individual words:
+
+* The line where this word appears should be smaller than 120 characters. This helps
+me avoid computer generated code (like minified JavaScript)
+* I ignore punctuation (`, ; : .`) and operators (`+ - * ...`). So if line is
+`a+b`, then only two words are extracted: `a` and `b`.
+* I ignore lines with "license markers" - words that predominantly appear inside license text
+(e.g. `license`, `noninfringement`, etc.). License text is very common in code.
+In Java out of 966 most popular words 127 were in license text. It was interesting
+to see at the beginning, but overwhelming at the end, so I filtering them out.
 
 There are several hows that I want to answer here.
 
