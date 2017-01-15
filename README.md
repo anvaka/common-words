@@ -6,7 +6,7 @@ languages.
 The index was build between mid/end of 2016 from `~3 million` public open source
 licensed repositories on GitHub. Results are presented as word clouds and text:
 
-[TODO Insert image]
+![demo](https://raw.githubusercontent.com/anvaka/common-words/master/docs/main_screen.png)
 
 Below is description of whys and hows. If you want to explore visualizations -
 please click here (TODO: link). I'll be waiting for you here :).
@@ -42,6 +42,7 @@ me filter out generated code (like minified JavaScript)
 (e.g. `license`, `noninfringement`, etc.). License text is very common in code.
 In Java out of 966 most popular words 127 were in license text. It was interesting
 to see at the beginning, but overwhelming at the end, so I filtered them out.
+* Words are case sensitive: `This` and `this` will be counted as two separate words.
 
 There are several hows that I want to answer here.
 
@@ -85,6 +86,12 @@ TODO
 # Tidbits
 
 ** TODO describe interesting finding **
+
+# Tools
+
+* https://github.com/anvaka/query-state
+* https://github.com/anvaka/rafor
+* https://github.com/anvaka/simplesvg
 
 # Thank you!
 
