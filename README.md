@@ -4,27 +4,12 @@ This visualization shows which words are most often used in different programmin
 languages.
 
 The index was build between mid/end of 2016 from `~3 million` public open source
-licensed repositories on GitHub. Results are presented as word clouds and text:
+GitHub repositories. Results are presented as word clouds and text:
 
 ![demo](https://raw.githubusercontent.com/anvaka/common-words/master/docs/main_screen.png)
 
 Below is description of whys and hows. If you want to explore visualizations -
 please click here (TODO: link). I'll be waiting for you here :).
-
-# Why word clouds?
-
-Word clouds in general are considered bad for several reasons:
-
-* They take words out of their context. So `good` does not necessary mean something is good (e.g.
-when word `not` was dropped from visualization).
-* They scale words to fit inside a picture. So the size of a word cannot be trusted;
-* They drop some common words (like `a`, `the`, `not`, etc.)
-
-However, I was always fascinated by algorithms that fit words inside give shape to
-produce word cloud.
-
-I spent last couple months of my spare time, developing my own word cloud algorithm.
-And this website was born.
 
 # How?
 
@@ -41,7 +26,7 @@ me filter out generated code (like minified JavaScript)
 * I ignore lines with "license markers" - words that predominantly appear inside license text
 (e.g. `license`, `noninfringement`, etc.). License text is very common in code.
 In Java out of 966 most popular words 127 were in license text. It was interesting
-to see at the beginning, but overwhelming at the end, so I filtered them out.
+to see at the beginning, but overwhelming at the end, so I filtered them out. [Lines with these words are ignored](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js).
 * Words are case sensitive: `This` and `this` will be counted as two separate words.
 
 There are several hows that I want to answer here.
@@ -92,6 +77,21 @@ TODO
 * https://github.com/anvaka/query-state
 * https://github.com/anvaka/rafor
 * https://github.com/anvaka/simplesvg
+
+# Why word clouds?
+
+Word clouds in general are considered bad for several reasons:
+
+* They take words out of their context. So `good` does not necessary mean something is good (e.g.
+when word `not` was dropped from visualization).
+* They scale words to fit inside a picture. So the size of a word cannot be trusted;
+* They drop some common words (like `a`, `the`, `not`, etc.)
+
+However, I was always fascinated by algorithms that fit words inside give shape to
+produce word cloud.
+
+I spent last couple months of my spare time, developing my own word cloud algorithm.
+And this website was born.
 
 # Thank you!
 
