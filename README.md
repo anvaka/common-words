@@ -29,8 +29,6 @@ In Java out of 966 most popular words 127 were in license text. It was interesti
 to see at the beginning, but overwhelming at the end, so I filtered them out. [Lines with these words are ignored](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js).
 * Words are case sensitive: `This` and `this` will be counted as two separate words.
 
-There are several hows that I want to answer here.
-
 ## How the data is collected?
 
 The data comes from GitHub's public data set, indexed by BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
@@ -59,7 +57,12 @@ Unfortunately this naive approach does exactly what people don't like about word
 clouds - each word will be taken out of context.
 
 I wanted to avoid this problem, and allow people to explore each word along with
-their contexts.
+their contexts:
+
+![context demo](https://raw.githubusercontent.com/anvaka/common-words/master/docs/context_demo.gif)
+
+To achieve this, I created a temporary table, that instead of counting individual
+words counts... lines.
 
 
 ## How word clouds are rendered?
