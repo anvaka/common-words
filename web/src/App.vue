@@ -39,6 +39,7 @@
 
       <a href='#' class='expand-list context-action' @click.prevent='toggleList' >{{listState.expanded ? 'hide list' : 'show list'}}</a>
     </div>
+    <a href='https://github.com/anvaka/common-words' class='about' title='about this website...'>?</a>
   </div>
 </template>
 
@@ -94,6 +95,16 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a.about {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #f6f9ff;
+    color: #FF4081;
+    font-size: 21px;
+    padding: 3px 10px;
 }
 
 .language-picker {

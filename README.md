@@ -8,8 +8,8 @@ GitHub repositories. Results are presented as word clouds and text:
 
 ![demo](https://raw.githubusercontent.com/anvaka/common-words/master/docs/main_screen.png)
 
-Below is description of whys and hows. If you want to explore visualizations -
-please click here (TODO: link). I'll be waiting for you here :).
+Below is description of hows and whys. If you want to explore visualizations -
+please click here: [common words](https://anvaka.github.io/common-words/#?lang=js). I'll be waiting for you here :).
 
 # How?
 

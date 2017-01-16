@@ -124,7 +124,7 @@ function removeAllChildren(node) {
 </script>
 
 <style lang='styl'>
-svg {
+.scene-container svg {
   position: absolute;
   top: 0;
   left: 0;

@@ -1,5 +1,5 @@
 module.exports = {
-  // these symbols are ignored in the sour code. Keep in mind, this is
+  // these symbols are ignored in the source code. Keep in mind, this is
   // a javascript code, so each \\ here is \ in SQL code
   symbols: "[,;\\t#%$+&^\\-`!*/\\}\\\\?\\{\\(\\)\\[\\]<>|@:\"\\'.=]",
   // I noticed that license text contributes the most to overall set of words.
