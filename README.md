@@ -19,7 +19,7 @@ this word has appeared.
 
 I apply several constraints before saving individual words:
 
-* The line where this word appears should be smaller than 120 characters. This helps
+* The line where this word appears should be shorter than 120 characters. This helps
 me filter out generated code (like minified JavaScript)
 * I ignore punctuation (`, ; : .`), operators (`+ - * ...`) and `numbers`. So if line is
 `a+b + 42`, then only two words are extracted: `a` and `b`.
@@ -31,7 +31,7 @@ to see at the beginning, but overwhelming at the end, so I filtered them out. [L
 
 ## How the data is collected?
 
-*In this section we take deeper look into words extraction. If you are not interested [jump to word clouds algorithm](#how-word-clouds-are-rendered)*
+>In this section we take deeper look into words extraction. If you are not interested [jump to word clouds algorithm](#how-word-clouds-are-rendered).
 
 The data comes from GitHub's public data set, indexed by BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
 
