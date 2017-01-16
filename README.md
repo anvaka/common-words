@@ -21,7 +21,7 @@ I apply several constraints before saving individual words:
 
 * The line where this word appears should be smaller than 120 characters. This helps
 me filter out generated code (like minified JavaScript)
-* I ignore punctuation (`, ; : .`), operators (`+ - * ...`) and numbers. So if line is
+* I ignore punctuation (`, ; : .`), operators (`+ - * ...`) and `numbers`. So if line is
 `a+b + 42`, then only two words are extracted: `a` and `b`.
 * I ignore lines with "license markers" - words that predominantly appear inside license text
 (e.g. `license`, `noninfringement`, etc.). License text is very common in code.
@@ -85,15 +85,16 @@ context if we keep original line in intermediate table:
 | #ifndef FOO       | FOO      |
 | ...               | ...      |
 
-From this intermediate representation we can use window function described in
-this question [Select top 10 records for each category](http://stackoverflow.com/questions/176964/select-top-10-records-for-each-category)
+From this intermediate representation we can use SQL window function to group by word
+and get top 10 lines for each word (more info here: [Select top 10 records for each category](http://stackoverflow.com/questions/176964/select-top-10-records-for-each-category))
 
-Final extraction code can be found here: [extract_words.sql](https://github.com/anvaka/common-words/blob/master/data-extract/sql/extract_words.sql)
+Current extraction code can be found here: [extract_words.sql](https://github.com/anvaka/common-words/blob/master/data-extract/sql/extract_words.sql)
 
 **NOTE 1:** My SQL-fu is at its toddlerhood, please let me know if you find error or
-more efficient way to get the data.
+more appropriate way to get the data. While current script is working, I realize that
+there may be cases where results are slightly skewed.
 
-**Note 2:** BigQuery is amazing. It is powerful, flexible and fast. Huge kudos
+**Note 2:** [BigQuery](https://bigquery.cloud.google.com/) is amazing. It is powerful, flexible and fast. Huge kudos
 to amazing people who work on it.
 
 ## How word clouds are rendered?
