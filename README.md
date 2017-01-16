@@ -31,6 +31,9 @@ to see at the beginning, but overwhelming at the end, so I filtered them out. [L
 
 ## How the data is collected?
 
+In this section we take deeper look into words extraction. If you are not interested 
+[skip to word clouds algorith](https://github.com/anvaka/common-words#how-word-clouds-are-rendered)
+
 The data comes from GitHub's public data set, indexed by BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
 
 BigQuery stores contents of each indexed file in a table, as a plain text:
