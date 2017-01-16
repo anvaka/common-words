@@ -74,7 +74,7 @@ to `~12GB`.
 
 To get top words from this table we can employ previous technique - split line content
 into individual words, and then group table by each word. We can also get words
-context if we keep original line in the table:
+context if we keep original line in intermediate table:
 
 
 | Line              | Word     |
@@ -85,15 +85,15 @@ context if we keep original line in the table:
 | #ifndef FOO       | FOO      |
 | ...               | ...      |
 
-After I got table into this representation I used window function described in
-SO question [Select top 10 records for each category](http://stackoverflow.com/questions/176964/select-top-10-records-for-each-category)
+From this intermediate representation we can use window function described in
+this question [Select top 10 records for each category](http://stackoverflow.com/questions/176964/select-top-10-records-for-each-category)
 
 Final extraction code can be found here: [extract_words.sql](https://github.com/anvaka/common-words/blob/master/data-extract/sql/extract_words.sql)
 
-** NOTE 1: ** My SQL-fu is at its toddlerhood, please let me know if you find error or
+**NOTE 1:** My SQL-fu is at its toddlerhood, please let me know if you find error or
 more efficient way to get the data.
 
-** Note 2: ** BigQuery is amazing. It is powerful, flexible and fast. Huge kudos
+**Note 2:** BigQuery is amazing. It is powerful, flexible and fast. Huge kudos
 to amazing people who work on it.
 
 ## How word clouds are rendered?
@@ -104,7 +104,7 @@ TODO
 
 # Tidbits
 
-** TODO describe interesting finding **
+**TODO describe interesting finding**
 
 # Tools
 
