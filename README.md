@@ -14,7 +14,7 @@ please click here: [common words](https://anvaka.github.io/common-words/#?lang=j
 # How?
 
 I extracted individual words from the [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
-data set on BigQuery. A word is extracted along with top 10 lines of code where
+data set on the BigQuery. A word is extracted along with top 10 lines of code where
 this word has appeared.
 
 I apply several constraints before saving individual words:
@@ -33,19 +33,18 @@ to see at the beginning, but overwhelming at the end, so I filtered them out. [L
 
 >In this section we take deeper look into words extraction. If you are not interested [jump to word clouds algorithm](#how-word-clouds-are-rendered).
 
-The data comes from GitHub's public data set, indexed by BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
+Data comes from the GitHub's public data set, indexed by the BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
 
-BigQuery stores contents of each indexed file in a table, as a plain text:
+The BigQuery stores contents of each indexed file in a table, as a plain text:
 
 | File Id   | Content                                       |
 | ----------|:---------------------------------------------:|
 | File 1.h  | // File 1 content\n#ifndef FOO\n#define FOO...|
 | File 2.h  | // File 2 content\n#ifndef BAR\n#define BAR...|
 
-To build a word cloud you have to assign `weight` to each word and scale words accordingly.
+To build a word cloud we need a `weight` to scale each word accordingly.
 
-To assign scale to each word we could split text content into individual words,
-and then just group table by each word:
+To get the weight we could split text into individual words, and then group table by each word:
 
 | Word    | Count|
 |---------|:----:|
@@ -53,7 +52,7 @@ and then just group table by each word:
 | content | 2    |
 | ...     | ...  |
 
-Unfortunately this naive approach does exactly what people don't like about word
+Unfortunately, this naive approach does exactly what people don't like about word
 clouds - each word will be taken out of context.
 
 I wanted to avoid this problem, and allow people to explore each word along with
@@ -92,15 +91,63 @@ and get top 10 lines for each word (more info here: [Select top 10 records for e
 
 Current extraction code can be found here: [extract_words.sql](https://github.com/anvaka/common-words/blob/master/data-extract/sql/extract_words.sql)
 
-**NOTE 1:** My SQL-fu is at its toddlerhood, please let me know if you find error or
-more appropriate way to get the data. While current script is working, I realize that
+**NOTE 1:** My SQL-fu is at its toddlerhood. Please let me know if you find an error or
+maybe more appropriate way to get the data. While current script is working, I realize that
 there may be cases where results are slightly skewed.
 
 **Note 2:** [BigQuery](https://bigquery.cloud.google.com/) is amazing. It is powerful, flexible and fast. Huge kudos
 to amazing people who work on it.
 
 ## How word clouds are rendered?
-TODO
+
+At heart of word clouds lies very simple algorithm:
+
+```
+for each word `w`:
+  repeat:
+    place word `w` at random point (x, y)
+  until `w` does not intersect any other word
+```
+
+To prevent inner loop from running indefinitely we can try only limited amount of
+time and/or reduce word's font size if it doesn't fit.
+
+If we step back a little bit from the words, we can formulate this problem in terms
+of rectangles: For each rectangle try to place it onto a canvas, until it doesn't
+intersect any other rectangle.
+
+Obviously, when canvas is heavily occupied finding a new spot for a rectangle can
+become challenging or not even possible.
+
+Various authors tried to speed up this part of the algorithm by indexing occupied
+space:
+
+* Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) - to quickly
+(in O(1), to be more precise) tell if a new candidate recatngle intersects anything
+beneath it. The downside of this method is that each update requires to update the
+entire table, which gives O(N^2) performance;
+* Maintain `R-tree` to quickly tell if a new candidate rectangle intersects anything
+beneath it. This approach is asymptotically faster than summed area tables.
+
+However, I wanted to try something different. Instead of picking random point and
+then trying to see if there is enough space to fit a rectangle around that point,
+I wanted to pick rectangle with enough space in it, and then pick a random point
+inside this rectangle. Basically I wanted to index free space, not occupied.
+
+I choose a [quadtree](https://en.wikipedia.org/wiki/Quadtree) to be my index.
+Each non-leaf node in the tree contains information about how many free pixels
+are available underneath. At the very basic level this can immediately answer
+question: "Is there enough space to fit `M` pixels?". If quad has less available
+pixels than `M`, then there is no point in looking inside.
+
+Take a look at this quad tree for javascript logo:
+
+![javascript quadtree](https://raw.githubusercontent.com/anvaka/common-words/master/docs/js-quad-tree.png)
+
+White large areas (quads) are available space. If our candidate rectangle is smaller than
+any of these quads we could immediately place words in there.
+
+However considering just quads can easily lead to "missed opportunities".
 
 ## How website is created?
 TODO
