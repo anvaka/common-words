@@ -219,7 +219,7 @@ All these feature are implemented by [panzoom](https://github.com/anvaka/panzoom
 ### Application structure
 
 I'm using vue.js as my rendering framework. Mostly because it's very simple and fast.
-Single file components and hot reload makes a great cherry on top of a cake.
+Single file components and hot reload make a great cherry on top of a cake.
 
 The entire application state is stored in a [single object](https://github.com/anvaka/common-words/blob/master/web/src/state/appState.js)
 and individual language files are loaded when user selects them from a drop down.
@@ -235,9 +235,9 @@ selected language in the query string.
 # Tools
 
 * https://github.com/anvaka/query-state - allows to store application state in
-the query string. Support bidirectional updates: `query strin <-> application state`
+the query string. Support bidirectional updates: `query string <-> application state`
 * https://github.com/anvaka/rafor - asynchronous iteration over array, without
-blocking the UI thread. This module adapts to amaount of work per cycle, so that
+blocking the UI thread. This module adapts to amount of work per cycle, so that
 there is enough CPU time to keep UI responsive
 * https://github.com/anvaka/simplesvg - very simple wrapper on top of SVG DOM
 elements, that provides easy manipulation.
@@ -263,7 +263,7 @@ And this website was born. It was fun :).
 
 Thank you, dear reader, for being curious. I hope you enjoyed this small exploration.
 Also special thanks to my co-worker Ryan, who showed me word-clouds in the first
-place.
+place. And to my lovely wife who inspires me and encourages me in all my pursuits.
 
 ## PS
 
