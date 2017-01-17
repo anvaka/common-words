@@ -1,28 +1,27 @@
-# Common words
+# [Common words](https://anvaka.github.io/common-words/#?lang=js)
 
-This visualization shows which words are most often used in different programming
+This visualization shows which words are used most often in different programming
 languages.
 
-The index was build between mid/end of 2016 from `~3 million` public open source
+The index was built between mid/end of 2016 from `~3 million` public open source
 GitHub repositories. Results are presented as word clouds and text:
 
 ![demo](https://raw.githubusercontent.com/anvaka/common-words/master/docs/main_screen.png)
 
 Below is description of hows and whys. If you want to explore visualizations -
-please click here: [common words](https://anvaka.github.io/common-words/#?lang=js). I'll be waiting for you here :).
+please click here: [common words](https://anvaka.github.io/common-words/#?lang=js).
 
 # Tidbits
 
-* I store most common words from many different programming languages as part of this
-repository. GitHub's languages recognition treats this repository as mostly C++. It makes sense
+* I store the most common words from many different programming languages as part of this
+repository. GitHub's language recognition treats this repository as mostly C++. It makes sense
 because many of those langauges were inspired by C/C++:
 ![github thinks it C++](https://raw.githubusercontent.com/anvaka/common-words/master/docs/languages.png)
 
-* License text is the most common in every programming language. Out of all languages
-Java code was the winner. `127` words out of `966` came from the license text:
+* License text is commonly put into comments in every programming language. Of all languages
+Java code was the winner with `127` words out of `966` coming from license text:
 ![lots of license in Java](https://raw.githubusercontent.com/anvaka/common-words/master/docs/java-license.png)
-
-In fact it was so overwhelming that I decided to filter out license text.
+  * In fact it was so overwhelming that I decided to filter out license text.
 
 * `Lua` is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
 * In `Java` [`override` is more popular than `else` statement](https://anvaka.github.io/common-words/#?lang=java).
@@ -36,28 +35,27 @@ If you find more interesting discoveries - please let me know. I'd be happy to i
 # How?
 
 I extracted individual words from the [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
-data set on the BigQuery. A word is extracted along with top 10 lines of code where
-this word has appeared.
+data set using BigQuery. A word is extracted along with the top 10 lines of code where
+this word appeared.
 
 I apply several constraints before saving individual words:
 
 * The line where this word appears should be shorter than 120 characters. This helps
-me filter out generated code (like minified JavaScript)
-* I ignore punctuation (`, ; : .`), operators (`+ - * ...`) and `numbers`. So if line is
+me filter out code not written by a human, like minified JavaScript.
+* I ignore punctuation (`, ; : .`), operators (`+ - * ...`) and `numbers`. So if the line is
 `a+b + 42`, then only two words are extracted: `a` and `b`.
 * I ignore lines with "license markers" - words that predominantly appear inside license text
-(e.g. `license`, `noninfringement`, etc.). License text is very common in code.
- It was interesting to see at the beginning, but overwhelming at the end, so I filtered them out.
-[Lines with these words are ignored](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js).
+(e.g. `license`, `noninfringement`, [etc.](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js)). License text is very common in code.
+ It was interesting to see at the beginning, but overwhelming at the end, so I filtered it out.
 * Words are case sensitive: `This` and `this` will be counted as two separate words.
 
-## How the data is collected?
+## How was the data collected?
 
 >In this section we take deeper look into words extraction. If you are not interested [jump to word clouds algorithm](#how-word-clouds-are-rendered).
 
-Data comes from the GitHub's public data set, indexed by the BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
+Data comes from the GitHub's public data set, indexed by BigQuery: [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
 
-The BigQuery stores contents of each indexed file in a table, as a plain text:
+BigQuery stores the contents of each indexed file in a table as plain text:
 
 | File Id   | Content                                       |
 | ----------|:---------------------------------------------:|
@@ -95,9 +93,9 @@ that instead of counting individual words counts lines:
 This gave me "contexts" for each word and reduced overall data size from couple terabytes
 to `~12GB`.
 
-To get top words from this table we can employ previous technique - split line content
-into individual words, and then group table by each word. We can also get words
-context if we keep original line in intermediate table:
+To get top words from this table we can employ the previously mentioned technique of splitting line content
+into individual words, and then group the table by each word. We can also get a word's
+context if we keep the original line in an intermediate table:
 
 
 | Line              | Word     |
@@ -113,16 +111,16 @@ and get top 10 lines for each word (more info here: [Select top 10 records for e
 
 Current extraction code can be found here: [extract_words.sql](https://github.com/anvaka/common-words/blob/master/data-extract/sql/extract_words.sql)
 
-**NOTE 1:** My SQL-fu is at its toddlerhood. Please let me know if you find an error or
-maybe more appropriate way to get the data. While current script is working, I realize that
+**Note 1:** My SQL-fu is in kindergarten, so please let me know if you find an error or
+maybe more appropriate way to get the data. While the current script is working, I think
 there may be cases where results are slightly skewed.
 
-**Note 2:** [BigQuery](https://bigquery.cloud.google.com/) is amazing. It is powerful, flexible and fast. Huge kudos
-to amazing people who work on it.
+**Note 2:** [BigQuery](https://bigquery.cloud.google.com/) is amazing. It is powerful, flexible, and fast. Huge kudos
+to the amazing people who work on it.
 
-## How word clouds are rendered?
+## How are word clouds rendered?
 
-At heart of word clouds lies very simple algorithm:
+At the heart of word clouds lies very simple algorithm:
 
 ```
 for each word `w`:
@@ -131,7 +129,7 @@ for each word `w`:
   until `w` does not intersect any other word
 ```
 
-To prevent inner loop from running indefinitely we can try only limited number of
+To prevent the inner loop from running indefinitely we can try only limited number of
 times and/or reduce word's font size if it doesn't fit.
 
 If we step back a little bit from the words, we can formulate this problem in terms
@@ -145,11 +143,11 @@ Various implementations tried to speed up this algorithm by indexing occupied sp
 
 * Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) to quickly,
 in O(1) time, tell if a new candidate rectangle intersects anything
-under it. The downside of this method is that each update requires to update the
-entire table, which gives O(N^2) performance;
-* Maintain some sort of `R-tree` to quickly tell if a new candidate rectangle intersects anything
-under it. Intersection lookup in this approach is slower than in summed are tables,
-but index maintenance is faster.
+under it. The downside of this method is that each update requires updating the
+entire table, which gives O(N<sup>2</sup>) performance;
+* Maintain some sort of [`R-tree`](https://en.wikipedia.org/wiki/R-tree) to quickly
+tell if a new candidate rectangle intersects anything under it. Intersection lookup
+in this approach is slower than in summed are tables, but index maintenance is faster.
 
 I think the main downside of both of these methods is that we still can get wrong
 initial point many number of times before we find a spot that fits new rectangle.
@@ -161,7 +159,7 @@ Make and index the free space, not occupied one.
 I choose a [quadtree](https://en.wikipedia.org/wiki/Quadtree) to be my index.
 Each non-leaf node in the tree contains information about how many free pixels
 are available underneath. At the very basic level this can immediately answer
-question: "Is there enough space to fit `M` pixels?". If quad has less available
+question: "Is there enough space to fit `M` pixels?". If a quad has less available
 pixels than `M`, then there is no need to look inside.
 
 Take a look at this quad tree for JavaScript logo:
@@ -171,7 +169,7 @@ Take a look at this quad tree for JavaScript logo:
 Empty white rectangles are quads with available space. If our candidate rectangle
 is smaller than any of these empty quads we could immediately place it inside such quad.
 
-Naive approach with quadtree index gives decent results, however it is
+A simple approach with quadtree index gives decent results, however, it is
 also susceptible to visual artifacts. You can see quadrants borders - no text can
 be placed on the intersection of quads:
 
@@ -190,7 +188,7 @@ of two quads:
 > My final code for quadtree word cloud generation is not released. I don't think
 > it is ready to be reused anywhere else.
 
-## How the website is created?
+## How was the website created?
 
 ### Rendering text
 
@@ -208,8 +206,8 @@ This helped me to focus on UI thread optimization.
 To prevent UI blocking for long periods of time, we need to add words asynchronously.
 Within one rendering thread cycle we add N words, and let browser handle user commands
 and updates. On the second loop cycle we add more, and so on. For these purposes
-I made [anvaka/rafor](https://github.com/anvaka/rafor) - asynchronous `for` loop
-iterator that adapts and distributes CPU load across multiple event loop cycles
+I made [anvaka/rafor](https://github.com/anvaka/rafor), which is an asynchronous `for` loop
+iterator that adapts and distributes CPU load across multiple event loop cycles.
 
 ### Pan and zoom
 
@@ -218,13 +216,13 @@ All these feature are implemented by [panzoom](https://github.com/anvaka/panzoom
 
 ### Application structure
 
-I'm using vue.js as my rendering framework. Mostly because it's very simple and fast.
-Single file components and hot reload make a great cherry on top of a cake.
+I'm using [vue.js](https://vuejs.org/) as my rendering framework. Mostly because it's very simple and fast.
+Single file components and hot reload make it fast to develop in.
 
 The entire application state is stored in a [single object](https://github.com/anvaka/common-words/blob/master/web/src/state/appState.js)
 and individual language files are loaded when user selects them from a drop down.
 
-As my message dispatcher I'm using [ngraph.events](https://github.com/anvaka/ngraph.events) -
+As my message dispatcher I'm using [ngraph.events](https://github.com/anvaka/ngraph.events), a
 very small message passing library with focus on speed.
 
 I use [anvaka/query-state](https://github.com/anvaka/query-state) to store currently
@@ -232,16 +230,16 @@ selected language in the query string.
 
 ![query state](https://raw.githubusercontent.com/anvaka/common-words/master/docs/query-state.gif)
 
-# Tools
+# Tools summary
 
-* https://github.com/anvaka/query-state - allows to store application state in
-the query string. Support bidirectional updates: `query string <-> application state`
+* https://github.com/anvaka/query-state - allow storing application state in
+the query string. Supports bidirectional updates: `query string <-> application state`
 * https://github.com/anvaka/rafor - asynchronous iteration over array, without
 blocking the UI thread. This module adapts to amount of work per cycle, so that
-there is enough CPU time to keep UI responsive
+there is enough CPU time to keep UI responsive.
 * https://github.com/anvaka/simplesvg - very simple wrapper on top of SVG DOM
-elements, that provides easy manipulation.
-* https://github.com/anvaka/panzoom - a library that allows Google-maps like panning
+elements, providing easy manipulation.
+* https://github.com/anvaka/panzoom - a library that allows Google-maps-like panning
 and zooming of an SVG scene.
 
 # Why word clouds?
@@ -253,21 +251,21 @@ when word `not` was dropped from visualization).
 * They scale words to fit inside a picture. So the size of a word cannot be trusted;
 * They drop some common words (like `a`, `the`, `not`, etc.)
 
-However, I was always fascinated by algorithms that fit words inside give shape to
+However, I was always fascinated by algorithms that fit words inside a given shape to
 produce word cloud.
 
-I spent last couple months of my spare time, developing my own word cloud algorithm.
+I spent last couple months of my spare time developing my own word cloud algorithm.
 And this website was born. It was fun :).
 
 # Thank you!
 
 Thank you, dear reader, for being curious. I hope you enjoyed this small exploration.
-Also special thanks to my co-worker Ryan, who showed me word-clouds in the first
+Also special thanks to my co-worker, Ryan, who showed me word clouds in the first
 place. And to my lovely wife who inspires me and encourages me in all my pursuits.
 
 ## PS
 
-I also tried to make word clouds into "real life" and created several printed
+I also tried to bring word clouds into "real life" and created several printed
 products (T-Shirts, hoodies and mugs). However I didn't like T-Shirts very much,
 so I'm not going to show them here.
 
@@ -276,4 +274,5 @@ I think is my best real world word cloud:
 
 ![js mug](http://i.imgur.com/7r6uyyM.gif)
 
-Feel free to buy it if you love javascript. I hope you enjoy it!
+Feel free to [buy it](http://www.zazzle.com/javascript_code_mug-168845699892997031)
+if you love javascript. I hope you enjoy it!
