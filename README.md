@@ -13,24 +13,21 @@ please click here: [common words](https://anvaka.github.io/common-words/#?lang=j
 
 # Tidbits
 
-* I store most common words from many different programming languages,
-GitHub's languages recognition treats this repository as mostly C++. It makes sense
+* I store most common words from many different programming languages as part of this
+repository. GitHub's languages recognition treats this repository as mostly C++. It makes sense
 because many of those langauges were inspired by C/C++:
 ![github thinks it C++](https://raw.githubusercontent.com/anvaka/common-words/master/docs/languages.png)
 
 * License text is the most common in every programming language. Out of all languages
-Java code was the winner here. 127 words out of 966 came from the license text:
+Java code was the winner. `127` words out of `966` came from the license text:
 ![lots of license in Java](https://raw.githubusercontent.com/anvaka/common-words/master/docs/java-license.png)
 
-In fact it was so overwhelming in every programming language, so I decided to
-filter out license text.
+In fact it was so overwhelming that I decided to filter out license text.
 
-* Lua is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
-
+* `Lua` is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
 * In `Java` [`override` is more popular than `else` statement](https://anvaka.github.io/common-words/#?lang=java).
 I find this interesting because both statements allow developers to control application flow.
 I just didn't expect inheritance ot be more popular than branching.
-
 * In `Go` [`err` is as popular as `return`](https://anvaka.github.io/common-words/#?lang=go).
 Here is [why](https://twitter.com/anvaka/status/813505093458767873).
 
@@ -144,14 +141,14 @@ intersect any other pixel.
 Obviously, when canvas is heavily occupied finding a spot for a new rectangle can
 become challenging or not even possible.
 
-Various authors tried to speed up this algorithm by indexing occupied space:
+Various implementations tried to speed up this algorithm by indexing occupied space:
 
 * Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) to quickly,
 in O(1) time, tell if a new candidate rectangle intersects anything
-beneath it. The downside of this method is that each update requires to update the
+under it. The downside of this method is that each update requires to update the
 entire table, which gives O(N^2) performance;
 * Maintain some sort of `R-tree` to quickly tell if a new candidate rectangle intersects anything
-beneath it. Intersection lookup in this approach is slower than summed are tables,
+under it. Intersection lookup in this approach is slower than in summed are tables,
 but index maintenance is faster.
 
 I think the main downside of both of these methods is that we still can get wrong
@@ -159,20 +156,20 @@ initial point many number of times before we find a spot that fits new rectangle
 
 I wanted to try something different. I wanted to build an index that would let me
 quickly pick a rectangle large enough to fit my new incoming rectangles.
-I wanted to index my free space, not occupied space.
+Make and index the free space, not occupied one.
 
 I choose a [quadtree](https://en.wikipedia.org/wiki/Quadtree) to be my index.
 Each non-leaf node in the tree contains information about how many free pixels
 are available underneath. At the very basic level this can immediately answer
 question: "Is there enough space to fit `M` pixels?". If quad has less available
-pixels than `M`, then there is no point in looking inside.
+pixels than `M`, then there is no need to look inside.
 
 Take a look at this quad tree for JavaScript logo:
 
 ![javascript quadtree](https://raw.githubusercontent.com/anvaka/common-words/master/docs/js-quad-tree.png)
 
-White large empty rectangles are quads with available space. If our candidate rectangle
-is smaller than any of these quads we could immediately place words in there.
+Empty white rectangles are quads with available space. If our candidate rectangle
+is smaller than any of these empty quads we could immediately place it inside such quad.
 
 Naive approach with quadtree index gives decent results, however it is
 also susceptible to visual artifacts. You can see quadrants borders - no text can
@@ -180,12 +177,12 @@ be placed on the intersection of quads:
 
 ![quad tree artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-split.gif)
 
-`Largest quad` approach can also miss opportunities. What if there is no single
+The `largest quad` approach can also miss opportunities. What if there is no single
 quad large enough to fit a new rectangle, but, if united with neighbouring quads
 a fit can be found?
 
-Indeed, uniting quads helps find spots for new words, as well as removes visual
-artifacts. Many quads are united, and the text is very likely to appear on intersection
+Indeed, uniting quads helps to find spots for new words, as well as removes visual
+artifacts. Many quads are united, and the text is likely to appear on intersection
 of two quads:
 
 ![quad tree no artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-no-artifact.gif)
@@ -200,7 +197,7 @@ of two quads:
 Overall I was [happy](https://twitter.com/anvaka/status/801869174502879232) with achieved
 speed of word cloud generation. Yet, it was still too slow for `common-words` website.
 
-I'm using SVG to render each word on a screen. Rendering alone so many svg text elements
+I'm using SVG to render each word on a screen. Rendering alone so many text elements
 can halt the UI thread for a couple seconds. There is just not enough
 CPU time to squeeze in text layout computation. The good news - we don't have to.
 
@@ -208,14 +205,16 @@ Instead of computing layout of words over and over again every time when you ope
 a page, I decided to compute layout once, and store results into a JSON file.
 This helped me to focus on UI thread optimization.
 
-[anvaka/rafor](https://github.com/anvaka/rafor) is an asynchronous work scheduler
-that iterates over array and invokes my rendering callback without blocking the UI
-for long periods of time.
+To prevent UI blocking for long periods of time, we need to add words asynchronously.
+Within one rendering thread cycle we add N words, and let browser handle user commands
+and updates. On the second loop cycle we add more, and so on. For these purposes
+I made [anvaka/rafor](https://github.com/anvaka/rafor) - asynchronous `for` loop
+iterator that adapts and distributes CPU load across multiple event loop cycles
 
 ### Pan and zoom
 
-This is done by [panzoom](https://github.com/anvaka/panzoom) library. It supports
-Google-maps like navigation on SVG scene. It is also mobile and keyboard friendly.
+The website supports Google-maps like navigation on SVG scene. It is also mobile and keyboard friendly.
+All these feature are implemented by [panzoom](https://github.com/anvaka/panzoom) library.
 
 ### Application structure
 
@@ -230,6 +229,8 @@ very small message passing library with focus on speed.
 
 I use [anvaka/query-state](https://github.com/anvaka/query-state) to store currently
 selected language in the query string.
+
+![query state](https://raw.githubusercontent.com/anvaka/common-words/master/docs/query-state.gif)
 
 # Tools
 
@@ -264,10 +265,10 @@ Thank you, dear reader, for being curious. I hope you enjoyed this small explora
 Also special thanks to my co-worker Ryan, who showed me word-clouds in the first
 place.
 
-# PS
+## PS
 
 I also tried to make word clouds into "real life" and created several printed
-products (T-shirts, hoodies and mugs). However I didn't like T-Shirts very much,
+products (T-Shirts, hoodies and mugs). However I didn't like T-Shirts very much,
 so I'm not going to show them here.
 
 [The javascript mug](http://www.zazzle.com/javascript_code_mug-168845699892997031) -
@@ -275,4 +276,4 @@ I think is my best real world word cloud:
 
 ![js mug](http://i.imgur.com/7r6uyyM.gif)
 
-Feel free to buy it if you love javascript.
+Feel free to buy it if you love javascript. I hope you enjoy it!
