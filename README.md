@@ -11,6 +11,31 @@ GitHub repositories. Results are presented as word clouds and text:
 Below is description of hows and whys. If you want to explore visualizations -
 please click here: [common words](https://anvaka.github.io/common-words/#?lang=js). I'll be waiting for you here :).
 
+# Tidbits
+
+* I store most common words from many different programming languages,
+GitHub's languages recognition treats this repository as mostly C++. It makes sense
+because many of those langauges were inspired by C/C++:
+![github thinks it C++](https://raw.githubusercontent.com/anvaka/common-words/master/docs/languages.png)
+
+* License text is the most common in every programming language. Out of all languages
+Java code was the winner here. 127 words out of 966 came from the license text:
+![lots of license in Java](https://raw.githubusercontent.com/anvaka/common-words/master/docs/java-license.png)
+
+In fact it was so overwhelming in every programming language, so I decided to
+filter out license text.
+
+* Lua is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
+
+* In `Java` [`override` is more popular than `else` statement](https://anvaka.github.io/common-words/#?lang=java).
+I find this interesting because both statements allow developers to control application flow.
+I just didn't expect inheritance ot be more popular than branching.
+
+* In `Go` [`err` is as popular as `return`](https://anvaka.github.io/common-words/#?lang=go).
+Here is [why](https://twitter.com/anvaka/status/813505093458767873).
+
+If you find more interesting discoveries - please let me know. I'd be happy to include them here.
+
 # How?
 
 I extracted individual words from the [github_repos](https://bigquery.cloud.google.com/dataset/bigquery-public-data:github_repos)
@@ -25,8 +50,8 @@ me filter out generated code (like minified JavaScript)
 `a+b + 42`, then only two words are extracted: `a` and `b`.
 * I ignore lines with "license markers" - words that predominantly appear inside license text
 (e.g. `license`, `noninfringement`, etc.). License text is very common in code.
-In Java out of 966 most popular words 127 were in license text. It was interesting
-to see at the beginning, but overwhelming at the end, so I filtered them out. [Lines with these words are ignored](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js).
+ It was interesting to see at the beginning, but overwhelming at the end, so I filtered them out.
+[Lines with these words are ignored](https://github.com/anvaka/common-words/blob/master/data-extract/ignore/index.js).
 * Words are case sensitive: `This` and `this` will be counted as two separate words.
 
 ## How the data is collected?
@@ -166,23 +191,45 @@ of two quads:
 ![quad tree no artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-no-artifact.gif)
 
 > My final code for quadtree word cloud generation is not released. I don't think
-> it is ready to be a reusable component, and I have doubts 
+> it is ready to be reused anywhere else.
 
-## How website is created?
+## How the website is created?
+
+### Rendering text
 
 Overall I was [happy](https://twitter.com/anvaka/status/801869174502879232) with achieved
 speed of word cloud generation. Yet, it was still too slow for `common-words` website.
 
-I'm using SVG to render each word on a screen. Rendering of 1,000 svg text elements
-can easily halt the rendering thread for a couple seconds. There was just not enough
-CPU time to squeeze in text layout computation. But the good news - we don't have to.
+I'm using SVG to render each word on a screen. Rendering alone so many svg text elements
+can halt the UI thread for a couple seconds. There is just not enough
+CPU time to squeeze in text layout computation. The good news - we don't have to.
 
-Instead of computing layout of words over and over again every time why you open
-a page, I decided compute layout once, and store results into JSON file.
+Instead of computing layout of words over and over again every time when you open
+a page, I decided to compute layout once, and store results into a JSON file.
+This helped me to focus on UI thread optimization.
 
-# Tidbits
+[anvaka/rafor](https://github.com/anvaka/rafor) is an asynchronous work scheduler
+that iterates over array and invokes my rendering callback without blocking the UI
+for long periods of time.
 
-**TODO describe interesting finding**
+### Pan and zoom
+
+This is done by [panzoom](https://github.com/anvaka/panzoom) library. It supports
+Google-maps like navigation on SVG scene. It is also mobile and keyboard friendly.
+
+### Application structure
+
+I'm using vue.js as my rendering framework. Mostly because it's very simple and fast.
+Single file components and hot reload makes a great cherry on top of a cake.
+
+The entire application state is stored in a [single object](https://github.com/anvaka/common-words/blob/master/web/src/state/appState.js)
+and individual language files are loaded when user selects them from a drop down.
+
+As my message dispatcher I'm using [ngraph.events](https://github.com/anvaka/ngraph.events) -
+very small message passing library with focus on speed.
+
+I use [anvaka/query-state](https://github.com/anvaka/query-state) to store currently
+selected language in the query string.
 
 # Tools
 
@@ -193,6 +240,8 @@ blocking the UI thread. This module adapts to amaount of work per cycle, so that
 there is enough CPU time to keep UI responsive
 * https://github.com/anvaka/simplesvg - very simple wrapper on top of SVG DOM
 elements, that provides easy manipulation.
+* https://github.com/anvaka/panzoom - a library that allows Google-maps like panning
+and zooming of an SVG scene.
 
 # Why word clouds?
 
@@ -207,10 +256,23 @@ However, I was always fascinated by algorithms that fit words inside give shape 
 produce word cloud.
 
 I spent last couple months of my spare time, developing my own word cloud algorithm.
-And this website was born.
+And this website was born. It was fun :).
 
 # Thank you!
 
 Thank you, dear reader, for being curious. I hope you enjoyed this small exploration.
 Also special thanks to my co-worker Ryan, who showed me word-clouds in the first
 place.
+
+# PS
+
+I also tried to make word clouds into "real life" and created several printed
+products (T-shirts, hoodies and mugs). However I didn't like T-Shirts very much,
+so I'm not going to show them here.
+
+[The javascript mug](http://www.zazzle.com/javascript_code_mug-168845699892997031) -
+I think is my best real world word cloud:
+
+![js mug](http://i.imgur.com/7r6uyyM.gif)
+
+Feel free to buy it if you love javascript.
