@@ -155,30 +155,30 @@ be placed on the intersection of quads:
 
 ![quad tree artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-split.gif)
 
-"Largest quad" approach can also lead to a "missed opportunities": What if
-there is no single quad large enough to fit a new rectangle, but, if united
-with neighbouring quads fit can be found?
+`Largest quad` approach can also miss opportunities. What if there is no single
+quad large enough to fit a new rectangle, but, if united with neighbouring quads
+a fit can be found?
 
 Indeed, uniting quads helps find spots for new words, as well as removes visual
-artifacts. Many quads are united, and text is very likely to appear on intersection
+artifacts. Many quads are united, and the text is very likely to appear on intersection
 of two quads:
 
 ![quad tree no artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-no-artifact.gif)
 
-> My final code for quadtree-based word cloud generation is not ready to be released
-> as a reusable component (it requires embarrassing degree of hand tuning).
+> My final code for quadtree word cloud generation is not released. I don't think
+> it is ready to be a reusable component, and I have doubts 
 
 ## How website is created?
 
 Overall I was [happy](https://twitter.com/anvaka/status/801869174502879232) with achieved
 speed of word cloud generation. Yet, it was still too slow for `common-words` website.
 
-I'm using SVG to render each word on a screen, and displaying 1,000 text elements alone
-freezes the rendering thread. There was not enough CPU time to squeeze in text
-layout computation. But the good news - we don't have to.
+I'm using SVG to render each word on a screen. Rendering of 1,000 svg text elements
+can easily halt the rendering thread for a couple seconds. There was just not enough
+CPU time to squeeze in text layout computation. But the good news - we don't have to.
 
-Instead of computing layout of words over and over again, I compute it once,
-and store results into JSON file.
+Instead of computing layout of words over and over again every time why you open
+a page, I decided compute layout once, and store results into JSON file.
 
 # Tidbits
 
@@ -186,9 +186,13 @@ and store results into JSON file.
 
 # Tools
 
-* https://github.com/anvaka/query-state
-* https://github.com/anvaka/rafor
-* https://github.com/anvaka/simplesvg
+* https://github.com/anvaka/query-state - allows to store application state in
+the query string. Support bidirectional updates: `query strin <-> application state`
+* https://github.com/anvaka/rafor - asynchronous iteration over array, without
+blocking the UI thread. This module adapts to amaount of work per cycle, so that
+there is enough CPU time to keep UI responsive
+* https://github.com/anvaka/simplesvg - very simple wrapper on top of SVG DOM
+elements, that provides easy manipulation.
 
 # Why word clouds?
 
