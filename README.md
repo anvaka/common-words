@@ -109,30 +109,32 @@ for each word `w`:
   until `w` does not intersect any other word
 ```
 
-To prevent inner loop from running indefinitely we can try only limited amount of
-time and/or reduce word's font size if it doesn't fit.
+To prevent inner loop from running indefinitely we can try only limited number of
+times and/or reduce word's font size if it doesn't fit.
 
 If we step back a little bit from the words, we can formulate this problem in terms
 of rectangles: For each rectangle try to place it onto a canvas, until it doesn't
-intersect any other rectangle.
+intersect any other pixel.
 
-Obviously, when canvas is heavily occupied finding a new spot for a rectangle can
+Obviously, when canvas is heavily occupied finding a spot for a new rectangle can
 become challenging or not even possible.
 
-Various authors tried to speed up this part of the algorithm by indexing occupied
-space:
+Various authors tried to speed up this algorithm by indexing occupied space:
 
-* Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) - to quickly
-(in O(1), to be more precise) tell if a new candidate recatngle intersects anything
+* Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) to quickly,
+in O(1) time, tell if a new candidate rectangle intersects anything
 beneath it. The downside of this method is that each update requires to update the
 entire table, which gives O(N^2) performance;
-* Maintain `R-tree` to quickly tell if a new candidate rectangle intersects anything
-beneath it. This approach is asymptotically faster than summed area tables.
+* Maintain some sort of `R-tree` to quickly tell if a new candidate rectangle intersects anything
+beneath it. Intersection lookup in this approach is slower than summed are tables,
+but index maintenance is faster.
 
-However, I wanted to try something different. Instead of picking random point and
-then trying to see if there is enough space to fit a rectangle around that point,
-I wanted to pick rectangle with enough space in it, and then pick a random point
-inside this rectangle. Basically I wanted to index free space, not occupied.
+I think the main downside of both of these methods is that we still can get wrong
+initial point many number of times before we find a spot that fits new rectangle.
+
+I wanted to try something different. I wanted to build an index that would let me
+quickly pick a rectangle large enough to fit my new incoming rectangles.
+I wanted to index my free space, not occupied space.
 
 I choose a [quadtree](https://en.wikipedia.org/wiki/Quadtree) to be my index.
 Each non-leaf node in the tree contains information about how many free pixels
@@ -140,17 +142,43 @@ are available underneath. At the very basic level this can immediately answer
 question: "Is there enough space to fit `M` pixels?". If quad has less available
 pixels than `M`, then there is no point in looking inside.
 
-Take a look at this quad tree for javascript logo:
+Take a look at this quad tree for JavaScript logo:
 
 ![javascript quadtree](https://raw.githubusercontent.com/anvaka/common-words/master/docs/js-quad-tree.png)
 
-White large areas (quads) are available space. If our candidate rectangle is smaller than
-any of these quads we could immediately place words in there.
+White large empty rectangles are quads with available space. If our candidate rectangle
+is smaller than any of these quads we could immediately place words in there.
 
-However considering just quads can easily lead to "missed opportunities".
+Naive approach with quadtree index gives decent results, however it is
+also susceptible to visual artifacts. You can see quadrants borders - no text can
+be placed on the intersection of quads:
+
+![quad tree artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-split.gif)
+
+"Largest quad" approach can also lead to a "missed opportunities": What if
+there is no single quad large enough to fit a new rectangle, but, if united
+with neighbouring quads fit can be found?
+
+Indeed, uniting quads helps find spots for new words, as well as removes visual
+artifacts. Many quads are united, and text is very likely to appear on intersection
+of two quads:
+
+![quad tree no artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-no-artifact.gif)
+
+> My final code for quadtree-based word cloud generation is not ready to be released
+> as a reusable component (it requires embarrassing degree of hand tuning).
 
 ## How website is created?
-TODO
+
+Overall I was [happy](https://twitter.com/anvaka/status/801869174502879232) with achieved
+speed of word cloud generation. Yet, it was still too slow for `common-words` website.
+
+I'm using SVG to render each word on a screen, and displaying 1,000 text elements alone
+freezes the rendering thread. There was not enough CPU time to squeeze in text
+layout computation. But the good news - we don't have to.
+
+Instead of computing layout of words over and over again, I compute it once,
+and store results into JSON file.
 
 # Tidbits
 
