@@ -1,6 +1,9 @@
 <template>
   <div id="app">
     <words-cloud-renderer></words-cloud-renderer>
+
+    <a href='https://github.com/anvaka/common-words' class='about' title='about this website...'>?</a>
+
     <div class='language-picker no-print' :class='{ "list-expanded": listState.expanded }'>
       <a href='#' class='header no-select' :class='{ "context-visible": isContextVisible }'  @click.prevent='toggleList' >
       Most used words in
@@ -11,7 +14,6 @@
         </template>
       </drop-click> files
       </a>
-
 
       <div class='word-list'>
         <div class='all-words list' :class='{ "context-visible": isContextVisible }'>
@@ -39,7 +41,6 @@
 
       <a href='#' class='expand-list context-action' @click.prevent='toggleList' >{{listState.expanded ? 'hide list' : 'show list'}}</a>
     </div>
-    <a href='https://github.com/anvaka/common-words' class='about' title='about this website...'>?</a>
   </div>
 </template>
 
