@@ -24,9 +24,6 @@ Java code was the winner with `127` words out of `966` coming from license text:
   * In fact it was so overwhelming that I decided to filter out license text.
 
 * `Lua` is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
-* In `Java` [`override` is more popular than `else` statement](https://anvaka.github.io/common-words/#?lang=java).
-I find this interesting because both statements allow developers to control application flow.
-I just didn't expect inheritance to be more popular than branching.
 * In `Go` [`err` is as popular as `return`](https://anvaka.github.io/common-words/#?lang=go).
 Here is [why](https://twitter.com/anvaka/status/813505093458767873).
 
