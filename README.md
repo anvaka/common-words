@@ -26,7 +26,7 @@ Java code was the winner with `127` words out of `966` coming from license text:
 * `Lua` is the only programming language that has a swear word in top 1,000. [Can you find it?](https://anvaka.github.io/common-words/#?lang=lua)
 * In `Java` [`override` is more popular than `else` statement](https://anvaka.github.io/common-words/#?lang=java).
 I find this interesting because both statements allow developers to control application flow.
-I just didn't expect inheritance ot be more popular than branching.
+I just didn't expect inheritance to be more popular than branching.
 * In `Go` [`err` is as popular as `return`](https://anvaka.github.io/common-words/#?lang=go).
 Here is [why](https://twitter.com/anvaka/status/813505093458767873).
 
@@ -101,7 +101,7 @@ context if we keep the original line in an intermediate table:
 | Line              | Word     |
 |-------------------|:--------:|
 | // File 1 content | File     |
-| // File 1 content | Content  |
+| // File 1 content | content  |
 | #ifndef FOO       | ifndef   |
 | #ifndef FOO       | FOO      |
 | ...               | ...      |
@@ -143,18 +143,18 @@ Various implementations tried to speed up this algorithm by indexing occupied sp
 
 * Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) to quickly,
 in O(1) time, tell if a new candidate rectangle intersects anything
-under it. The downside of this method is that each update requires updating the
+under it. The downside of this method is that each canvas update requires updating the
 entire table, which gives O(N<sup>2</sup>) performance;
 * Maintain some sort of [`R-tree`](https://en.wikipedia.org/wiki/R-tree) to quickly
 tell if a new candidate rectangle intersects anything under it. Intersection lookup
-in this approach is slower than in summed are tables, but index maintenance is faster.
+in this approach is slower than in summed area tables, but index maintenance is faster.
 
 I think the main downside of both of these methods is that we still can get wrong
 initial point many number of times before we find a spot that fits new rectangle.
 
 I wanted to try something different. I wanted to build an index that would let me
 quickly pick a rectangle large enough to fit my new incoming rectangles.
-Make and index the free space, not occupied one.
+Make index of the free space, not occupied one.
 
 I choose a [quadtree](https://en.wikipedia.org/wiki/Quadtree) to be my index.
 Each non-leaf node in the tree contains information about how many free pixels
@@ -204,7 +204,7 @@ a page, I decided to compute layout once, and store results into a JSON file.
 This helped me to focus on UI thread optimization.
 
 To prevent UI blocking for long periods of time, we need to add words asynchronously.
-Within one rendering thread cycle we add N words, and let browser handle user commands
+Within one event loop cycle we add N words, and let browser handle user commands
 and updates. On the second loop cycle we add more, and so on. For these purposes
 I made [anvaka/rafor](https://github.com/anvaka/rafor), which is an asynchronous `for` loop
 iterator that adapts and distributes CPU load across multiple event loop cycles.
@@ -220,7 +220,7 @@ I'm using [vue.js](https://vuejs.org/) as my rendering framework. Mostly because
 Single file components and hot reload make it fast to develop in.
 
 The entire application state is stored in a [single object](https://github.com/anvaka/common-words/blob/master/web/src/state/appState.js)
-and individual language files are loaded when user selects them from a drop down.
+and individual language files are loaded when user selects corresponding element from a drop down.
 
 As my message dispatcher I'm using [ngraph.events](https://github.com/anvaka/ngraph.events), a
 very small message passing library with focus on speed.
@@ -247,8 +247,8 @@ and zooming of an SVG scene.
 Word clouds in general are considered bad for several reasons:
 
 * They take words out of their context. So `good` does not necessary mean something is good (e.g.
-when word `not` was dropped from visualization).
-* They scale words to fit inside a picture. So the size of a word cannot be trusted;
+when word `not` was dropped from visualization)
+* They scale words to fit inside a picture. So the size of a word cannot be trusted
 * They drop some common words (like `a`, `the`, `not`, etc.)
 
 However, I was always fascinated by algorithms that fit words inside a given shape to
