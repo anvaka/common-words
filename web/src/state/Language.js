@@ -81,7 +81,7 @@ function makeContext(arrayOfWords) {
     context[word.word] = {
       lines,
       word: word.word,
-      total: getTotal(lines),
+      total: word.useCount,
     };
   });
 
@@ -99,10 +99,3 @@ function groupSameLines(contextLines) {
   return Array.from(uniqueLines);
 }
 
-function getTotal(lines) {
-  let sum = 0;
-  lines.forEach((line) => {
-    sum += line[1];
-  });
-  return sum;
-}

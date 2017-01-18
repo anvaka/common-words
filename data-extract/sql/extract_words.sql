@@ -1,7 +1,8 @@
 SELECT
   rs.word,
   rs.lines,
-  rs.num_lines
+  rs.num_lines,
+  popular.num_words
 FROM (
   SELECT
     word,
@@ -62,4 +63,4 @@ WHERE
   rs.rank <= 10
 ORDER BY
   rs.word,
-  rs.num_lines DESC
+  popular.num_words DESC

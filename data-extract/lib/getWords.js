@@ -18,15 +18,16 @@ function getWords(fileName) {
       if (!record) {
         record = {
           word: r.rs_word,
-          context: []
+          context: [],
+          useCount: Number.parseInt(r.popular_num_words, 10)
         };
         recordsByWord.set(r.rs_word, record);
       }
-      var count = Number.parseInt(r.rs_num_lines, 10);
+      var lineCount = Number.parseInt(r.rs_num_lines, 10);
 
       record.context.push([
         r.rs_lines,
-        count
+        lineCount
       ]);
 
     }, start);
