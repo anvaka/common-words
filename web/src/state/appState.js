@@ -23,6 +23,7 @@ languages.add('pl', 'Perl');
 languages.add('cs', 'C#');
 languages.add('scala', 'Scala');
 languages.add('go', 'Go');
+languages.add('sql', 'SQL');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
