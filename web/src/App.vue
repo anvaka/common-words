@@ -5,7 +5,7 @@
     <a href='https://github.com/anvaka/common-words' class='about' title='about this website...'>?</a>
 
     <div class='language-picker no-print' :class='{ "list-expanded": listState.expanded }'>
-      <a href='#' class='header no-select' :class='{ "context-visible": isContextVisible }'  @click.prevent='toggleList' >
+      <div class='header no-select' :class='{ "context-visible": isContextVisible }'  @click='toggleList' >
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
                   @selected='updateSelectedLanguage'>
@@ -13,7 +13,7 @@
           <option :value='props.item.extension'>{{props.item.text}}</option>
         </template>
       </drop-click> files
-      </a>
+      </div>
 
       <div class='word-list'>
         <div class='all-words list' :class='{ "context-visible": isContextVisible }'>
