@@ -8,7 +8,9 @@
 ./extract_words.js jsx &
 ./extract_words.js lua &
 ./extract_words.js php &
-./extract_words.js pl &
+./extract_words.js pm &
 ./extract_words.js py &
 ./extract_words.js rb &
 ./extract_words.js scala &
+./extract_words.js sql &
+./extract_words.js rs &
