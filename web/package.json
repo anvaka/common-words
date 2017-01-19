@@ -17,7 +17,8 @@
     "query-state": "^3.0.3",
     "rafor": "^1.0.2",
     "simplesvg": "^0.1.1",
-    "vue": "^2.1.0"
+    "vue": "^2.1.10",
+    "vue-template-compiler": "^2.1.10"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",
