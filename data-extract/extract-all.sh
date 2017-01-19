@@ -1,0 +1,14 @@
+./extract_words.js 'C,cc,cpp,CPP,c++,cp,cxx,h' &
+./extract_words.js cs &
+./extract_words.js css &
+./extract_words.js go &
+./extract_words.js html &
+./extract_words.js java &
+./extract_words.js js &
+./extract_words.js jsx &
+./extract_words.js lua &
+./extract_words.js php &
+./extract_words.js pl &
+./extract_words.js py &
+./extract_words.js rb &
+./extract_words.js scala &
