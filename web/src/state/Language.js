@@ -4,9 +4,10 @@ import request from '../utils/request';
 const path = 'static/data';
 
 export default class Language {
-  constructor(extension/* , text */) {
+  constructor(extension, text, displayExtensions) {
     this.extension = extension;
-    this.text = `.${extension}`;
+    const display = displayExtensions || `.${extension}`;
+    this.text = `${text} - ${display}`;
     this.positions = null;
   }
 

@@ -8,11 +8,11 @@ export default class LanguageCollection {
     this.selected = '';
   }
 
-  add(extension, text) {
+  add(extension, text, displayExtensions) {
     if (this.known[extension] !== undefined) throw new Error('Extension is already registered');
 
     this.known[extension] = this.list.length;
-    this.list.push(new Language(extension, text));
+    this.list.push(new Language(extension, text, displayExtensions));
   }
 
   select(extension) {
