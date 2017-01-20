@@ -30,6 +30,7 @@ languages.add('clj', 'Clojure', '.clj, .cljs');
 languages.add('kt', 'Kotlin', '.kt, .ktm, .kts');
 languages.add('cmake', 'CMake', '.cmake, .cmake.in');
 languages.add('swift', 'Swift');
+languages.add('hs', 'Haskell', '.hs, .hsc');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
