@@ -25,6 +25,7 @@ languages.add('scala', 'Scala');
 languages.add('go', 'Go');
 languages.add('sql', 'SQL');
 languages.add('rs', 'Rust');
+languages.add('lisp', 'Lisp', '.lsp, .lisp');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {

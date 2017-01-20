@@ -14,3 +14,4 @@
 ./extract_words.js scala &
 ./extract_words.js sql &
 ./extract_words.js rs &
+./extract_words.js 'lisp,lsp' &
