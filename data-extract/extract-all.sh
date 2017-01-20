@@ -15,3 +15,7 @@
 ./extract_words.js sql &
 ./extract_words.js rs &
 ./extract_words.js 'lisp,lsp' &
+./extract_words.js 'clj,cljs' &
+./extract_words.js 'kt,ktm,kts' &
+./extract_words.js 'cmake,cmake.in' &
+./extract_words.js 'swift' &

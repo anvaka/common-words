@@ -1,0 +1,8793 @@
+[
+  {
+    "fontSize": 80,
+    "fontFamily": "Abel, sans-serif",
+    "x": 483,
+    "y": 824,
+    "dx": 0,
+    "text": "set"
+  },
+  {
+    "fontSize": 78,
+    "fontFamily": "Abel, sans-serif",
+    "x": 669,
+    "y": 1056,
+    "dx": 0,
+    "text": "endif"
+  },
+  {
+    "fontSize": 76,
+    "fontFamily": "Abel, sans-serif",
+    "x": 970,
+    "y": 855,
+    "dx": 0,
+    "text": "the"
+  },
+  {
+    "fontSize": 74,
+    "fontFamily": "Abel, sans-serif",
+    "x": 621,
+    "y": 920,
+    "dx": 0,
+    "text": "if"
+  },
+  {
+    "fontSize": 70,
+    "fontFamily": "Abel, sans-serif",
+    "x": 823,
+    "y": 750,
+    "dx": 0,
+    "text": "to"
+  },
+  {
+    "fontSize": 69,
+    "fontFamily": "Abel, sans-serif",
+    "x": 931,
+    "y": 935,
+    "dx": 0,
+    "text": "SET"
+  },
+  {
+    "fontSize": 69,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1055,
+    "y": 1041,
+    "dx": 0,
+    "text": "NOT"
+  },
+  {
+    "fontSize": 67,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 1201,
+    "dx": 0,
+    "text": "cmake"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 704,
+    "y": 1146,
+    "dx": 0,
+    "text": "for"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 965,
+    "y": 1141,
+    "dx": 0,
+    "text": "of"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 645,
+    "y": 545,
+    "dx": 0,
+    "text": "ENDIF"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 902,
+    "y": 698,
+    "dx": 0,
+    "text": "include"
+  },
+  {
+    "fontSize": 65,
+    "fontFamily": "Abel, sans-serif",
+    "x": 326,
+    "y": 1258,
+    "dx": 0,
+    "text": "IF"
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 824,
+    "y": 1111,
+    "dx": 0,
+    "text": "CMAKE_INSTALL_COMPONENT",
+    "rotate": false
+  },
+  {
+    "fontSize": 65,
+    "fontFamily": "Abel, sans-serif",
+    "x": 315,
+    "y": 1156,
+    "dx": 0,
+    "text": "else"
+  },
+  {
+    "fontSize": 65,
+    "fontFamily": "Abel, sans-serif",
+    "x": 511,
+    "y": 992,
+    "dx": 0,
+    "text": "file"
+  },
+  {
+    "fontSize": 65,
+    "fontFamily": "Abel, sans-serif",
+    "x": 260,
+    "y": 1193,
+    "dx": 0,
+    "text": "is"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 383,
+    "y": 1084,
+    "dx": 0,
+    "text": "usr"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 710,
+    "y": 820,
+    "dx": 0,
+    "text": "list"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 624,
+    "dx": 0,
+    "text": "and"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 195,
+    "y": 1322,
+    "dx": 0,
+    "text": "message"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 1190,
+    "dx": 0,
+    "text": "a"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1089,
+    "y": 1151,
+    "dx": 0,
+    "text": "The"
+  },
+  {
+    "fontSize": 49,
+    "fontFamily": "Abel, sans-serif",
+    "x": 453,
+    "y": 1368,
+    "dx": 0,
+    "text": "STREQUAL",
+    "rotate": false
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 555,
+    "y": 1275,
+    "dx": 0,
+    "text": "this"
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 581,
+    "y": 728,
+    "dx": 0,
+    "text": "cmakedefine",
+    "rotate": false
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1106,
+    "y": 1261,
+    "dx": 0,
+    "text": "lib"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 1252,
+    "dx": 0,
+    "text": "be"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 449,
+    "y": 1278,
+    "dx": 0,
+    "text": "h"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 781,
+    "y": 1161,
+    "dx": 0,
+    "text": "in"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 906,
+    "y": 1254,
+    "dx": 0,
+    "text": "files"
+  },
+  {
+    "fontSize": 56,
+    "fontFamily": "Abel, sans-serif",
+    "x": 762,
+    "y": 1380,
+    "dx": 0,
+    "text": "REPLACE",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 462,
+    "y": 1156,
+    "dx": -190,
+    "text": "APPEND",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 478,
+    "y": 1354,
+    "dx": 0,
+    "text": "CMAKE_INSTALL_PREFIX",
+    "rotate": false
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 989,
+    "y": 1359,
+    "dx": 0,
+    "text": "STATUS"
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1170,
+    "y": 1160,
+    "dx": -189,
+    "text": "CMakeFiles",
+    "rotate": true
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 804,
+    "y": 453,
+    "dx": 0,
+    "text": "Set"
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 886,
+    "y": 388,
+    "dx": -188,
+    "text": "COMPONENT",
+    "rotate": true
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1070,
+    "y": 813,
+    "dx": 0,
+    "text": "This"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1211,
+    "y": 1198,
+    "dx": 0,
+    "text": "library"
+  },
+  {
+    "fontSize": 57,
+    "fontFamily": "Abel, sans-serif",
+    "x": 817,
+    "y": 1157,
+    "dx": -194,
+    "text": "DEFINED",
+    "rotate": true
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 795,
+    "y": 600,
+    "dx": 0,
+    "text": "local"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1247,
+    "y": 1262,
+    "dx": 0,
+    "text": "ELSE"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1058,
+    "y": 959,
+    "dx": 0,
+    "text": "name"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 747,
+    "y": 254,
+    "dx": 0,
+    "text": "not"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1189,
+    "y": 950,
+    "dx": 0,
+    "text": "are"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1225,
+    "y": 1355,
+    "dx": 0,
+    "text": "opt"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 879,
+    "y": 795,
+    "dx": 0,
+    "text": "or"
+  },
+  {
+    "fontSize": 57,
+    "fontFamily": "Abel, sans-serif",
+    "x": 681,
+    "y": 1336,
+    "dx": 0,
+    "text": "CACHE",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 420,
+    "y": 1050,
+    "dx": 0,
+    "text": "share",
+    "rotate": false
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 301,
+    "y": 1047,
+    "dx": 0,
+    "text": "string",
+    "rotate": false
+  },
+  {
+    "fontSize": 51,
+    "fontFamily": "Abel, sans-serif",
+    "x": 125,
+    "y": 1379,
+    "dx": 0,
+    "text": "target",
+    "rotate": false
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 783,
+    "y": 310,
+    "dx": 0,
+    "text": "that"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 737,
+    "y": 898,
+    "dx": 0,
+    "text": "with"
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 938,
+    "y": 424,
+    "dx": -125,
+    "text": "MATCHES",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 845,
+    "y": 1356,
+    "dx": 0,
+    "text": "CMAKE_INSTALL_CONFIG_NAME",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1196,
+    "y": 1122,
+    "dx": 0,
+    "text": "endforeach",
+    "rotate": false
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 411,
+    "y": 971,
+    "dx": 0,
+    "text": "will"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 641,
+    "y": 772,
+    "dx": 0,
+    "text": "OR"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 253,
+    "y": 1381,
+    "dx": 0,
+    "text": "from"
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 516,
+    "y": 763,
+    "dx": 0,
+    "text": "CMake",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 450,
+    "y": 789,
+    "dx": 0,
+    "text": "C"
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1235,
+    "y": 1344,
+    "dx": 0,
+    "text": "COMMAND",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 790,
+    "y": 176,
+    "dx": 0,
+    "text": "you"
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 313,
+    "y": 1019,
+    "dx": 0,
+    "text": "STRING",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 391,
+    "y": 893,
+    "dx": 0,
+    "text": "CXX"
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 826,
+    "y": 1060,
+    "dx": 0,
+    "text": "TARGET",
+    "rotate": false
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 501,
+    "dx": 0,
+    "text": "TRUE",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 237,
+    "y": 1159,
+    "dx": -186,
+    "text": "CHECK_FUNCTION_EXISTS",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1070,
+    "y": 1345,
+    "dx": 0,
+    "text": "DESTINATION",
+    "rotate": false
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 547,
+    "y": 1078,
+    "dx": 0,
+    "text": "UNIX",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 358,
+    "y": 1154,
+    "dx": 0,
+    "text": "Unspecified",
+    "rotate": false
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 551,
+    "y": 1052,
+    "dx": 0,
+    "text": "WIN32",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 667,
+    "y": 977,
+    "dx": 0,
+    "text": "YES"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 989,
+    "y": 1082,
+    "dx": 0,
+    "text": "_"
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 809,
+    "y": 675,
+    "dx": -97,
+    "text": "Define",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 662,
+    "y": 874,
+    "dx": 0,
+    "text": "all"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 772,
+    "y": 969,
+    "dx": 0,
+    "text": "an"
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 1057,
+    "dx": 0,
+    "text": "DependInfo",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1218,
+    "y": 1323,
+    "dx": 0,
+    "text": "CMAKE_BINARY_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1386,
+    "y": 1346,
+    "dx": 0,
+    "text": "as"
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1027,
+    "y": 959,
+    "dx": 0,
+    "text": "ENDFOREACH",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 861,
+    "y": 957,
+    "dx": 0,
+    "text": "bin"
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 288,
+    "dx": -98,
+    "text": "build",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 558,
+    "y": 1154,
+    "dx": 0,
+    "text": "by"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 626,
+    "y": 372,
+    "dx": 0,
+    "text": "c"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 652,
+    "y": 418,
+    "dx": 0,
+    "text": "can"
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 498,
+    "y": 675,
+    "dx": -96,
+    "text": "catkin",
+    "rotate": true
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 674,
+    "y": 621,
+    "dx": 0,
+    "text": "clean",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 924,
+    "y": 398,
+    "dx": -163,
+    "text": "CMAKE_C_TARGET_INCLUDE_PATH",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 957,
+    "y": 759,
+    "dx": 0,
+    "text": "A"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 958,
+    "y": 580,
+    "dx": -94,
+    "text": "ENV",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 374,
+    "y": 1415,
+    "dx": 0,
+    "text": "command",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 926,
+    "y": 677,
+    "dx": 0,
+    "text": "compiler",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 959,
+    "dx": 0,
+    "text": "component",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 652,
+    "y": 1132,
+    "dx": 0,
+    "text": "configuration",
+    "rotate": false
+  },
+  {
+    "fontSize": 59,
+    "fontFamily": "Abel, sans-serif",
+    "x": 756,
+    "y": 674,
+    "dx": -98,
+    "text": "core",
+    "rotate": true
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 855,
+    "y": 674,
+    "dx": -96,
+    "text": "debug",
+    "rotate": true
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 796,
+    "y": 1254,
+    "dx": -94,
+    "text": "default",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 771,
+    "dx": -94,
+    "text": "AND",
+    "rotate": true
+  },
+  {
+    "fontSize": 41,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1071,
+    "y": 674,
+    "dx": -96,
+    "text": "define",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 950,
+    "y": 547,
+    "dx": 0,
+    "text": "dependency",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1130,
+    "y": 882,
+    "dx": 0,
+    "text": "dir"
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 664,
+    "y": 481,
+    "dx": 0,
+    "text": "directories",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 766,
+    "y": 389,
+    "dx": -91,
+    "text": "directory",
+    "rotate": true
+  },
+  {
+    "fontSize": 53,
+    "fontFamily": "Abel, sans-serif",
+    "x": 601,
+    "y": 1157,
+    "dx": -97,
+    "text": "each",
+    "rotate": true
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 746,
+    "y": 958,
+    "dx": 0,
+    "text": "einstein",
+    "rotate": false
+  },
+  {
+    "fontSize": 38,
+    "fontFamily": "Abel, sans-serif",
+    "x": 700,
+    "y": 1256,
+    "dx": -94,
+    "text": "EQUAL",
+    "rotate": true
+  },
+  {
+    "fontSize": 44,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 1158,
+    "dx": -93,
+    "text": "elseif",
+    "rotate": true
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 888,
+    "y": 290,
+    "dx": -95,
+    "text": "EXISTS",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 1037,
+    "dx": 0,
+    "text": "endfunction",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 684,
+    "y": 671,
+    "dx": 0,
+    "text": "Ee"
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 578,
+    "y": 1415,
+    "dx": 0,
+    "text": "endmacro",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1349,
+    "y": 1350,
+    "dx": -95,
+    "text": "FALSE",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 547,
+    "y": 1132,
+    "dx": 0,
+    "text": "FATAL_ERROR",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 932,
+    "y": 992,
+    "dx": 0,
+    "text": "find"
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1007,
+    "y": 1324,
+    "dx": 0,
+    "text": "find_package",
+    "rotate": false
+  },
+  {
+    "fontSize": 49,
+    "fontFamily": "Abel, sans-serif",
+    "x": 857,
+    "y": 867,
+    "dx": -92,
+    "text": "flags",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 922,
+    "y": 774,
+    "dx": -89,
+    "text": "following",
+    "rotate": true
+  },
+  {
+    "fontSize": 58,
+    "fontFamily": "Abel, sans-serif",
+    "x": 763,
+    "y": 98,
+    "dx": -96,
+    "text": "FILE",
+    "rotate": true
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 736,
+    "y": 387,
+    "dx": -92,
+    "text": "foreach",
+    "rotate": true
+  },
+  {
+    "fontSize": 44,
+    "fontFamily": "Abel, sans-serif",
+    "x": 894,
+    "y": 580,
+    "dx": -93,
+    "text": "found",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 764,
+    "y": 1253,
+    "dx": -94,
+    "text": "FOREACH",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 593,
+    "y": 486,
+    "dx": -91,
+    "text": "function",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 199,
+    "y": 1256,
+    "dx": -92,
+    "text": "generated",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 249,
+    "y": 1444,
+    "dx": 0,
+    "text": "get_filename_component",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1026,
+    "y": 1142,
+    "dx": 0,
+    "text": "FindPackageHandleStandardArgs",
+    "rotate": false
+  },
+  {
+    "fontSize": 49,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 1007,
+    "dx": 0,
+    "text": "have",
+    "rotate": false
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 936,
+    "y": 581,
+    "dx": -93,
+    "text": "header",
+    "rotate": true
+  },
+  {
+    "fontSize": 46,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1020,
+    "y": 578,
+    "dx": -96,
+    "text": "home",
+    "rotate": true
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 671,
+    "y": 1406,
+    "dx": 0,
+    "text": "HINTS",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1025,
+    "y": 1019,
+    "dx": 0,
+    "text": "implicit",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 834,
+    "y": 870,
+    "dx": -83,
+    "text": "APPLE",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 982,
+    "y": 775,
+    "dx": -93,
+    "text": "INCLUDE",
+    "rotate": true
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1108,
+    "y": 1016,
+    "dx": 0,
+    "text": "install",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 1054,
+    "dx": 0,
+    "text": "int"
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1162,
+    "y": 1061,
+    "dx": -93,
+    "text": "INTERNAL",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1225,
+    "y": 1146,
+    "dx": 0,
+    "text": "it"
+  },
+  {
+    "fontSize": 46,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1188,
+    "y": 1066,
+    "dx": 0,
+    "text": "lang",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1375,
+    "y": 1257,
+    "dx": -92,
+    "text": "language",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 1095,
+    "dx": 0,
+    "text": "If"
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1188,
+    "y": 878,
+    "dx": -80,
+    "text": "libraries",
+    "rotate": true
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1192,
+    "y": 1021,
+    "dx": 0,
+    "text": "Install",
+    "rotate": false
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 358,
+    "y": 1218,
+    "dx": 0,
+    "text": "ARGN",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1127,
+    "y": 1419,
+    "dx": 0,
+    "text": "MESSAGE",
+    "rotate": false
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1040,
+    "y": 1409,
+    "dx": 0,
+    "text": "macro",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1291,
+    "y": 1414,
+    "dx": 0,
+    "text": "MSVC",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 342,
+    "y": 1249,
+    "dx": 0,
+    "text": "module",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 386,
+    "y": 1280,
+    "dx": 0,
+    "text": "n"
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 831,
+    "y": 411,
+    "dx": -70,
+    "text": "Modules",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 771,
+    "y": 1036,
+    "dx": 0,
+    "text": "needed",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 589,
+    "y": 1023,
+    "dx": 0,
+    "text": "NAMES",
+    "rotate": false
+  },
+  {
+    "fontSize": 52,
+    "fontFamily": "Abel, sans-serif",
+    "x": 532,
+    "y": 956,
+    "dx": 0,
+    "text": "NO",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 826,
+    "y": 264,
+    "dx": 0,
+    "text": "on"
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 493,
+    "y": 1109,
+    "dx": 0,
+    "text": "only",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 375,
+    "y": 1447,
+    "dx": 0,
+    "text": "openairinterface5g",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1364,
+    "y": 1443,
+    "dx": 0,
+    "text": "BUILD_TYPE",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 411,
+    "y": 1348,
+    "dx": 0,
+    "text": "option",
+    "rotate": false
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 526,
+    "y": 814,
+    "dx": 0,
+    "text": "OFF",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 778,
+    "y": 890,
+    "dx": 0,
+    "text": "output",
+    "rotate": false
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 340,
+    "y": 959,
+    "dx": 0,
+    "text": "path",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 480,
+    "y": 1413,
+    "dx": 0,
+    "text": "paths",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 306,
+    "y": 1219,
+    "dx": 0,
+    "text": "prefix",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 418,
+    "y": 1175,
+    "dx": 0,
+    "text": "return",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1066,
+    "y": 1205,
+    "dx": 0,
+    "text": "ros",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 289,
+    "y": 1318,
+    "dx": 0,
+    "text": "rules",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 142,
+    "y": 1322,
+    "dx": 0,
+    "text": "s"
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 868,
+    "y": 1443,
+    "dx": 0,
+    "text": "scanning",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 594,
+    "y": 1443,
+    "dx": 0,
+    "text": "search",
+    "rotate": false
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 716,
+    "y": 762,
+    "dx": 0,
+    "text": "ON",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 780,
+    "y": 372,
+    "dx": 0,
+    "text": "CMAKE_INSTALL_SO_NO_EXE",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 514,
+    "y": 1442,
+    "dx": 0,
+    "text": "should",
+    "rotate": false
+  },
+  {
+    "fontSize": 58,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1118,
+    "y": 1193,
+    "dx": 0,
+    "text": "so",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 749,
+    "y": 1435,
+    "dx": 0,
+    "text": "source",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1395,
+    "y": 1396,
+    "dx": 0,
+    "text": "src",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1042,
+    "y": 1443,
+    "dx": 0,
+    "text": "PARENT_SCOPE",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 958,
+    "y": 1442,
+    "dx": 0,
+    "text": "system",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 603,
+    "y": 946,
+    "dx": 0,
+    "text": "t"
+  },
+  {
+    "fontSize": 38,
+    "fontFamily": "Abel, sans-serif",
+    "x": 524,
+    "y": 907,
+    "dx": 0,
+    "text": "tag",
+    "rotate": false
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 578,
+    "y": 912,
+    "dx": 0,
+    "text": "PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 1028,
+    "dx": 0,
+    "text": "test",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1152,
+    "y": 1443,
+    "dx": 0,
+    "text": "PATHS",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 744,
+    "y": 1256,
+    "dx": -89,
+    "text": "PATH_SUFFIXES",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 575,
+    "y": 483,
+    "dx": -92,
+    "text": "PROPERTIES",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1109,
+    "y": 940,
+    "dx": 0,
+    "text": "PROPERTY",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 421,
+    "y": 861,
+    "dx": 0,
+    "text": "txt",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1291,
+    "y": 1440,
+    "dx": 0,
+    "text": "unset",
+    "rotate": false
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 614,
+    "dx": 0,
+    "text": "use",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 919,
+    "y": 911,
+    "dx": 0,
+    "text": "used",
+    "rotate": false
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 624,
+    "y": 860,
+    "dx": 0,
+    "text": "Per",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 881,
+    "y": 1322,
+    "dx": 0,
+    "text": "value",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 679,
+    "y": 1441,
+    "dx": 0,
+    "text": "variable",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 179,
+    "y": 1443,
+    "dx": 0,
+    "text": "variables",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1216,
+    "y": 1442,
+    "dx": 0,
+    "text": "version",
+    "rotate": false
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 629,
+    "y": 674,
+    "dx": 0,
+    "text": "we",
+    "rotate": false
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 544,
+    "y": 720,
+    "dx": 0,
+    "text": "which",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1196,
+    "y": 1057,
+    "dx": 0,
+    "text": "REGEX",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 573,
+    "y": 1252,
+    "dx": 0,
+    "text": "REMOVE_RECURSE",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 486,
+    "y": 1062,
+    "dx": 0,
+    "text": "dependencies",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 759,
+    "y": 1141,
+    "dx": 0,
+    "text": "cmake_policy",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 479,
+    "y": 902,
+    "dx": 0,
+    "text": "IN"
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 479,
+    "y": 679,
+    "dx": -88,
+    "text": "ANDROID_ARCH_NAME",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 736,
+    "y": 818,
+    "dx": 0,
+    "text": "INSTALL",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 302,
+    "y": 1156,
+    "dx": 0,
+    "text": "INSTALL_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 628,
+    "y": 790,
+    "dx": -76,
+    "text": "ANDROID_CXX_FLAGS",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1219,
+    "y": 1429,
+    "dx": 0,
+    "text": "IS_ABSOLUTE",
+    "rotate": false
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 254,
+    "y": 1109,
+    "dx": -48,
+    "text": "ITK",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 689,
+    "y": 675,
+    "dx": 0,
+    "text": "CHECK_INCLUDE_FILES",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 350,
+    "y": 1094,
+    "dx": 0,
+    "text": "Ii"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 255,
+    "y": 1142,
+    "dx": 0,
+    "text": "In"
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 981,
+    "y": 1424,
+    "dx": 0,
+    "text": "Include",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 617,
+    "y": 773,
+    "dx": -67,
+    "text": "CHECK_SYMBOL_EXISTS",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 682,
+    "y": 932,
+    "dx": 0,
+    "text": "Intel",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 583,
+    "y": 566,
+    "dx": 0,
+    "text": "It"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 184,
+    "y": 1288,
+    "dx": 0,
+    "text": "L"
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 589,
+    "y": 1013,
+    "dx": 0,
+    "text": "LATEX_TARGET",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 737,
+    "y": 340,
+    "dx": -46,
+    "text": "LENGTH",
+    "rotate": true
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 694,
+    "dx": 0,
+    "text": "LESS",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 792,
+    "y": 812,
+    "dx": 0,
+    "text": "LIB",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 1205,
+    "dx": 0,
+    "text": "LIBRARIES",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 658,
+    "y": 1313,
+    "dx": 0,
+    "text": "LIST",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 699,
+    "y": 258,
+    "dx": 0,
+    "text": "LLVM",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1118,
+    "y": 726,
+    "dx": -45,
+    "text": "LaTeX",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 689,
+    "y": 962,
+    "dx": 0,
+    "text": "Library",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 339,
+    "dx": -46,
+    "text": "Linux",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 891,
+    "y": 1144,
+    "dx": 0,
+    "text": "Ll"
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 1175,
+    "dx": 0,
+    "text": "Look",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 940,
+    "y": 1375,
+    "dx": 0,
+    "text": "MACRO",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1089,
+    "y": 881,
+    "dx": -59,
+    "text": "MARK_AS_ADVANCED",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 406,
+    "y": 1254,
+    "dx": -45,
+    "text": "MATCH",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 711,
+    "y": 246,
+    "dx": 0,
+    "text": "CMAKE",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 920,
+    "y": 884,
+    "dx": 0,
+    "text": "CMAKE_",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 789,
+    "y": 774,
+    "dx": -44,
+    "text": "MINGW",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 633,
+    "y": 771,
+    "dx": 0,
+    "text": "MODULE",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 938,
+    "y": 1314,
+    "dx": 0,
+    "text": "MPI",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 582,
+    "y": 837,
+    "dx": 0,
+    "text": "MPI_",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 868,
+    "y": 1349,
+    "dx": 0,
+    "text": "CMAKE_ABSOLUTE_DESTINATION_FILES",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 493,
+    "y": 700,
+    "dx": -64,
+    "text": "MY_CHECK_TYPE_SIZE",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 823,
+    "y": 244,
+    "dx": -46,
+    "text": "Mac",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1119,
+    "y": 1249,
+    "dx": 0,
+    "text": "Make",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 753,
+    "y": 341,
+    "dx": -45,
+    "text": "Makefile",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 599,
+    "y": 1045,
+    "dx": 0,
+    "text": "Makefiles",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 515,
+    "y": 1256,
+    "dx": 0,
+    "text": "MinGW",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1031,
+    "y": 1157,
+    "dx": 0,
+    "text": "CMAKE_ASM_TARGET_INCLUDE_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 1374,
+    "dx": 0,
+    "text": "MySQL",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 366,
+    "y": 919,
+    "dx": -44,
+    "text": "NAME",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 860,
+    "y": 394,
+    "dx": -68,
+    "text": "ANDROID_LINKER_FLAGS",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 843,
+    "y": 1141,
+    "dx": 0,
+    "text": "NAME_WE",
+    "rotate": false
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 853,
+    "y": 530,
+    "dx": -47,
+    "text": "NAS",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 678,
+    "y": 390,
+    "dx": -44,
+    "text": "NDK",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1119,
+    "y": 775,
+    "dx": -44,
+    "text": "NEVER",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 782,
+    "y": 664,
+    "dx": 0,
+    "text": "CMAKE_BUILD_TYPE",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 308,
+    "y": 1397,
+    "dx": 0,
+    "text": "CMAKE_COMMAND",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 527,
+    "y": 804,
+    "dx": 0,
+    "text": "NOTFOUND",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 579,
+    "y": 906,
+    "dx": 0,
+    "text": "NO_DEFAULT_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 48,
+    "fontFamily": "Abel, sans-serif",
+    "x": 877,
+    "y": 770,
+    "dx": -49,
+    "text": "Nn",
+    "rotate": true
+  },
+  {
+    "fontSize": 48,
+    "fontFamily": "Abel, sans-serif",
+    "x": 720,
+    "y": 193,
+    "dx": -49,
+    "text": "No",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 421,
+    "y": 821,
+    "dx": -46,
+    "text": "Note",
+    "rotate": true
+  },
+  {
+    "fontSize": 45,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1051,
+    "y": 773,
+    "dx": -47,
+    "text": "OF",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 774,
+    "y": 693,
+    "dx": -73,
+    "text": "CMAKE_COMPILER_IS_CYGWIN",
+    "rotate": true
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1073,
+    "y": 1255,
+    "dx": -45,
+    "text": "OGRE",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 817,
+    "y": 583,
+    "dx": -43,
+    "text": "OGRE_",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 544,
+    "y": 1351,
+    "dx": 0,
+    "text": "CMAKE_COMPILER_IS_GNUCXX",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 942,
+    "y": 1159,
+    "dx": -44,
+    "text": "ONLY",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 724,
+    "y": 628,
+    "dx": 0,
+    "text": "OPTIONAL",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 993,
+    "y": 707,
+    "dx": 0,
+    "text": "OPTIONS",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 799,
+    "y": 196,
+    "dx": 0,
+    "text": "CMAKE_COMPILER_IS_MINGW",
+    "rotate": false
+  },
+  {
+    "fontSize": 45,
+    "fontFamily": "Abel, sans-serif",
+    "x": 849,
+    "y": 579,
+    "dx": -48,
+    "text": "OS",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 529,
+    "y": 630,
+    "dx": -45,
+    "text": "OSX",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 463,
+    "y": 724,
+    "dx": -45,
+    "text": "OUTPUT",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 850,
+    "y": 680,
+    "dx": -77,
+    "text": "OUTPUT_STRIP_TRAILING_WHITESPACE",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 897,
+    "y": 1098,
+    "dx": 0,
+    "text": "OUTPUT_VARIABLE",
+    "rotate": false
+  },
+  {
+    "fontSize": 48,
+    "fontFamily": "Abel, sans-serif",
+    "x": 802,
+    "y": 532,
+    "dx": -48,
+    "text": "On",
+    "rotate": true
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1399,
+    "y": 1344,
+    "dx": 0,
+    "text": "Once",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 996,
+    "y": 485,
+    "dx": -44,
+    "text": "OpenCV",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1448,
+    "y": 1399,
+    "dx": -43,
+    "text": "OpenGL",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1266,
+    "y": 1045,
+    "dx": 0,
+    "text": "P"
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 1097,
+    "dx": 0,
+    "text": "PACKAGE_NAME",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 1060,
+    "dx": 0,
+    "text": "CMAKE_CONFIGURATION_TYPES",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 187,
+    "y": 1387,
+    "dx": 0,
+    "text": "CMAKE_CROSSCOMPILING",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 862,
+    "y": 1062,
+    "dx": 0,
+    "text": "CMAKE_CURRENT_BINARY_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 128,
+    "y": 1386,
+    "dx": 0,
+    "text": "CMAKE_CURRENT_LIST_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 883,
+    "y": 243,
+    "dx": -45,
+    "text": "PLUGIN",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 630,
+    "y": 611,
+    "dx": 0,
+    "text": "POST_BUILD",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 724,
+    "y": 609,
+    "dx": 0,
+    "text": "PREFIX",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 302,
+    "y": 1111,
+    "dx": -44,
+    "text": "PROJECT_NAME",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 946,
+    "y": 676,
+    "dx": 0,
+    "text": "CMAKE_CURRENT_LIST_FILE",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 856,
+    "y": 967,
+    "dx": 0,
+    "text": "CMAKE_CURRENT_LIST_LINE",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 795,
+    "y": 869,
+    "dx": 0,
+    "text": "PYTHON_EXECUTABLE",
+    "rotate": false
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1281,
+    "y": 1159,
+    "dx": -45,
+    "text": "Path",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 786,
+    "y": 1060,
+    "dx": 0,
+    "text": "CMAKE_CURRENT_SOURCE_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 922,
+    "y": 870,
+    "dx": 0,
+    "text": "PkgConfig",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 794,
+    "y": 850,
+    "dx": 0,
+    "text": "Platform",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 854,
+    "dx": 0,
+    "text": "Preprocessor",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 652,
+    "y": 389,
+    "dx": -45,
+    "text": "Program",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 763,
+    "y": 772,
+    "dx": -45,
+    "text": "Python",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 524,
+    "y": 1208,
+    "dx": -45,
+    "text": "QT_",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 766,
+    "y": 487,
+    "dx": -43,
+    "text": "QUIET",
+    "rotate": true
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 537,
+    "y": 575,
+    "dx": 0,
+    "text": "Qt",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 812,
+    "y": 387,
+    "dx": -45,
+    "text": "QtCore",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 742,
+    "y": 147,
+    "dx": -45,
+    "text": "READ",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 891,
+    "y": 1109,
+    "dx": 0,
+    "text": "CMAKE_CXX_COMPILER",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1122,
+    "y": 1323,
+    "dx": 0,
+    "text": "RELEASE",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 1146,
+    "dx": 0,
+    "text": "REMOVE_DUPLICATES",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1014,
+    "y": 1280,
+    "dx": 0,
+    "text": "REMOVE_ITEM",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 583,
+    "y": 1341,
+    "dx": 0,
+    "text": "CMAKE_CXX_COMPILER_ID",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 529,
+    "y": 905,
+    "dx": 0,
+    "text": "CMAKE_CXX_FLAGS",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 678,
+    "y": 612,
+    "dx": 0,
+    "text": "REQUIRED",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 638,
+    "y": 435,
+    "dx": 0,
+    "text": "RESULT_VARIABLE",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 535,
+    "y": 955,
+    "dx": 0,
+    "text": "ROOT_BUILD_OPTION",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 255,
+    "y": 1302,
+    "dx": -45,
+    "text": "RPATH",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 464,
+    "y": 1255,
+    "dx": -43,
+    "text": "Redistribution",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1169,
+    "y": 1397,
+    "dx": 0,
+    "text": "RelWithDebInfo",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 771,
+    "y": 197,
+    "dx": -44,
+    "text": "Relative",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 933,
+    "y": 338,
+    "dx": -46,
+    "text": "Release",
+    "rotate": true
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 699,
+    "y": 1215,
+    "dx": -39,
+    "text": "Rr",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 604,
+    "y": 436,
+    "dx": -43,
+    "text": "SCRIPTS",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1047,
+    "y": 676,
+    "dx": -43,
+    "text": "SDK",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 628,
+    "y": 485,
+    "dx": -44,
+    "text": "SDL",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 627,
+    "dx": -44,
+    "text": "SDL2",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 629,
+    "y": 1350,
+    "dx": 0,
+    "text": "SDL2_LIBRARY_TEMP",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1133,
+    "y": 1053,
+    "dx": 0,
+    "text": "CMAKE_CXX_FLAGS_DEBUG",
+    "rotate": false
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1212,
+    "y": 919,
+    "dx": -44,
+    "text": "SFML",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 951,
+    "y": 821,
+    "dx": -43,
+    "text": "SFML_",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 974,
+    "y": 483,
+    "dx": -44,
+    "text": "SHARED",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 314,
+    "y": 1011,
+    "dx": 0,
+    "text": "SOURCE",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 1237,
+    "dx": 0,
+    "text": "SOURCES",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1100,
+    "y": 772,
+    "dx": -45,
+    "text": "STATIC",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 110,
+    "y": 1448,
+    "dx": 0,
+    "text": "CMAKE_CXX_INCLUDE_REGEX_COMPLAIN",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 242,
+    "y": 1388,
+    "dx": 0,
+    "text": "CMAKE_CXX_INCLUDE_REGEX_SCAN",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1097,
+    "y": 823,
+    "dx": 0,
+    "text": "CMAKE_CXX_TARGET_INCLUDE_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 692,
+    "y": 1207,
+    "dx": -44,
+    "text": "STRINGS",
+    "rotate": true
+  },
+  {
+    "fontSize": 31,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1013,
+    "y": 1061,
+    "dx": -45,
+    "text": "See",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 919,
+    "y": 905,
+    "dx": 0,
+    "text": "CMAKE_C_COMPILER",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 631,
+    "y": 532,
+    "dx": -44,
+    "text": "SimplexLP",
+    "rotate": true
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 776,
+    "y": 525,
+    "dx": 0,
+    "text": "Ss",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 216,
+    "y": 1206,
+    "dx": -45,
+    "text": "Studio",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 852,
+    "y": 242,
+    "dx": -44,
+    "text": "System",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 630,
+    "y": 723,
+    "dx": 0,
+    "text": "CMAKE_C_FLAGS",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1009,
+    "y": 1311,
+    "dx": 0,
+    "text": "TARGET_NAME",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1303,
+    "y": 1160,
+    "dx": -43,
+    "text": "THE",
+    "rotate": true
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1353,
+    "y": 1207,
+    "dx": -44,
+    "text": "TODO",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 967,
+    "dx": -43,
+    "text": "TOUPPER",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 1293,
+    "dx": 0,
+    "text": "CMAKE_C_INCLUDE_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1336,
+    "y": 1158,
+    "dx": -43,
+    "text": "TYPE",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 706,
+    "y": 389,
+    "dx": -44,
+    "text": "Targets",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1164,
+    "y": 823,
+    "dx": -43,
+    "text": "Test",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 839,
+    "y": 964,
+    "dx": -44,
+    "text": "Testfile",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1021,
+    "y": 593,
+    "dx": -46,
+    "text": "CMAKE_C_INCLUDE_REGEX_COMPLAIN",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 750,
+    "y": 1165,
+    "dx": 0,
+    "text": "CMAKE_C_INCLUDE_REGEX_SCAN",
+    "rotate": false
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 493,
+    "y": 639,
+    "dx": -33,
+    "text": "To",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 551,
+    "y": 532,
+    "dx": -45,
+    "text": "True",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 757,
+    "y": 1222,
+    "dx": 0,
+    "text": "Try",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 882,
+    "y": 1218,
+    "dx": 0,
+    "text": "ANDROID_NATIVE_API_LEVEL",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 660,
+    "y": 1248,
+    "dx": 0,
+    "text": "URL",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1062,
+    "y": 937,
+    "dx": 0,
+    "text": "UTIL",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1175,
+    "y": 1370,
+    "dx": 0,
+    "text": "Unix",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 890,
+    "y": 1207,
+    "dx": 0,
+    "text": "CMAKE_DEPENDS_CHECK_C",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 527,
+    "dx": 0,
+    "text": "Usage",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 1203,
+    "dx": 0,
+    "text": "Use",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1268,
+    "y": 1105,
+    "dx": 0,
+    "text": "VAR",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 579,
+    "dx": -44,
+    "text": "VARIABLE",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 888,
+    "y": 1256,
+    "dx": -42,
+    "text": "VERBATIM",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 879,
+    "y": 435,
+    "dx": -44,
+    "text": "VERSION",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 228,
+    "y": 1256,
+    "dx": -41,
+    "text": "VERSION_LESS",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 726,
+    "y": 391,
+    "dx": -42,
+    "text": "Version",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1146,
+    "y": 773,
+    "dx": -44,
+    "text": "Visual",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1165,
+    "y": 1253,
+    "dx": -44,
+    "text": "WARNING",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 729,
+    "y": 245,
+    "dx": 0,
+    "text": "CMAKE_DEPENDS_CHECK_CXX",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 987,
+    "y": 1349,
+    "dx": 0,
+    "text": "WORKING_DIRECTORY",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1265,
+    "y": 1015,
+    "dx": -42,
+    "text": "WRITE",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1217,
+    "y": 1299,
+    "dx": 0,
+    "text": "We",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 774,
+    "y": 123,
+    "dx": 0,
+    "text": "When",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 927,
+    "y": 1158,
+    "dx": -42,
+    "text": "Windows",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 459,
+    "y": 1127,
+    "dx": 0,
+    "text": "Wl",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1308,
+    "y": 1398,
+    "dx": -21,
+    "text": "X",
+    "rotate": true
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1017,
+    "y": 863,
+    "dx": 0,
+    "text": "X11",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1031,
+    "y": 1307,
+    "dx": 0,
+    "text": "CMAKE_DEPENDS_LANGUAGES",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1301,
+    "y": 1200,
+    "dx": 0,
+    "text": "You",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 180,
+    "y": 1274,
+    "dx": 0,
+    "text": "Za",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 674,
+    "y": 291,
+    "dx": -64,
+    "text": "CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 543,
+    "y": 1421,
+    "dx": 0,
+    "text": "_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 619,
+    "y": 435,
+    "dx": -39,
+    "text": "_FOUND",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 956,
+    "dx": 0,
+    "text": "_IMPORT_CHECK_TARGETS",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1167,
+    "y": 1304,
+    "dx": -41,
+    "text": "_LIBRARIES",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 980,
+    "y": 438,
+    "dx": -41,
+    "text": "_LIBRARY",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1124,
+    "y": 1157,
+    "dx": 0,
+    "text": "_LIBRARY_DEBUG",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 562,
+    "y": 1158,
+    "dx": 0,
+    "text": "_LIBRARY_RELEASE",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 718,
+    "y": 1395,
+    "dx": 0,
+    "text": "_NAME",
+    "rotate": false
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 420,
+    "y": 1299,
+    "dx": 0,
+    "text": "__",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 1110,
+    "dx": 0,
+    "text": "__availableToolchains",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 1395,
+    "dx": 0,
+    "text": "__cmd",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 861,
+    "y": 515,
+    "dx": 0,
+    "text": "__libstl",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 814,
+    "y": 512,
+    "dx": 0,
+    "text": "__var",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1321,
+    "y": 1375,
+    "dx": 0,
+    "text": "_argn",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 636,
+    "y": 964,
+    "dx": -44,
+    "text": "_boost_COMPILER",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 1395,
+    "dx": 0,
+    "text": "_file",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 825,
+    "y": 166,
+    "dx": 0,
+    "text": "_flags",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 1011,
+    "dx": 0,
+    "text": "_index",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 364,
+    "y": 1399,
+    "dx": 0,
+    "text": "_item",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 800,
+    "y": 391,
+    "dx": -40,
+    "text": "_language",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1197,
+    "y": 962,
+    "dx": 0,
+    "text": "_library",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 947,
+    "y": 1138,
+    "dx": 0,
+    "text": "_msg",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 968,
+    "y": 829,
+    "dx": -32,
+    "text": "_name",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 358,
+    "y": 1014,
+    "dx": 0,
+    "text": "_prefix",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1411,
+    "y": 1306,
+    "dx": -41,
+    "text": "_prefixFile",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 874,
+    "y": 1254,
+    "dx": -40,
+    "text": "_sourceFiles",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 343,
+    "y": 1323,
+    "dx": 0,
+    "text": "_state",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1212,
+    "y": 1168,
+    "dx": -29,
+    "text": "_target",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 827,
+    "y": 1013,
+    "dx": -41,
+    "text": "_targetName",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 1057,
+    "dx": 0,
+    "text": "_var",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 756,
+    "y": 1158,
+    "dx": 0,
+    "text": "CMAKE_EXE_LINKER_FLAGS",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 413,
+    "y": 1302,
+    "dx": 0,
+    "text": "about",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 872,
+    "y": 251,
+    "dx": -33,
+    "text": "absolute",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 672,
+    "y": 391,
+    "dx": -38,
+    "text": "accompanying",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 375,
+    "y": 1277,
+    "dx": 0,
+    "text": "add",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1067,
+    "y": 1049,
+    "dx": 0,
+    "text": "add_custom_command",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 478,
+    "y": 1349,
+    "dx": 0,
+    "text": "add_custom_target",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 581,
+    "dx": -42,
+    "text": "add_definitions",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1016,
+    "y": 1159,
+    "dx": -43,
+    "text": "add_dependencies",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 792,
+    "y": 1313,
+    "dx": -34,
+    "text": "add_library",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 475,
+    "y": 1037,
+    "dx": 0,
+    "text": "added",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 606,
+    "y": 1211,
+    "dx": -38,
+    "text": "additional",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 420,
+    "y": 1380,
+    "dx": 0,
+    "text": "after",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 339,
+    "y": 994,
+    "dx": 0,
+    "text": "again",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 304,
+    "y": 1260,
+    "dx": 0,
+    "text": "against",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1126,
+    "y": 1343,
+    "dx": 0,
+    "text": "CMAKE_EXTRA_INCLUDE_FILES",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 278,
+    "y": 1280,
+    "dx": 0,
+    "text": "already",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 420,
+    "y": 802,
+    "dx": 0,
+    "text": "also",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 715,
+    "y": 898,
+    "dx": 0,
+    "text": "always",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 855,
+    "y": 667,
+    "dx": 0,
+    "text": "CMAKE_FILES_DIRECTORY",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 517,
+    "y": 823,
+    "dx": -40,
+    "text": "CMAKE_FIND_LIBRARY_SUFFIXES",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1215,
+    "y": 1352,
+    "dx": -28,
+    "text": "android",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 847,
+    "dx": 0,
+    "text": "ans",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 396,
+    "y": 963,
+    "dx": 0,
+    "text": "any",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 289,
+    "y": 1294,
+    "dx": 0,
+    "text": "app",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 802,
+    "y": 250,
+    "dx": 0,
+    "text": "append",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 1087,
+    "dx": 0,
+    "text": "apps",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 500,
+    "y": 989,
+    "dx": 0,
+    "text": "arch",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 860,
+    "y": 675,
+    "dx": -43,
+    "text": "architecture",
+    "rotate": true
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 861,
+    "y": 1438,
+    "dx": 0,
+    "text": "CMAKE_FIND_ROOT_PATH_MODE_INCLUDE",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 646,
+    "y": 1370,
+    "dx": 0,
+    "text": "arg",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 775,
+    "y": 245,
+    "dx": 0,
+    "text": "args",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 167,
+    "y": 1305,
+    "dx": -33,
+    "text": "argument",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 288,
+    "y": 1064,
+    "dx": -33,
+    "text": "arguments",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 815,
+    "y": 873,
+    "dx": 0,
+    "text": "arm",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 125,
+    "y": 1433,
+    "dx": 0,
+    "text": "armeabi",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 795,
+    "y": 1440,
+    "dx": 0,
+    "text": "CMAKE_FIND_ROOT_PATH_MODE_LIBRARY",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 749,
+    "y": 718,
+    "dx": 0,
+    "text": "at",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 688,
+    "y": 435,
+    "dx": 0,
+    "text": "automatically",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 827,
+    "y": 1356,
+    "dx": -27,
+    "text": "available",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 603,
+    "y": 725,
+    "dx": 0,
+    "text": "base",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 345,
+    "y": 1334,
+    "dx": 0,
+    "text": "based",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 671,
+    "y": 1355,
+    "dx": -32,
+    "text": "basename",
+    "rotate": true
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 503,
+    "y": 1151,
+    "dx": 0,
+    "text": "CMAKE_FIND_ROOT_PATH_MODE_PROGRAM",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 218,
+    "y": 1431,
+    "dx": 0,
+    "text": "because",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 852,
+    "dx": 0,
+    "text": "been",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 271,
+    "y": 1155,
+    "dx": 0,
+    "text": "before",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 453,
+    "y": 1238,
+    "dx": 0,
+    "text": "being",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 773,
+    "dx": 0,
+    "text": "CMAKE_FORCE_UNIX_PATHS",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 650,
+    "y": 1399,
+    "dx": 0,
+    "text": "binary",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 990,
+    "dx": 0,
+    "text": "bindings",
+    "rotate": false
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 473,
+    "y": 769,
+    "dx": 0,
+    "text": "bit",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1037,
+    "y": 948,
+    "dx": 0,
+    "text": "blank",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 976,
+    "y": 1208,
+    "dx": 0,
+    "text": "boost",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 386,
+    "y": 894,
+    "dx": 0,
+    "text": "both",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 441,
+    "y": 772,
+    "dx": 0,
+    "text": "break",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 532,
+    "y": 1254,
+    "dx": 0,
+    "text": "CMAKE_Fortran_TARGET_INCLUDE_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 277,
+    "y": 1397,
+    "dx": 0,
+    "text": "building",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 581,
+    "y": 878,
+    "dx": 0,
+    "text": "builds",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 1449,
+    "dx": 0,
+    "text": "built",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 537,
+    "y": 749,
+    "dx": -22,
+    "text": "but",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 617,
+    "y": 583,
+    "dx": -40,
+    "text": "CMAKE_GENERATOR",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 623,
+    "y": 493,
+    "dx": -34,
+    "text": "ANDROID_NDK",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 918,
+    "y": 941,
+    "dx": 0,
+    "text": "cache",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 631,
+    "y": 894,
+    "dx": 0,
+    "text": "call",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1071,
+    "y": 1209,
+    "dx": 0,
+    "text": "caller",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 876,
+    "y": 1159,
+    "dx": -41,
+    "text": "ANDROID_NDK_ABI_NAME",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 453,
+    "y": 1227,
+    "dx": 0,
+    "text": "case",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 679,
+    "y": 678,
+    "dx": -43,
+    "text": "CMAKE_INSTALL_DO_STRIP",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 435,
+    "y": 748,
+    "dx": -22,
+    "text": "cc",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 943,
+    "dx": 0,
+    "text": "change",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 976,
+    "y": 537,
+    "dx": 0,
+    "text": "char",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 266,
+    "y": 1265,
+    "dx": 0,
+    "text": "check",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 889,
+    "y": 858,
+    "dx": 0,
+    "text": "check_function_exists",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 276,
+    "y": 1307,
+    "dx": -37,
+    "text": "check_include_file",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 301,
+    "y": 1061,
+    "dx": 0,
+    "text": "checks",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 747,
+    "y": 268,
+    "dx": 0,
+    "text": "clang",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 685,
+    "y": 777,
+    "dx": 0,
+    "text": "class",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 1059,
+    "dx": 0,
+    "text": "classes",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 774,
+    "y": 340,
+    "dx": -36,
+    "text": "CMAKE_INSTALL_LOCAL_ONLY",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 795,
+    "y": 1256,
+    "dx": -43,
+    "text": "CMAKE_INSTALL_MANIFEST",
+    "rotate": true
+  },
+  {
+    "fontSize": 52,
+    "fontFamily": "Abel, sans-serif",
+    "x": 578,
+    "y": 779,
+    "dx": 0,
+    "text": "~",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 530,
+    "y": 580,
+    "dx": -32,
+    "text": "ANDROID_STL",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 883,
+    "y": 1306,
+    "dx": 0,
+    "text": "cmd",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 463,
+    "y": 1118,
+    "dx": 0,
+    "text": "cmeon",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 681,
+    "y": 865,
+    "dx": 0,
+    "text": "cn",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 632,
+    "y": 917,
+    "dx": 0,
+    "text": "code",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 649,
+    "y": 1110,
+    "dx": 0,
+    "text": "com",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 871,
+    "y": 876,
+    "dx": -35,
+    "text": "CMAKE_MATCH_1",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 708,
+    "y": 820,
+    "dx": 0,
+    "text": "commands",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 771,
+    "y": 631,
+    "dx": -30,
+    "text": "common",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 801,
+    "y": 267,
+    "dx": 0,
+    "text": "compatibility",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 801,
+    "y": 1232,
+    "dx": 0,
+    "text": "compilation",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 432,
+    "y": 1397,
+    "dx": 0,
+    "text": "compile",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 734,
+    "y": 918,
+    "dx": 0,
+    "text": "compiled",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 912,
+    "y": 920,
+    "dx": -41,
+    "text": "CMAKE_REQUIRED_FLAGS",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 882,
+    "y": 300,
+    "dx": -35,
+    "text": "CMAKE_REQUIRED_INCLUDES",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 726,
+    "y": 894,
+    "dx": 0,
+    "text": "components",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 387,
+    "y": 874,
+    "dx": 0,
+    "text": "config",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 233,
+    "y": 1303,
+    "dx": -35,
+    "text": "CMAKE_REQUIRED_LIBRARIES",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 678,
+    "y": 845,
+    "dx": 0,
+    "text": "configure",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 291,
+    "y": 1294,
+    "dx": 0,
+    "text": "configure_file",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 524,
+    "y": 1287,
+    "dx": 0,
+    "text": "contain",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 302,
+    "y": 1170,
+    "dx": 0,
+    "text": "contained",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 345,
+    "y": 955,
+    "dx": 0,
+    "text": "contains",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 478,
+    "y": 798,
+    "dx": 0,
+    "text": "conversion",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 650,
+    "y": 1445,
+    "dx": 0,
+    "text": "copied",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 656,
+    "y": 678,
+    "dx": 0,
+    "text": "copy",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 884,
+    "y": 1157,
+    "dx": -29,
+    "text": "CMAKE_SIZEOF_VOID_P",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 477,
+    "y": 1050,
+    "dx": 0,
+    "text": "corresponding",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 795,
+    "dx": 0,
+    "text": "coverage",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 775,
+    "y": 262,
+    "dx": 0,
+    "text": "cpp",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 449,
+    "y": 783,
+    "dx": 0,
+    "text": "create",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1068,
+    "y": 627,
+    "dx": 0,
+    "text": "csw",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 926,
+    "y": 339,
+    "dx": -36,
+    "text": "cuda_execute_process",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 426,
+    "y": 1406,
+    "dx": 0,
+    "text": "current",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1037,
+    "y": 939,
+    "dx": 0,
+    "text": "custom",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 555,
+    "y": 750,
+    "dx": -21,
+    "text": "cxx",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 939,
+    "y": 709,
+    "dx": -12,
+    "text": "d",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 626,
+    "y": 579,
+    "dx": 0,
+    "text": "data",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 700,
+    "y": 557,
+    "dx": 0,
+    "text": "CMAKE_SOURCE_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 299,
+    "y": 1183,
+    "dx": -20,
+    "text": "def",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 742,
+    "y": 1257,
+    "dx": -28,
+    "text": "CMAKE_SYSTEM_NAME",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 579,
+    "y": 583,
+    "dx": -35,
+    "text": "CMAKE_SYSTEM_PROCESSOR",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 725,
+    "y": 436,
+    "dx": 0,
+    "text": "defined",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 832,
+    "y": 328,
+    "dx": 0,
+    "text": "defines",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 544,
+    "y": 1339,
+    "dx": 0,
+    "text": "definitions",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 644,
+    "y": 362,
+    "dx": -21,
+    "text": "demos",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1102,
+    "y": 890,
+    "dx": 0,
+    "text": "dep",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 378,
+    "y": 1326,
+    "dx": -20,
+    "text": "depend",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 696,
+    "y": 1165,
+    "dx": -35,
+    "text": "CMAKE_TARGET_DEFINITIONS",
+    "rotate": true
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 425,
+    "y": 869,
+    "dx": 0,
+    "text": "CMAKE_TARGET_LINKED_INFO_FILES",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 962,
+    "y": 1410,
+    "dx": 0,
+    "text": "depends",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 1351,
+    "dx": 0,
+    "text": "deprecated",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 1387,
+    "dx": 0,
+    "text": "description",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 747,
+    "y": 702,
+    "dx": 0,
+    "text": "details",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 560,
+    "y": 1014,
+    "dx": 0,
+    "text": "different",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 971,
+    "y": 870,
+    "dx": 0,
+    "text": "CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 478,
+    "y": 1443,
+    "dx": 0,
+    "text": "API",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1297,
+    "y": 1072,
+    "dx": -26,
+    "text": "CMakeCCompiler",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 503,
+    "y": 804,
+    "dx": 0,
+    "text": "dirs",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1017,
+    "y": 679,
+    "dx": 0,
+    "text": "disable",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 1254,
+    "dx": 0,
+    "text": "distribute",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 452,
+    "y": 1221,
+    "dx": 0,
+    "text": "distribution",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 600,
+    "y": 869,
+    "dx": -21,
+    "text": "dll",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 957,
+    "y": 1423,
+    "dx": -20,
+    "text": "do",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 371,
+    "y": 1303,
+    "dx": -20,
+    "text": "doc",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 1409,
+    "dx": -29,
+    "text": "documentation",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1170,
+    "y": 1159,
+    "dx": 0,
+    "text": "does",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 584,
+    "y": 829,
+    "dx": 0,
+    "text": "doesn",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 479,
+    "y": 821,
+    "dx": -20,
+    "text": "don",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 797,
+    "y": 1162,
+    "dx": 0,
+    "text": "done",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 496,
+    "y": 822,
+    "dx": -21,
+    "text": "dot",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1020,
+    "y": 519,
+    "dx": 0,
+    "text": "doxygen",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 751,
+    "y": 686,
+    "dx": 0,
+    "text": "during",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1090,
+    "y": 639,
+    "dx": 0,
+    "text": "e",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 680,
+    "y": 836,
+    "dx": 0,
+    "text": "CMakeCXXCompiler",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 962,
+    "y": 1399,
+    "dx": 0,
+    "text": "eigen",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1102,
+    "y": 923,
+    "dx": -31,
+    "text": "CMakeDirectoryInformation",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 661,
+    "y": 941,
+    "dx": -20,
+    "text": "ABI",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 575,
+    "y": 1445,
+    "dx": 0,
+    "text": "CMakeLists",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1194,
+    "y": 1409,
+    "dx": 0,
+    "text": "empty",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1336,
+    "y": 1134,
+    "dx": -20,
+    "text": "enable",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 1035,
+    "dx": 0,
+    "text": "enabled",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 918,
+    "y": 1374,
+    "dx": -20,
+    "text": "end",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1372,
+    "y": 1262,
+    "dx": -27,
+    "text": "CMakeParseArguments",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 974,
+    "y": 1221,
+    "dx": 0,
+    "text": "CMakeSystem",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 875,
+    "y": 233,
+    "dx": 0,
+    "text": "ABSOLUTE",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 713,
+    "y": 810,
+    "dx": 0,
+    "text": "COMMENT",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 654,
+    "y": 850,
+    "dx": 0,
+    "text": "entry",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 919,
+    "y": 1060,
+    "dx": 0,
+    "text": "environment",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1098,
+    "y": 1255,
+    "dx": 0,
+    "text": "error",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 872,
+    "y": 411,
+    "dx": -21,
+    "text": "etc",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 751,
+    "y": 713,
+    "dx": 0,
+    "text": "example",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 396,
+    "y": 1388,
+    "dx": 0,
+    "text": "exceptions",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1052,
+    "y": 1162,
+    "dx": 0,
+    "text": "exe",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 801,
+    "y": 449,
+    "dx": 0,
+    "text": "executable",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 725,
+    "y": 1158,
+    "dx": 0,
+    "text": "execute_process",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 938,
+    "dx": 0,
+    "text": "exist",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1192,
+    "y": 867,
+    "dx": 0,
+    "text": "exists",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 1279,
+    "dx": -19,
+    "text": "exit",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 195,
+    "y": 1302,
+    "dx": -20,
+    "text": "export",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 400,
+    "y": 869,
+    "dx": 0,
+    "text": "expressions",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 649,
+    "y": 1134,
+    "dx": 0,
+    "text": "extProjName",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 954,
+    "dx": 0,
+    "text": "extension",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 628,
+    "y": 593,
+    "dx": 0,
+    "text": "external",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1074,
+    "y": 1299,
+    "dx": 0,
+    "text": "extra",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 1022,
+    "dx": 0,
+    "text": "extras",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 189,
+    "y": 1346,
+    "dx": 0,
+    "text": "f",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 757,
+    "y": 893,
+    "dx": -19,
+    "text": "fail",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 993,
+    "y": 939,
+    "dx": 0,
+    "text": "false",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1168,
+    "y": 881,
+    "dx": 0,
+    "text": "COMMON",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 963,
+    "y": 1350,
+    "dx": 0,
+    "text": "filename",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 889,
+    "y": 1303,
+    "dx": 0,
+    "text": "COMPILE_FLAGS",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1146,
+    "y": 1164,
+    "dx": 0,
+    "text": "filter",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 168,
+    "y": 1349,
+    "dx": -19,
+    "text": "ARCH",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1266,
+    "y": 1215,
+    "dx": 0,
+    "text": "find_library",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 632,
+    "y": 932,
+    "dx": 0,
+    "text": "CONFIGURATIONS",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1381,
+    "y": 1255,
+    "dx": -43,
+    "text": "find_package_handle_standard_args",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 628,
+    "y": 605,
+    "dx": 0,
+    "text": "find_path",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 288,
+    "y": 1317,
+    "dx": 0,
+    "text": "find_program",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 732,
+    "y": 314,
+    "dx": -20,
+    "text": "first",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1068,
+    "y": 652,
+    "dx": -19,
+    "text": "flag",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 912,
+    "y": 976,
+    "dx": 0,
+    "text": "COPYING",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1424,
+    "y": 1326,
+    "dx": -20,
+    "text": "fno",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 364,
+    "y": 1423,
+    "dx": -20,
+    "text": "CPack",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 497,
+    "y": 772,
+    "dx": -20,
+    "text": "foo",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 505,
+    "y": 1037,
+    "dx": -19,
+    "text": "CUDA",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 876,
+    "y": 1231,
+    "dx": -20,
+    "text": "force",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 701,
+    "y": 845,
+    "dx": -19,
+    "text": "ARGC",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 889,
+    "y": 1375,
+    "dx": 0,
+    "text": "format",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 829,
+    "dx": 0,
+    "text": "forms",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 501,
+    "y": 904,
+    "dx": 0,
+    "text": "CYGWIN",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 526,
+    "y": 1316,
+    "dx": 0,
+    "text": "framework",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 707,
+    "y": 226,
+    "dx": 0,
+    "text": "Cellar",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 669,
+    "y": 967,
+    "dx": -19,
+    "text": "full",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 835,
+    "y": 663,
+    "dx": 0,
+    "text": "Check",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 788,
+    "y": 83,
+    "dx": 0,
+    "text": "functions",
+    "rotate": false
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 1292,
+    "dx": 0,
+    "text": "g",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1301,
+    "y": 1085,
+    "dx": -20,
+    "text": "gcc",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 591,
+    "y": 1280,
+    "dx": 0,
+    "text": "general",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 814,
+    "y": 437,
+    "dx": 0,
+    "text": "generate",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 527,
+    "y": 1183,
+    "dx": -19,
+    "text": "Clang",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 955,
+    "dx": 0,
+    "text": "generated_file",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 370,
+    "y": 993,
+    "dx": 0,
+    "text": "generating",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 278,
+    "y": 1100,
+    "dx": 0,
+    "text": "generator",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1211,
+    "y": 1278,
+    "dx": -21,
+    "text": "get",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 834,
+    "y": 394,
+    "dx": 0,
+    "text": "Compiler",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 604,
+    "y": 690,
+    "dx": 0,
+    "text": "get_property",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 696,
+    "y": 283,
+    "dx": 0,
+    "text": "get_target_property",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 873,
+    "dx": 0,
+    "text": "getting",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1015,
+    "y": 1441,
+    "dx": 0,
+    "text": "git",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 789,
+    "y": 1239,
+    "dx": 0,
+    "text": "given",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1035,
+    "y": 1360,
+    "dx": 0,
+    "text": "graphics",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 745,
+    "y": 1038,
+    "dx": 0,
+    "text": "groovy",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 539,
+    "y": 702,
+    "dx": -19,
+    "text": "gtest",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 491,
+    "y": 1015,
+    "dx": -19,
+    "text": "Could",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1268,
+    "y": 1204,
+    "dx": 0,
+    "text": "handle",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 714,
+    "y": 918,
+    "dx": -20,
+    "text": "has",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 303,
+    "y": 1208,
+    "dx": -19,
+    "text": "hash",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 704,
+    "y": 1257,
+    "dx": 0,
+    "text": "Create",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1259,
+    "y": 1177,
+    "dx": 0,
+    "text": "D",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 591,
+    "y": 1171,
+    "dx": 0,
+    "text": "headers",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 562,
+    "y": 629,
+    "dx": -19,
+    "text": "help",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1170,
+    "y": 866,
+    "dx": 0,
+    "text": "here",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 443,
+    "y": 1280,
+    "dx": -19,
+    "text": "DEBUG",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1238,
+    "y": 943,
+    "dx": -19,
+    "text": "host",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 942,
+    "y": 389,
+    "dx": -20,
+    "text": "hpp",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 545,
+    "y": 1159,
+    "dx": -20,
+    "text": "html",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 791,
+    "y": 509,
+    "dx": -20,
+    "text": "http",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 847,
+    "y": 957,
+    "dx": 0,
+    "text": "hunter_add_version",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 341,
+    "y": 965,
+    "dx": 0,
+    "text": "hunter_config",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1305,
+    "y": 1111,
+    "dx": -19,
+    "text": "hydro",
+    "rotate": true
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1138,
+    "y": 778,
+    "dx": 0,
+    "text": "i",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1473,
+    "y": 1423,
+    "dx": -19,
+    "text": "idir",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 388,
+    "y": 1159,
+    "dx": 0,
+    "text": "DEFAULT_MSG",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1176,
+    "y": 965,
+    "dx": -19,
+    "text": "ifdef",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 1013,
+    "dx": 0,
+    "text": "ifndef",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 976,
+    "y": 445,
+    "dx": -30,
+    "text": "ADD_CUSTOM_COMMAND",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 548,
+    "y": 1284,
+    "dx": 0,
+    "text": "imported",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 737,
+    "y": 810,
+    "dx": 0,
+    "text": "DEPENDS",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1448,
+    "y": 1373,
+    "dx": -21,
+    "text": "inc",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 994,
+    "y": 461,
+    "dx": -19,
+    "text": "ARGS",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 430,
+    "y": 1149,
+    "dx": 0,
+    "text": "include_directories",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 1349,
+    "dx": 0,
+    "text": "included",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 568,
+    "y": 1231,
+    "dx": 0,
+    "text": "includes",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 270,
+    "y": 1292,
+    "dx": 0,
+    "text": "including",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 910,
+    "y": 964,
+    "dx": 0,
+    "text": "index",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 369,
+    "y": 1000,
+    "dx": 0,
+    "text": "indigo",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1117,
+    "y": 702,
+    "dx": -19,
+    "text": "infile",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 655,
+    "y": 534,
+    "dx": -20,
+    "text": "info",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 766,
+    "y": 836,
+    "dx": 0,
+    "text": "information",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1103,
+    "y": 1326,
+    "dx": -20,
+    "text": "input",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 750,
+    "y": 484,
+    "dx": 0,
+    "text": "DIRECTORY",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 844,
+    "y": 1012,
+    "dx": 0,
+    "text": "installation",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 646,
+    "y": 1003,
+    "dx": 0,
+    "text": "installed",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 630,
+    "y": 628,
+    "dx": 0,
+    "text": "instead",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 983,
+    "y": 1326,
+    "dx": -21,
+    "text": "DO",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 657,
+    "y": 732,
+    "dx": 0,
+    "text": "internal",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 525,
+    "y": 1157,
+    "dx": -20,
+    "text": "into",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 757,
+    "y": 123,
+    "dx": -20,
+    "text": "DOC",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 443,
+    "y": 1303,
+    "dx": -19,
+    "text": "Darwin",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 473,
+    "y": 869,
+    "dx": -20,
+    "text": "item",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 930,
+    "y": 1208,
+    "dx": -20,
+    "text": "itk",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 341,
+    "dx": -20,
+    "text": "its",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 946,
+    "y": 410,
+    "dx": 0,
+    "text": "itself",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 795,
+    "y": 580,
+    "dx": -20,
+    "text": "just",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1071,
+    "y": 1308,
+    "dx": 0,
+    "text": "keep",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1336,
+    "y": 1208,
+    "dx": -20,
+    "text": "key",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 210,
+    "y": 1232,
+    "dx": -19,
+    "text": "keyword",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 691,
+    "dx": 0,
+    "text": "keywords",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 593,
+    "y": 726,
+    "dx": -19,
+    "text": "know",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 631,
+    "y": 460,
+    "dx": -19,
+    "text": "Dd",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1108,
+    "y": 1184,
+    "dx": -19,
+    "text": "Debug",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 756,
+    "y": 1065,
+    "dx": 0,
+    "text": "languages",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 538,
+    "y": 676,
+    "dx": -20,
+    "text": "left",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1068,
+    "y": 894,
+    "dx": -20,
+    "text": "level",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1036,
+    "y": 1351,
+    "dx": 0,
+    "text": "Default",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1046,
+    "y": 988,
+    "dx": -20,
+    "text": "lib64",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 105,
+    "y": 1422,
+    "dx": -20,
+    "text": "Add",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 584,
+    "y": 822,
+    "dx": 0,
+    "text": "Android",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1071,
+    "y": 1182,
+    "dx": -21,
+    "text": "libs",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 953,
+    "y": 1207,
+    "dx": -21,
+    "text": "like",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 523,
+    "y": 1327,
+    "dx": -21,
+    "text": "line",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 821,
+    "y": 148,
+    "dx": -19,
+    "text": "link",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 862,
+    "y": 1400,
+    "dx": -19,
+    "text": "linker",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 630,
+    "dx": 0,
+    "text": "linking",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 1167,
+    "dx": 0,
+    "text": "links",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 891,
+    "y": 1383,
+    "dx": 0,
+    "text": "linux",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 1423,
+    "dx": -20,
+    "text": "Doxygen",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1125,
+    "y": 878,
+    "dx": 0,
+    "text": "listed",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 838,
+    "y": 402,
+    "dx": 0,
+    "text": "listname",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1063,
+    "y": 918,
+    "dx": -19,
+    "text": "lists",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 881,
+    "y": 384,
+    "dx": 0,
+    "text": "E",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 673,
+    "y": 532,
+    "dx": -19,
+    "text": "location",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1129,
+    "y": 1446,
+    "dx": -17,
+    "text": "log",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1151,
+    "y": 965,
+    "dx": -19,
+    "text": "long",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1107,
+    "y": 919,
+    "dx": -19,
+    "text": "look",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 559,
+    "y": 702,
+    "dx": -20,
+    "text": "lua",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 486,
+    "y": 676,
+    "dx": -19,
+    "text": "m",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 885,
+    "y": 775,
+    "dx": -19,
+    "text": "EDIT",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1158,
+    "y": 1134,
+    "dx": -20,
+    "text": "macros",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 191,
+    "y": 1255,
+    "dx": -19,
+    "text": "main",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 607,
+    "y": 823,
+    "dx": -19,
+    "text": "make",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1145,
+    "y": 1275,
+    "dx": 0,
+    "text": "man",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1098,
+    "y": 1269,
+    "dx": 0,
+    "text": "manually",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 1150,
+    "dx": 0,
+    "text": "mark_as_advanced",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 920,
+    "y": 707,
+    "dx": 0,
+    "text": "match",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 495,
+    "y": 1400,
+    "dx": -19,
+    "text": "materials",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1170,
+    "y": 1405,
+    "dx": 0,
+    "text": "math",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 654,
+    "y": 845,
+    "dx": 0,
+    "text": "members",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1280,
+    "y": 1263,
+    "dx": 0,
+    "text": "Arduino",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 726,
+    "y": 689,
+    "dx": 0,
+    "text": "missing",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 149,
+    "dx": -19,
+    "text": "mode",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 982,
+    "y": 1159,
+    "dx": 0,
+    "text": "modify",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 910,
+    "y": 1159,
+    "dx": -19,
+    "text": "ELSEIF",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1172,
+    "y": 1171,
+    "dx": 0,
+    "text": "modules",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1387,
+    "y": 1351,
+    "dx": -20,
+    "text": "more",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 812,
+    "y": 1159,
+    "dx": -18,
+    "text": "msg",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1013,
+    "y": 1063,
+    "dx": -19,
+    "text": "multiple",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 744,
+    "y": 1047,
+    "dx": 0,
+    "text": "must",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 731,
+    "y": 294,
+    "dx": -18,
+    "text": "mysql",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 674,
+    "y": 557,
+    "dx": 0,
+    "text": "BLAS_LIBRARIES",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 675,
+    "y": 1061,
+    "dx": 0,
+    "text": "ENDFUNCTION",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 1170,
+    "dx": 0,
+    "text": "names",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 797,
+    "y": 484,
+    "dx": -19,
+    "text": "native",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 611,
+    "y": 1182,
+    "dx": -19,
+    "text": "need",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 371,
+    "y": 1445,
+    "dx": 0,
+    "text": "BLA_VENDOR",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 765,
+    "y": 1208,
+    "dx": -19,
+    "text": "needs",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1260,
+    "y": 1159,
+    "dx": -19,
+    "text": "new",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 707,
+    "y": 775,
+    "dx": -19,
+    "text": "newer",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 625,
+    "y": 1278,
+    "dx": -20,
+    "text": "no",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1246,
+    "y": 1061,
+    "dx": -20,
+    "text": "non",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1017,
+    "y": 698,
+    "dx": 0,
+    "text": "none",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 660,
+    "y": 870,
+    "dx": 0,
+    "text": "ENDMACRO",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1054,
+    "y": 1352,
+    "dx": -19,
+    "text": "now",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1103,
+    "y": 880,
+    "dx": 0,
+    "text": "number",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 405,
+    "y": 824,
+    "dx": -18,
+    "text": "nvcc",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 624,
+    "y": 541,
+    "dx": -31,
+    "text": "nvcc_host_compiler_flags",
+    "rotate": true
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1379,
+    "y": 1217,
+    "dx": 0,
+    "text": "o",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1172,
+    "y": 892,
+    "dx": 0,
+    "text": "obj",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 557,
+    "dx": -20,
+    "text": "object",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1359,
+    "y": 1255,
+    "dx": -19,
+    "text": "BOOL",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1151,
+    "y": 823,
+    "dx": -18,
+    "text": "off",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1207,
+    "y": 1013,
+    "dx": -20,
+    "text": "old",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 554,
+    "y": 917,
+    "dx": 0,
+    "text": "BOOST_ROOT",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1215,
+    "y": 893,
+    "dx": -19,
+    "text": "once",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 611,
+    "y": 411,
+    "dx": -20,
+    "text": "one",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 751,
+    "y": 558,
+    "dx": 0,
+    "text": "ERROR_QUIET",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 182,
+    "dx": 0,
+    "text": "openair",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 882,
+    "dx": 0,
+    "text": "openair2",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 611,
+    "y": 742,
+    "dx": 0,
+    "text": "EXECUTE_PROCESS",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 812,
+    "y": 773,
+    "dx": -19,
+    "text": "opencv",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 726,
+    "y": 195,
+    "dx": -18,
+    "text": "opm",
+    "rotate": true
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 1374,
+    "dx": 0,
+    "text": "BUILD_SHARED_LIBS",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 831,
+    "y": 895,
+    "dx": -19,
+    "text": "optimized",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 778,
+    "y": 604,
+    "dx": -19,
+    "text": "EXPR",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 974,
+    "y": 413,
+    "dx": -19,
+    "text": "optional",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 571,
+    "y": 1265,
+    "dx": 0,
+    "text": "options",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 527,
+    "y": 1203,
+    "dx": 0,
+    "text": "9_",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 322,
+    "y": 990,
+    "dx": -18,
+    "text": "order",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1017,
+    "y": 989,
+    "dx": -20,
+    "text": "org",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1040,
+    "y": 678,
+    "dx": -18,
+    "text": "other",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 705,
+    "y": 871,
+    "dx": -19,
+    "text": "otherwise",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 543,
+    "y": 1182,
+    "dx": -21,
+    "text": "out",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1275,
+    "y": 1160,
+    "dx": -18,
+    "text": "outfile",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1093,
+    "y": 1304,
+    "dx": -18,
+    "text": "Enable",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 796,
+    "y": 1158,
+    "dx": 0,
+    "text": "output_dir",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1149,
+    "y": 878,
+    "dx": 0,
+    "text": "outside",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 224,
+    "y": 1185,
+    "dx": -18,
+    "text": "over",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 653,
+    "y": 966,
+    "dx": -20,
+    "text": "package",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 975,
+    "y": 1038,
+    "dx": -19,
+    "text": "packages",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 618,
+    "y": 1279,
+    "dx": -19,
+    "text": "page",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 573,
+    "y": 1277,
+    "dx": 0,
+    "text": "parameter",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1062,
+    "y": 845,
+    "dx": -19,
+    "text": "part",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 816,
+    "y": 797,
+    "dx": -20,
+    "text": "passed",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 907,
+    "y": 678,
+    "dx": -18,
+    "text": "patch",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 454,
+    "y": 798,
+    "dx": 0,
+    "text": "Example",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 802,
+    "y": 92,
+    "dx": 0,
+    "text": "ExternalProject_Add",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 750,
+    "y": 319,
+    "dx": -17,
+    "text": "pcl",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1128,
+    "y": 892,
+    "dx": 0,
+    "text": "pkg",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 656,
+    "y": 919,
+    "dx": -19,
+    "text": "pkgConfig",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 637,
+    "y": 1340,
+    "dx": 0,
+    "text": "platform",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 659,
+    "y": 1182,
+    "dx": -19,
+    "text": "platforms",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 565,
+    "y": 509,
+    "dx": -19,
+    "text": "plugin",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1193,
+    "y": 844,
+    "dx": -20,
+    "text": "plugins",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 540,
+    "y": 559,
+    "dx": -18,
+    "text": "point",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 821,
+    "y": 1084,
+    "dx": -20,
+    "text": "possible",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 945,
+    "y": 571,
+    "dx": 0,
+    "text": "precompiled",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1212,
+    "y": 1112,
+    "dx": 0,
+    "text": "Bb",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 534,
+    "y": 1424,
+    "dx": -19,
+    "text": "program",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1218,
+    "y": 1261,
+    "dx": 0,
+    "text": "proj",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1079,
+    "y": 678,
+    "dx": -19,
+    "text": "project",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 299,
+    "y": 1039,
+    "dx": -19,
+    "text": "projects",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 765,
+    "y": 1014,
+    "dx": -19,
+    "text": "property",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 321,
+    "y": 1278,
+    "dx": -20,
+    "text": "provided",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1004,
+    "y": 968,
+    "dx": -18,
+    "text": "pthread",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1238,
+    "y": 1277,
+    "dx": -19,
+    "text": "public",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1464,
+    "y": 1446,
+    "dx": 0,
+    "text": "put",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1193,
+    "y": 1108,
+    "dx": 0,
+    "text": "py",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1273,
+    "y": 1425,
+    "dx": -18,
+    "text": "python",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 903,
+    "y": 698,
+    "dx": 0,
+    "text": "qt4",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 268,
+    "dx": -15,
+    "text": "re",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 888,
+    "y": 1231,
+    "dx": -19,
+    "text": "regex",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1048,
+    "y": 1087,
+    "dx": -19,
+    "text": "regular",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1168,
+    "y": 798,
+    "dx": -19,
+    "text": "related",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1008,
+    "y": 580,
+    "dx": 0,
+    "text": "relative",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 568,
+    "y": 1217,
+    "dx": 0,
+    "text": "release",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 502,
+    "y": 748,
+    "dx": -20,
+    "text": "remove",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 640,
+    "y": 847,
+    "dx": -19,
+    "text": "required",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 775,
+    "y": 1182,
+    "dx": -19,
+    "text": "requires",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 653,
+    "y": 507,
+    "dx": -20,
+    "text": "res",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1215,
+    "y": 1398,
+    "dx": -18,
+    "text": "result",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1032,
+    "y": 630,
+    "dx": -19,
+    "text": "results",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1289,
+    "y": 1037,
+    "dx": -18,
+    "text": "Boost",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 794,
+    "y": 602,
+    "dx": 0,
+    "text": "root",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 825,
+    "y": 127,
+    "dx": -17,
+    "text": "Boost_",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 822,
+    "y": 1141,
+    "dx": 0,
+    "text": "rst",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 479,
+    "y": 1317,
+    "dx": 0,
+    "text": "FILEPATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 922,
+    "y": 671,
+    "dx": 0,
+    "text": "run",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1468,
+    "y": 1400,
+    "dx": -18,
+    "text": "runtime",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1304,
+    "y": 1401,
+    "dx": -18,
+    "text": "FILES",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 788,
+    "y": 1110,
+    "dx": -19,
+    "text": "same",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 393,
+    "y": 991,
+    "dx": 0,
+    "text": "FIND",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 814,
+    "y": 579,
+    "dx": 0,
+    "text": "script",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1239,
+    "y": 1267,
+    "dx": 0,
+    "text": "scripts",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 702,
+    "y": 732,
+    "dx": 0,
+    "text": "sdk",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 550,
+    "y": 1280,
+    "dx": 0,
+    "text": "FIND_LIBRARY",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 673,
+    "y": 1395,
+    "dx": 0,
+    "text": "see",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1259,
+    "y": 1261,
+    "dx": 0,
+    "text": "self",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 654,
+    "y": 677,
+    "dx": 0,
+    "text": "FIND_PACKAGE",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 685,
+    "y": 772,
+    "dx": 0,
+    "text": "set_property",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 398,
+    "y": 966,
+    "dx": 0,
+    "text": "set_target_properties",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 842,
+    "dx": 0,
+    "text": "sets",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 809,
+    "y": 1112,
+    "dx": -17,
+    "text": "setting",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 561,
+    "y": 689,
+    "dx": 0,
+    "text": "settings",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 682,
+    "y": 362,
+    "dx": 0,
+    "text": "setup",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 965,
+    "y": 1066,
+    "dx": 0,
+    "text": "sh",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 559,
+    "y": 619,
+    "dx": 0,
+    "text": "FIND_PATH",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 520,
+    "y": 604,
+    "dx": -16,
+    "text": "shared",
+    "rotate": true
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 892,
+    "y": 357,
+    "dx": -26,
+    "text": "FIND_SFML_COMPONENT_UPPER",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 974,
+    "y": 944,
+    "dx": 0,
+    "text": "since",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 752,
+    "y": 1214,
+    "dx": 0,
+    "text": "size",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 815,
+    "y": 532,
+    "dx": -16,
+    "text": "FORCE",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 939,
+    "y": 581,
+    "dx": -19,
+    "text": "some",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1016,
+    "y": 933,
+    "dx": 0,
+    "text": "Boost_FOUND",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 926,
+    "y": 1328,
+    "dx": -19,
+    "text": "sources",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 767,
+    "y": 1036,
+    "dx": 0,
+    "text": "specific",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 904,
+    "y": 628,
+    "dx": -18,
+    "text": "specified",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 596,
+    "y": 1268,
+    "dx": 0,
+    "text": "specify",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1027,
+    "y": 1047,
+    "dx": 0,
+    "text": "Files",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 837,
+    "y": 388,
+    "dx": 0,
+    "text": "standalone",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 616,
+    "y": 1269,
+    "dx": 0,
+    "text": "standard",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1067,
+    "y": 821,
+    "dx": 0,
+    "text": "static",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 910,
+    "y": 869,
+    "dx": -18,
+    "text": "status",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1231,
+    "y": 963,
+    "dx": 0,
+    "text": "std",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 560,
+    "y": 580,
+    "dx": 0,
+    "text": "stdlib",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1303,
+    "y": 1264,
+    "dx": 0,
+    "text": "step",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1016,
+    "y": 941,
+    "dx": 0,
+    "text": "Find",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 727,
+    "dx": -17,
+    "text": "struct",
+    "rotate": true
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 979,
+    "y": 766,
+    "dx": 0,
+    "text": "subdirectories",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 335,
+    "y": 1246,
+    "dx": 0,
+    "text": "subdirectory",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 995,
+    "y": 932,
+    "dx": 0,
+    "text": "substitute",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1232,
+    "y": 1421,
+    "dx": 0,
+    "text": "suffix",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1124,
+    "y": 920,
+    "dx": -18,
+    "text": "support",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 598,
+    "y": 460,
+    "dx": -20,
+    "text": "supported",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 813,
+    "y": 457,
+    "dx": 0,
+    "text": "sure",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 160,
+    "y": 1430,
+    "dx": 0,
+    "text": "sw",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 424,
+    "y": 1321,
+    "dx": 0,
+    "text": "sys",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 526,
+    "y": 1302,
+    "dx": 0,
+    "text": "Boost_INCLUDE_DIR",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 821,
+    "y": 1108,
+    "dx": 0,
+    "text": "Flags",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 519,
+    "y": 627,
+    "dx": 0,
+    "text": "For",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 636,
+    "y": 483,
+    "dx": 0,
+    "text": "Force",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 1110,
+    "dx": 0,
+    "text": "target_link_libraries",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 943,
+    "y": 631,
+    "dx": -17,
+    "text": "targets",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 796,
+    "y": 1183,
+    "dx": 0,
+    "text": "Fortran",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1026,
+    "y": 1108,
+    "dx": 0,
+    "text": "tested",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1051,
+    "y": 1206,
+    "dx": 0,
+    "text": "testing",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 163,
+    "y": 1339,
+    "dx": 0,
+    "text": "tests",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1235,
+    "y": 1121,
+    "dx": 0,
+    "text": "text",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 358,
+    "y": 1313,
+    "dx": 0,
+    "text": "than",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1249,
+    "y": 1122,
+    "dx": 0,
+    "text": "Found",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1018,
+    "y": 836,
+    "dx": 0,
+    "text": "Frameworks",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 278,
+    "y": 1206,
+    "dx": 0,
+    "text": "them",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 445,
+    "y": 1253,
+    "dx": 0,
+    "text": "then",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 1256,
+    "dx": 0,
+    "text": "there",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 377,
+    "y": 1148,
+    "dx": 0,
+    "text": "these",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 447,
+    "y": 1267,
+    "dx": 0,
+    "text": "they",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1218,
+    "y": 1423,
+    "dx": 0,
+    "text": "GCC",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 772,
+    "y": 328,
+    "dx": 0,
+    "text": "time",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 487,
+    "y": 809,
+    "dx": 0,
+    "text": "tmp",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 470,
+    "y": 1060,
+    "dx": 0,
+    "text": "GET",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 388,
+    "y": 1011,
+    "dx": 0,
+    "text": "tool",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 734,
+    "y": 966,
+    "dx": -18,
+    "text": "toolchain",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 288,
+    "y": 1389,
+    "dx": 0,
+    "text": "tools",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 173,
+    "y": 1374,
+    "dx": 0,
+    "text": "top",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 425,
+    "y": 1316,
+    "dx": 0,
+    "text": "tree",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 506,
+    "y": 1013,
+    "dx": 0,
+    "text": "true",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 292,
+    "y": 1206,
+    "dx": 0,
+    "text": "try",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 890,
+    "y": 298,
+    "dx": -23,
+    "text": "GET_FILENAME_COMPONENT",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 471,
+    "y": 855,
+    "dx": 0,
+    "text": "type",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 975,
+    "y": 933,
+    "dx": 0,
+    "text": "typedef",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 654,
+    "y": 835,
+    "dx": 0,
+    "text": "types",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 961,
+    "y": 1256,
+    "dx": -11,
+    "text": "undef",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 547,
+    "y": 1208,
+    "dx": -18,
+    "text": "unittests",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 810,
+    "y": 1242,
+    "dx": 0,
+    "text": "unity",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 827,
+    "y": 1231,
+    "dx": 0,
+    "text": "unix",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 733,
+    "y": 946,
+    "dx": -11,
+    "text": "GLOB",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 1045,
+    "dx": 0,
+    "text": "up",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1069,
+    "y": 604,
+    "dx": -15,
+    "text": "GLOBAL",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 963,
+    "y": 390,
+    "dx": -18,
+    "text": "GREATER",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1323,
+    "y": 1112,
+    "dx": -12,
+    "text": "user",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 542,
+    "y": 1307,
+    "dx": -13,
+    "text": "uses",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 713,
+    "y": 243,
+    "dx": 0,
+    "text": "using",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 655,
+    "y": 557,
+    "dx": 0,
+    "text": "Generated",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 1268,
+    "dx": -7,
+    "text": "v",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 437,
+    "y": 1374,
+    "dx": 0,
+    "text": "v7a",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 933,
+    "dx": 0,
+    "text": "Generating",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1083,
+    "y": 920,
+    "dx": -13,
+    "text": "values",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 400,
+    "y": 845,
+    "dx": 0,
+    "text": "var",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 762,
+    "y": 1328,
+    "dx": -19,
+    "text": "Generator",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 305,
+    "y": 1278,
+    "dx": 0,
+    "text": "Get",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1273,
+    "y": 1185,
+    "dx": -16,
+    "text": "HEADER",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 733,
+    "y": 174,
+    "dx": -16,
+    "text": "versions",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 809,
+    "y": 244,
+    "dx": 0,
+    "text": "void",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 484,
+    "y": 844,
+    "dx": 0,
+    "text": "vtk",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 760,
+    "y": 1257,
+    "dx": -12,
+    "text": "want",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 797,
+    "y": 571,
+    "dx": 0,
+    "text": "warning",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 731,
+    "y": 556,
+    "dx": 0,
+    "text": "warnings",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 467,
+    "y": 708,
+    "dx": -11,
+    "text": "was",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 342,
+    "y": 1062,
+    "dx": 0,
+    "text": "Build",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 376,
+    "y": 1060,
+    "dx": 0,
+    "text": "well",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 605,
+    "y": 953,
+    "dx": 0,
+    "text": "what",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1290,
+    "y": 1278,
+    "dx": -11,
+    "text": "when",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 942,
+    "y": 1086,
+    "dx": -12,
+    "text": "where",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1291,
+    "y": 1100,
+    "dx": 0,
+    "text": "whether",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 989,
+    "y": 1014,
+    "dx": 0,
+    "text": "HTML",
+    "rotate": false
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 695,
+    "y": 1084,
+    "dx": -7,
+    "text": "I",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1004,
+    "y": 571,
+    "dx": 0,
+    "text": "windows",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 399,
+    "y": 1330,
+    "dx": -16,
+    "text": "ANDROID_ABI",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1110,
+    "y": 1052,
+    "dx": 0,
+    "text": "without",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 828,
+    "y": 989,
+    "dx": 0,
+    "text": "work",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 166,
+    "y": 1459,
+    "dx": 0,
+    "text": "would",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 476,
+    "y": 1110,
+    "dx": 0,
+    "text": "www",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 250,
+    "y": 1139,
+    "dx": 0,
+    "text": "x",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 829,
+    "y": 1000,
+    "dx": 0,
+    "text": "x86",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 145,
+    "y": 1459,
+    "dx": 0,
+    "text": "x86_64",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 659,
+    "y": 1410,
+    "dx": 0,
+    "text": "xml",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 902,
+    "y": 728,
+    "dx": -23,
+    "text": "IMPORTED_CONFIGURATIONS",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1012,
+    "y": 1115,
+    "dx": 0,
+    "text": "your",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1149,
+    "y": 753,
+    "dx": 0,
+    "text": "z",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 376,
+    "y": 1107,
+    "dx": 0,
+    "text": "z0",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 856,
+    "y": 327,
+    "dx": 0,
+    "text": "zlib",
+    "rotate": false
+  },
+  {
+    "fontSize": 2,
+    "fontFamily": "Abel, sans-serif",
+    "x": 681,
+    "y": 304,
+    "dx": -28,
+    "text": "ANDROID_STANDALONE_TOOLCHAIN",
+    "rotate": true
+  }
+]

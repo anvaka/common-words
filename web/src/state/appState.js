@@ -26,6 +26,10 @@ languages.add('go', 'Go');
 languages.add('sql', 'SQL');
 languages.add('rs', 'Rust');
 languages.add('lisp', 'Lisp', '.lsp, .lisp');
+languages.add('clj', 'Clojure', '.clj, .cljs');
+languages.add('kt', 'Kotlin', '.kt, .ktm, .kts');
+languages.add('cmake', 'CMake', '.cmake, .cmake.in');
+languages.add('swift', 'Swift');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
