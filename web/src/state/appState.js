@@ -33,6 +33,7 @@ languages.add('swift', 'Swift');
 languages.add('hs', 'Haskell', '.hs, .hsc');
 languages.add('ex', 'Elixir', '.ex, .exs');
 languages.add('objc', 'Objective C/C++', '.m, .mm');
+languages.add('fs', 'F#', '.fs, .fsi');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {

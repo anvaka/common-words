@@ -20,4 +20,5 @@
 ./extract_words.js 'cmake,cmake.in' &
 ./extract_words.js 'swift' &
 ./extract_words.js 'hs,hsc' &
-./extract_words.js 'ex,exs' &
+./extract_words.js 'm,mm' &
+./extract_words.js 'fs,fsi' &
