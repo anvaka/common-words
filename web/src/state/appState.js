@@ -32,6 +32,7 @@ languages.add('cmake', 'CMake', '.cmake, .cmake.in');
 languages.add('swift', 'Swift');
 languages.add('hs', 'Haskell', '.hs, .hsc');
 languages.add('ex', 'Elixir', '.ex, .exs');
+languages.add('objc', 'Objective C/C++', '.m, .mm');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
