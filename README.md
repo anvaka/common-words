@@ -266,10 +266,10 @@ I also tried to bring word clouds into "real life" and created several printed
 products (T-Shirts, hoodies and mugs). However I didn't like T-Shirts very much,
 so I'm not going to show them here.
 
-[The javascript mug](http://www.zazzle.com/javascript_code_mug-168845699892997031) -
+[The javascript mug](http://www.zazzle.com/javascript_word_cloud_mug-168756031080597723) -
 I think is my best real world word cloud:
 
-![js mug](http://i.imgur.com/7r6uyyM.gif)
+![js mug](http://i.imgur.com/2dBcvXU.gif)
 
-Feel free to [buy it](http://www.zazzle.com/javascript_code_mug-168845699892997031)
+Feel free to [buy it](http://www.zazzle.com/javascript_word_cloud_mug-168756031080597723)
 if you love javascript. I hope you enjoy it!
