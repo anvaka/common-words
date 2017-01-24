@@ -141,7 +141,7 @@ Various implementations tried to speed up this algorithm by indexing occupied sp
 * Use [summed area table](https://en.wikipedia.org/wiki/Summed_area_table) to quickly,
 in O(1) time, tell if a new candidate rectangle intersects anything
 under it. The downside of this method is that each canvas update requires updating the
-entire table, which gives O(N<sup>2</sup>) performance;
+entire table, which gives bad performance;
 * Maintain some sort of [`R-tree`](https://en.wikipedia.org/wiki/R-tree) to quickly
 tell if a new candidate rectangle intersects anything under it. Intersection lookup
 in this approach is slower than in summed area tables, but index maintenance is faster.
