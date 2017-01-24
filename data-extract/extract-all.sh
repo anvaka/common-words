@@ -22,3 +22,6 @@
 ./extract_words.js 'hs,hsc' &
 ./extract_words.js 'm,mm' &
 ./extract_words.js 'fs,fsi' &
+./extract_words.js 'purs' &
+./extract_words.js 'pas' &
+./extract_words.js 'elm' &

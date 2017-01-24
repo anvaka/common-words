@@ -34,6 +34,9 @@ languages.add('hs', 'Haskell', '.hs, .hsc');
 languages.add('ex', 'Elixir', '.ex, .exs');
 languages.add('objc', 'Objective C/C++', '.m, .mm');
 languages.add('fs', 'F#', '.fs, .fsi');
+languages.add('elm', 'Elm', '.elm');
+languages.add('purs', 'PureScript', '.purs');
+languages.add('pas', 'Pascal', '.pas');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
