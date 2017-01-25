@@ -39,6 +39,7 @@ languages.add('purs', 'PureScript', '.purs');
 languages.add('pas', 'Pascal', '.pas');
 languages.add('r', 'R', '.R');
 languages.add('erl', 'Erlang', '.erl');
+languages.add('vim', 'VimL', '.vim');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {

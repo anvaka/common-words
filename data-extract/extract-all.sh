@@ -27,3 +27,4 @@
 ./extract_words.js 'elm' &
 ./extract_words.js 'R' &
 ./extract_words.js 'erl' &
+./extract_words.js 'vim' &
