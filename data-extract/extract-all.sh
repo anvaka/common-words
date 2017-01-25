@@ -25,3 +25,5 @@
 ./extract_words.js 'purs' &
 ./extract_words.js 'pas' &
 ./extract_words.js 'elm' &
+./extract_words.js 'R' &
+./extract_words.js 'erl' &

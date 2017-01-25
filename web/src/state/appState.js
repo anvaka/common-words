@@ -37,6 +37,8 @@ languages.add('fs', 'F#', '.fs, .fsi');
 languages.add('elm', 'Elm', '.elm');
 languages.add('purs', 'PureScript', '.purs');
 languages.add('pas', 'Pascal', '.pas');
+languages.add('r', 'R', '.R');
+languages.add('erl', 'Erlang', '.erl');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
