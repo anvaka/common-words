@@ -15,7 +15,7 @@ please click here: [common words](https://anvaka.github.io/common-words/#?lang=j
 
 * I store the most common words from many different programming languages as part of this
 repository. GitHub's language recognition treats this repository as mostly C++. It makes sense
-because many of those langauges were inspired by C/C++:
+because many of those languages were inspired by C/C++:
 ![github thinks it C++](https://raw.githubusercontent.com/anvaka/common-words/master/docs/languages.png)
 
 * License text is commonly put into comments in every programming language. Of all languages
