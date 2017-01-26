@@ -17,6 +17,7 @@ import bus from '../state/bus';
 import appState from '../state/appState.js';
 import colors from '../utils/colors.js';
 import clap from '../utils/clap.js';
+import getSVGHeader from '../utils/svgHeader.js';
 
 const queryState = instance();
 const random = require('ngraph.random').random(42);
@@ -57,7 +58,9 @@ export default {
 
       recenter(this.scene, this.zoomer, positions);
 
-      asyncFor(positions, renderWord, () => 0, {
+      asyncFor(positions, renderWord, () => {
+        window.exportSVG = exportSVG;
+      }, {
         probeElements: 20
       });
 
@@ -77,9 +80,37 @@ export default {
 
         scene.appendChild(text);
       }
+
+      function exportSVG(width, height) {
+        const boundingBox = scene.getBoundingClientRect();
+        const scale = scene.transform.baseVal[0].matrix.a;
+        const svgText = getSVGHeader(width || 1540, height || 1540, {
+          width: boundingBox.width / scale,
+          height: boundingBox.height / scale
+        }) + '<g>' + scene.innerHTML + '</g></svg>';
+        download(svgText, queryState.get('lang') + '.svg');
+      }
     },
   },
 };
+
+function download(svgText, name) {
+  // need to unescape/encode becuase utf8 cannot be used in btoa. See
+  // http://stackoverflow.com/questions/23223718/failed-to-execute-btoa-on-window-the-string-to-be-encoded-contains-characte
+  const uri = 'data:image/svg+xml;base64,' + window.btoa(window.unescape(window.encodeURIComponent(svgText)));
+  const saveLink = document.createElement('a');
+  const downloadSupported = 'download' in saveLink;
+  if (downloadSupported) {
+    saveLink.download = name;
+    saveLink.href = uri;
+    saveLink.style.display = 'none';
+    document.body.appendChild(saveLink);
+    saveLink.click();
+    document.body.removeChild(saveLink);
+  } else {
+    window.open(uri, '_temp', 'menubar=no,toolbar=no,status=no');
+  }
+}
 
 function recenter(scene, zoomer, positions) {
   let maxX = 0;

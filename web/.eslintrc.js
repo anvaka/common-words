@@ -26,6 +26,7 @@ module.exports = {
     'no-param-reassign': 0,
     'no-use-before-define': 0,
     'no-plusplus': 0,
+    'prefer-template': 0,
     'no-mixed-operators': 0,
     'comma-dangle': 0
   }
