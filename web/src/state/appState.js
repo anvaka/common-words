@@ -40,6 +40,7 @@ languages.add('pas', 'Pascal', '.pas');
 languages.add('r', 'R', '.R');
 languages.add('erl', 'Erlang', '.erl');
 languages.add('vim', 'VimL', '.vim');
+languages.add('groovy', 'Groovy', '.groovy');
 languages.select(qs.get('lang'));
 
 qs.onChange(() => {
