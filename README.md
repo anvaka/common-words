@@ -173,7 +173,7 @@ be placed on the intersection of quads:
 ![quad tree artifacts](https://raw.githubusercontent.com/anvaka/common-words/master/docs/quad-tree-split.gif)
 
 The `largest quad` approach can also miss opportunities. What if there is no single
-quad large enough to fit a new rectangle, but, if united with neighbouring quads
+quad large enough to fit a new rectangle, but, if united with neighboring quads
 a fit can be found?
 
 Indeed, uniting quads helps to find spots for new words, as well as removes visual
