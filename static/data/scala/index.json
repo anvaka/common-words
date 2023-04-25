@@ -1,0 +1,8756 @@
+[
+  {
+    "fontSize": 80,
+    "fontFamily": "Abel, sans-serif",
+    "x": 322,
+    "y": 771,
+    "dx": 0,
+    "text": "import"
+  },
+  {
+    "fontSize": 73,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1034,
+    "y": 295,
+    "dx": 0,
+    "text": "val"
+  },
+  {
+    "fontSize": 71,
+    "fontFamily": "Abel, sans-serif",
+    "x": 645,
+    "y": 698,
+    "dx": 0,
+    "text": "_"
+  },
+  {
+    "fontSize": 67,
+    "fontFamily": "Abel, sans-serif",
+    "x": 951,
+    "y": 631,
+    "dx": 0,
+    "text": "case"
+  },
+  {
+    "fontSize": 67,
+    "fontFamily": "Abel, sans-serif",
+    "x": 717,
+    "y": 682,
+    "dx": 0,
+    "text": "def"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 744,
+    "dx": 0,
+    "text": "org"
+  },
+  {
+    "fontSize": 66,
+    "fontFamily": "Abel, sans-serif",
+    "x": 659,
+    "y": 412,
+    "dx": 0,
+    "text": "the"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 931,
+    "y": 1070,
+    "dx": 0,
+    "text": "a"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 348,
+    "y": 361,
+    "dx": 0,
+    "text": "new"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 783,
+    "y": 1148,
+    "dx": 0,
+    "text": "package"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 415,
+    "y": 263,
+    "dx": 0,
+    "text": "scala"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 453,
+    "y": 1253,
+    "dx": 0,
+    "text": "String"
+  },
+  {
+    "fontSize": 64,
+    "fontFamily": "Abel, sans-serif",
+    "x": 465,
+    "y": 319,
+    "dx": 0,
+    "text": "else"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 592,
+    "y": 215,
+    "dx": 0,
+    "text": "to"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 653,
+    "y": 1169,
+    "dx": 0,
+    "text": "this"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 717,
+    "y": 270,
+    "dx": 0,
+    "text": "if"
+  },
+  {
+    "fontSize": 63,
+    "fontFamily": "Abel, sans-serif",
+    "x": 619,
+    "y": 168,
+    "dx": 0,
+    "text": "com"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 697,
+    "y": 1280,
+    "dx": 0,
+    "text": "in"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 687,
+    "y": 797,
+    "dx": 0,
+    "text": "is"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 577,
+    "y": 858,
+    "dx": 0,
+    "text": "Int"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 875,
+    "y": 180,
+    "dx": 0,
+    "text": "match"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 647,
+    "y": 895,
+    "dx": 0,
+    "text": "name"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 464,
+    "y": 1362,
+    "dx": 0,
+    "text": "None"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 773,
+    "y": 258,
+    "dx": 0,
+    "text": "java"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 815,
+    "y": 322,
+    "dx": 0,
+    "text": "Some"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 1088,
+    "dx": 0,
+    "text": "override"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 615,
+    "y": 1166,
+    "dx": 0,
+    "text": "e"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 853,
+    "y": 686,
+    "dx": 0,
+    "text": "param"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 589,
+    "y": 898,
+    "dx": 0,
+    "text": "s"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1019,
+    "y": 1158,
+    "dx": 0,
+    "text": "and"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1002,
+    "y": 1208,
+    "dx": 0,
+    "text": "should"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 752,
+    "y": 1275,
+    "dx": 0,
+    "text": "test"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 988,
+    "y": 1269,
+    "dx": 0,
+    "text": "false"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 600,
+    "y": 1370,
+    "dx": 0,
+    "text": "for"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 598,
+    "y": 1215,
+    "dx": 0,
+    "text": "i"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1077,
+    "y": 779,
+    "dx": 0,
+    "text": "true"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 682,
+    "y": 1333,
+    "dx": 0,
+    "text": "util"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 759,
+    "y": 368,
+    "dx": 0,
+    "text": "assert"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 514,
+    "y": 681,
+    "dx": 0,
+    "text": "var"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 968,
+    "y": 118,
+    "dx": 0,
+    "text": "with"
+  },
+  {
+    "fontSize": 62,
+    "fontFamily": "Abel, sans-serif",
+    "x": 777,
+    "y": 877,
+    "dx": 0,
+    "text": "of"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 823,
+    "y": 1332,
+    "dx": 0,
+    "text": "close"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 297,
+    "y": 859,
+    "dx": 0,
+    "text": "code"
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 433,
+    "y": 950,
+    "dx": 0,
+    "text": "collection",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 297,
+    "y": 691,
+    "dx": 0,
+    "text": "Array"
+  },
+  {
+    "fontSize": 46,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1103,
+    "y": 193,
+    "dx": -189,
+    "text": "concurrent",
+    "rotate": true
+  },
+  {
+    "fontSize": 59,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1057,
+    "y": 613,
+    "dx": -138,
+    "text": "config",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 266,
+    "y": 458,
+    "dx": 0,
+    "text": "core"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 350,
+    "y": 1360,
+    "dx": 0,
+    "text": "ctx"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 458,
+    "y": 1162,
+    "dx": 0,
+    "text": "data"
+  },
+  {
+    "fontSize": 58,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1119,
+    "y": 577,
+    "dx": -143,
+    "text": "Option",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 610,
+    "y": 1261,
+    "dx": 0,
+    "text": "Seq"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 640,
+    "y": 320,
+    "dx": 0,
+    "text": "Set"
+  },
+  {
+    "fontSize": 45,
+    "fontFamily": "Abel, sans-serif",
+    "x": 389,
+    "y": 1435,
+    "dx": 0,
+    "text": "empty",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 997,
+    "y": 377,
+    "dx": 0,
+    "text": "extends",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 604,
+    "y": 800,
+    "dx": 0,
+    "text": "f"
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 500,
+    "y": 1435,
+    "dx": 0,
+    "text": "Boolean",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 777,
+    "dx": 0,
+    "text": "file"
+  },
+  {
+    "fontSize": 46,
+    "fontFamily": "Abel, sans-serif",
+    "x": 515,
+    "y": 1336,
+    "dx": 0,
+    "text": "Double",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 399,
+    "y": 1339,
+    "dx": 0,
+    "text": "foreach",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 279,
+    "y": 217,
+    "dx": 0,
+    "text": "from"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 292,
+    "y": 1231,
+    "dx": 0,
+    "text": "get"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 311,
+    "y": 417,
+    "dx": 0,
+    "text": "have",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 279,
+    "y": 284,
+    "dx": 0,
+    "text": "http"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 469,
+    "y": 853,
+    "dx": 0,
+    "text": "T"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 501,
+    "y": 869,
+    "dx": 0,
+    "text": "id"
+  },
+  {
+    "fontSize": 59,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 958,
+    "dx": 0,
+    "text": "Test",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 1268,
+    "dx": 0,
+    "text": "A"
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 425,
+    "y": 767,
+    "dx": 0,
+    "text": "TestFailedException",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 308,
+    "y": 913,
+    "dx": 0,
+    "text": "implicit",
+    "rotate": false
+  },
+  {
+    "fontSize": 31,
+    "fontFamily": "Abel, sans-serif",
+    "x": 728,
+    "y": 1111,
+    "dx": 0,
+    "text": "intercept",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 953,
+    "y": 317,
+    "dx": 0,
+    "text": "io"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 298,
+    "y": 1163,
+    "dx": 0,
+    "text": "This"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 541,
+    "y": 207,
+    "dx": 0,
+    "text": "it"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1031,
+    "y": 197,
+    "dx": -95,
+    "text": "Unit",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 466,
+    "y": 684,
+    "dx": 0,
+    "text": "js"
+  },
+  {
+    "fontSize": 59,
+    "fontFamily": "Abel, sans-serif",
+    "x": 936,
+    "y": 769,
+    "dx": -94,
+    "text": "json",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 765,
+    "y": 191,
+    "dx": 0,
+    "text": "key"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 485,
+    "y": 385,
+    "dx": -97,
+    "text": "lang",
+    "rotate": true
+  },
+  {
+    "fontSize": 45,
+    "fontFamily": "Abel, sans-serif",
+    "x": 728,
+    "y": 1242,
+    "dx": 0,
+    "text": "length",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 396,
+    "y": 865,
+    "dx": -97,
+    "text": "map",
+    "rotate": true
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 854,
+    "y": 141,
+    "dx": 0,
+    "text": "Future",
+    "rotate": false
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1062,
+    "y": 756,
+    "dx": 0,
+    "text": "message",
+    "rotate": false
+  },
+  {
+    "fontSize": 52,
+    "fontFamily": "Abel, sans-serif",
+    "x": 545,
+    "y": 275,
+    "dx": 0,
+    "text": "must",
+    "rotate": false
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 613,
+    "y": 1148,
+    "dx": 0,
+    "text": "mutable",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 732,
+    "y": 1371,
+    "dx": 0,
+    "text": "n"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 268,
+    "dx": 0,
+    "text": "x"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1059,
+    "y": 80,
+    "dx": 0,
+    "text": "net"
+  },
+  {
+    "fontSize": 49,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 1294,
+    "dx": 0,
+    "text": "actor",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 562,
+    "y": 368,
+    "dx": 0,
+    "text": "not"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 834,
+    "y": 853,
+    "dx": 0,
+    "text": "null"
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 854,
+    "y": 665,
+    "dx": 0,
+    "text": "object",
+    "rotate": false
+  },
+  {
+    "fontSize": 53,
+    "fontFamily": "Abel, sans-serif",
+    "x": 928,
+    "y": 1249,
+    "dx": -97,
+    "text": "akka",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 933,
+    "y": 859,
+    "dx": 0,
+    "text": "on"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 409,
+    "dx": 0,
+    "text": "or"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 617,
+    "y": 690,
+    "dx": 0,
+    "text": "an"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 426,
+    "y": 475,
+    "dx": 0,
+    "text": "List"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 586,
+    "y": 647,
+    "dx": 0,
+    "text": "p"
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1021,
+    "y": 772,
+    "dx": -93,
+    "text": "apache",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 776,
+    "dx": 0,
+    "text": "api"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 837,
+    "y": 1251,
+    "dx": -93,
+    "text": "play",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 787,
+    "y": 405,
+    "dx": 0,
+    "text": "pre"
+  },
+  {
+    "fontSize": 38,
+    "fontFamily": "Abel, sans-serif",
+    "x": 306,
+    "y": 1347,
+    "dx": -93,
+    "text": "println",
+    "rotate": true
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 802,
+    "y": 673,
+    "dx": -95,
+    "text": "private",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 748,
+    "y": 228,
+    "dx": 0,
+    "text": "r"
+  },
+  {
+    "fontSize": 31,
+    "fontFamily": "Abel, sans-serif",
+    "x": 376,
+    "y": 294,
+    "dx": -91,
+    "text": "request",
+    "rotate": true
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 255,
+    "y": 1345,
+    "dx": -94,
+    "text": "result",
+    "rotate": true
+  },
+  {
+    "fontSize": 41,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1138,
+    "y": 100,
+    "dx": -94,
+    "text": "return",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 551,
+    "dx": 0,
+    "text": "run"
+  },
+  {
+    "fontSize": 45,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1080,
+    "y": 1048,
+    "dx": 0,
+    "text": "apply",
+    "rotate": false
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 570,
+    "y": 461,
+    "dx": 0,
+    "text": "args",
+    "rotate": false
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1144,
+    "y": 243,
+    "dx": -117,
+    "text": "scalatest",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 630,
+    "y": 648,
+    "dx": 0,
+    "text": "as"
+  },
+  {
+    "fontSize": 57,
+    "fontFamily": "Abel, sans-serif",
+    "x": 845,
+    "y": 614,
+    "dx": 0,
+    "text": "size",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 831,
+    "y": 816,
+    "dx": 0,
+    "text": "spark",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 732,
+    "y": 768,
+    "dx": 0,
+    "text": "t"
+  },
+  {
+    "fontSize": 52,
+    "fontFamily": "Abel, sans-serif",
+    "x": 384,
+    "y": 217,
+    "dx": 0,
+    "text": "Map",
+    "rotate": false
+  },
+  {
+    "fontSize": 49,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1025,
+    "y": 854,
+    "dx": 0,
+    "text": "that",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1149,
+    "y": 1157,
+    "dx": -84,
+    "text": "author",
+    "rotate": true
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 921,
+    "y": 757,
+    "dx": 0,
+    "text": "b"
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 773,
+    "y": 155,
+    "dx": 0,
+    "text": "throw",
+    "rotate": false
+  },
+  {
+    "fontSize": 44,
+    "fontFamily": "Abel, sans-serif",
+    "x": 961,
+    "y": 1341,
+    "dx": 0,
+    "text": "time",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 328,
+    "y": 1430,
+    "dx": 0,
+    "text": "be"
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 518,
+    "y": 1151,
+    "dx": 0,
+    "text": "toString",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 830,
+    "y": 1102,
+    "dx": -52,
+    "text": "by",
+    "rotate": true
+  },
+  {
+    "fontSize": 50,
+    "fontFamily": "Abel, sans-serif",
+    "x": 367,
+    "y": 466,
+    "dx": 0,
+    "text": "try",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 637,
+    "y": 956,
+    "dx": 0,
+    "text": "twitter",
+    "rotate": false
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 842,
+    "y": 1204,
+    "dx": 0,
+    "text": "type",
+    "rotate": false
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 914,
+    "y": 1258,
+    "dx": 0,
+    "text": "c"
+  },
+  {
+    "fontSize": 61,
+    "fontFamily": "Abel, sans-serif",
+    "x": 282,
+    "y": 508,
+    "dx": 0,
+    "text": "v"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 651,
+    "y": 277,
+    "dx": 0,
+    "text": "Nil",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 690,
+    "y": 473,
+    "dx": 0,
+    "text": "value",
+    "rotate": false
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 996,
+    "y": 1147,
+    "dx": 0,
+    "text": "catch",
+    "rotate": false
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 743,
+    "y": 861,
+    "dx": 0,
+    "text": "when",
+    "rotate": false
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 646,
+    "y": 1118,
+    "dx": 0,
+    "text": "class",
+    "rotate": false
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 671,
+    "y": 1398,
+    "dx": 0,
+    "text": "The",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 725,
+    "y": 323,
+    "dx": 0,
+    "text": "hi"
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 626,
+    "y": 1245,
+    "dx": 0,
+    "text": "Result",
+    "rotate": false
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 296,
+    "y": 354,
+    "dx": 0,
+    "text": "Return",
+    "rotate": false
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1097,
+    "y": 1026,
+    "dx": 0,
+    "text": "Returns",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 517,
+    "y": 928,
+    "dx": 0,
+    "text": "Right",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 366,
+    "y": 528,
+    "dx": 0,
+    "text": "Row",
+    "rotate": false
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 689,
+    "y": 676,
+    "dx": -93,
+    "text": "RunWith",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 379,
+    "y": 1206,
+    "dx": -32,
+    "text": "S",
+    "rotate": true
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 704,
+    "y": 642,
+    "dx": 0,
+    "text": "Scala",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 527,
+    "y": 739,
+    "dx": 0,
+    "text": "Scalaz",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 448,
+    "y": 1315,
+    "dx": 0,
+    "text": "Scope",
+    "rotate": false
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 724,
+    "y": 1150,
+    "dx": 0,
+    "text": "See",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 305,
+    "y": 1221,
+    "dx": 0,
+    "text": "Select",
+    "rotate": false
+  },
+  {
+    "fontSize": 31,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 251,
+    "dx": 0,
+    "text": "Args",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 923,
+    "y": 1221,
+    "dx": 0,
+    "text": "Service",
+    "rotate": false
+  },
+  {
+    "fontSize": 56,
+    "fontFamily": "Abel, sans-serif",
+    "x": 777,
+    "y": 1383,
+    "dx": 0,
+    "text": "0L",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 782,
+    "y": 1222,
+    "dx": 0,
+    "text": "Short",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 966,
+    "y": 745,
+    "dx": 0,
+    "text": "SlowAsMolasses",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 364,
+    "y": 1254,
+    "dx": -84,
+    "text": "ArrayBuffer",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 933,
+    "y": 1151,
+    "dx": 0,
+    "text": "Source",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 326,
+    "y": 768,
+    "dx": 0,
+    "text": "SparkConf",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 921,
+    "y": 864,
+    "dx": 0,
+    "text": "SparkContext",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 641,
+    "y": 1440,
+    "dx": 0,
+    "text": "Specification",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 395,
+    "y": 1258,
+    "dx": 0,
+    "text": "Stack",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 1157,
+    "dx": 0,
+    "text": "State",
+    "rotate": false
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1100,
+    "y": 1150,
+    "dx": 0,
+    "text": "Status",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 765,
+    "y": 766,
+    "dx": 0,
+    "text": "Stream",
+    "rotate": false
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 306,
+    "y": 862,
+    "dx": 0,
+    "text": "Assert",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 913,
+    "y": 1135,
+    "dx": 0,
+    "text": "StringBuilder",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 632,
+    "y": 749,
+    "dx": 0,
+    "text": "Success",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 550,
+    "y": 189,
+    "dx": 0,
+    "text": "Suite",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 668,
+    "y": 885,
+    "dx": 0,
+    "text": "Symbol",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 776,
+    "y": 482,
+    "dx": 0,
+    "text": "SyntheticEvent",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 448,
+    "y": 1151,
+    "dx": 0,
+    "text": "System",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 509,
+    "y": 1315,
+    "dx": 0,
+    "text": "Await",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 264,
+    "y": 397,
+    "dx": 0,
+    "text": "TODO",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 1221,
+    "dx": 0,
+    "text": "Task",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 567,
+    "y": 804,
+    "dx": 0,
+    "text": "B"
+  },
+  {
+    "fontSize": 41,
+    "fontFamily": "Abel, sans-serif",
+    "x": 256,
+    "y": 434,
+    "dx": 0,
+    "text": "API",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 446,
+    "y": 1421,
+    "dx": 0,
+    "text": "TestProbe",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 633,
+    "y": 1231,
+    "dx": 0,
+    "text": "TestUtils",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 721,
+    "y": 196,
+    "dx": 0,
+    "text": "Byte",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 515,
+    "y": 865,
+    "dx": 0,
+    "text": "ByteBuffer",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 450,
+    "y": 1246,
+    "dx": 0,
+    "text": "Thread",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 621,
+    "y": 655,
+    "dx": 0,
+    "text": "Throwable",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 508,
+    "y": 1221,
+    "dx": 0,
+    "text": "Time",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 515,
+    "y": 1422,
+    "dx": 0,
+    "text": "TimeUnit",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 616,
+    "y": 1321,
+    "dx": 0,
+    "text": "Timeout",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 627,
+    "y": 773,
+    "dx": -81,
+    "text": "TopicAndPartition",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 644,
+    "y": 249,
+    "dx": 0,
+    "text": "Tree",
+    "rotate": false
+  },
+  {
+    "fontSize": 42,
+    "fontFamily": "Abel, sans-serif",
+    "x": 257,
+    "y": 957,
+    "dx": 0,
+    "text": "Try",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1131,
+    "y": 728,
+    "dx": 0,
+    "text": "Type",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 620,
+    "y": 1343,
+    "dx": -33,
+    "text": "U",
+    "rotate": true
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 987,
+    "y": 617,
+    "dx": 0,
+    "text": "URI",
+    "rotate": false
+  },
+  {
+    "fontSize": 31,
+    "fontFamily": "Abel, sans-serif",
+    "x": 880,
+    "y": 304,
+    "dx": 0,
+    "text": "URL",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 991,
+    "y": 286,
+    "dx": 0,
+    "text": "UUID",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 667,
+    "y": 869,
+    "dx": 0,
+    "text": "UndefOr",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 231,
+    "y": 1015,
+    "dx": -32,
+    "text": "C",
+    "rotate": true
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 459,
+    "y": 929,
+    "dx": 0,
+    "text": "User",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 245,
+    "y": 1204,
+    "dx": 0,
+    "text": "Utils",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 323,
+    "dx": 0,
+    "text": "V"
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 786,
+    "y": 1149,
+    "dx": 0,
+    "text": "Value",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 507,
+    "y": 1249,
+    "dx": 0,
+    "text": "Vector",
+    "rotate": false
+  },
+  {
+    "fontSize": 38,
+    "fontFamily": "Abel, sans-serif",
+    "x": 870,
+    "y": 432,
+    "dx": 0,
+    "text": "We",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 903,
+    "y": 286,
+    "dx": 0,
+    "text": "When",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 393,
+    "y": 1183,
+    "dx": 0,
+    "text": "WordSpec",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 699,
+    "y": 756,
+    "dx": 0,
+    "text": "X"
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 265,
+    "y": 765,
+    "dx": 0,
+    "text": "Class",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 1053,
+    "dx": 0,
+    "text": "_1",
+    "rotate": false
+  },
+  {
+    "fontSize": 43,
+    "fontFamily": "Abel, sans-serif",
+    "x": 237,
+    "y": 721,
+    "dx": -45,
+    "text": "_2",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 770,
+    "y": 130,
+    "dx": 0,
+    "text": "__"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1034,
+    "y": 1269,
+    "dx": 0,
+    "text": "___"
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 989,
+    "y": 117,
+    "dx": 0,
+    "text": "____"
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 577,
+    "y": 792,
+    "dx": 0,
+    "text": "_root_",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 1011,
+    "dx": 0,
+    "text": "ClassTag",
+    "rotate": false
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1054,
+    "y": 279,
+    "dx": 0,
+    "text": "a1",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 296,
+    "y": 749,
+    "dx": 0,
+    "text": "abstract",
+    "rotate": false
+  },
+  {
+    "fontSize": 54,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1131,
+    "y": 522,
+    "dx": 0,
+    "text": "ac",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 527,
+    "y": 795,
+    "dx": 0,
+    "text": "action",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 419,
+    "y": 720,
+    "dx": 0,
+    "text": "Config",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 662,
+    "y": 240,
+    "dx": 0,
+    "text": "actual",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 601,
+    "y": 339,
+    "dx": -47,
+    "text": "add",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1011,
+    "y": 771,
+    "dx": -56,
+    "text": "additional",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 729,
+    "y": 1231,
+    "dx": 0,
+    "text": "address",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 695,
+    "y": 1251,
+    "dx": -44,
+    "text": "after",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 864,
+    "y": 195,
+    "dx": 0,
+    "text": "ConfigFactory",
+    "rotate": false
+  },
+  {
+    "fontSize": 55,
+    "fontFamily": "Abel, sans-serif",
+    "x": 233,
+    "y": 1249,
+    "dx": -50,
+    "text": "all",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 734,
+    "y": 835,
+    "dx": 0,
+    "text": "also",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1009,
+    "y": 1347,
+    "dx": 0,
+    "text": "Configuration",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 791,
+    "y": 942,
+    "dx": 0,
+    "text": "analysis",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 259,
+    "y": 865,
+    "dx": 0,
+    "text": "Cons",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 268,
+    "y": 383,
+    "dx": 0,
+    "text": "android",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 177,
+    "dx": 0,
+    "text": "annotation",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 428,
+    "y": 851,
+    "dx": 0,
+    "text": "annotations",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 776,
+    "y": 1349,
+    "dx": -45,
+    "text": "any",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 635,
+    "y": 1374,
+    "dx": 0,
+    "text": "Context",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 698,
+    "dx": 0,
+    "text": "Create",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 305,
+    "y": 386,
+    "dx": -47,
+    "text": "app",
+    "rotate": true
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 517,
+    "y": 679,
+    "dx": 0,
+    "text": "appId",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 747,
+    "dx": 0,
+    "text": "append",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 782,
+    "y": 1104,
+    "dx": 0,
+    "text": "application",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 727,
+    "y": 965,
+    "dx": 0,
+    "text": "Created",
+    "rotate": false
+  },
+  {
+    "fontSize": 39,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 1059,
+    "dx": -47,
+    "text": "are",
+    "rotate": true
+  },
+  {
+    "fontSize": 38,
+    "fontFamily": "Abel, sans-serif",
+    "x": 550,
+    "y": 338,
+    "dx": -46,
+    "text": "arg",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 271,
+    "y": 1429,
+    "dx": 0,
+    "text": "D"
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 371,
+    "y": 961,
+    "dx": 0,
+    "text": "argument",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 261,
+    "y": 849,
+    "dx": 0,
+    "text": "arguments",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 435,
+    "dx": -44,
+    "text": "array",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 336,
+    "y": 225,
+    "dx": 0,
+    "text": "DStream",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 711,
+    "y": 244,
+    "dx": 0,
+    "text": "asInstanceOf",
+    "rotate": false
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 542,
+    "y": 819,
+    "dx": -45,
+    "text": "Date",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 583,
+    "y": 1140,
+    "dx": 0,
+    "text": "assertEquals",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 393,
+    "y": 1248,
+    "dx": 0,
+    "text": "assertResult",
+    "rotate": false
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 911,
+    "y": 387,
+    "dx": -46,
+    "text": "ast",
+    "rotate": true
+  },
+  {
+    "fontSize": 59,
+    "fontFamily": "Abel, sans-serif",
+    "x": 932,
+    "y": 387,
+    "dx": -48,
+    "text": "at",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 691,
+    "dx": 0,
+    "text": "atomic",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 261,
+    "y": 914,
+    "dx": -45,
+    "text": "auth",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 1328,
+    "dx": 0,
+    "text": "DateTime",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 337,
+    "y": 290,
+    "dx": 0,
+    "text": "available",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 486,
+    "y": 387,
+    "dx": -43,
+    "text": "await",
+    "rotate": true
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 644,
+    "y": 387,
+    "dx": -44,
+    "text": "awt",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 748,
+    "y": 291,
+    "dx": -44,
+    "text": "Action",
+    "rotate": true
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 635,
+    "y": 820,
+    "dx": -45,
+    "text": "bar",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 699,
+    "y": 389,
+    "dx": -44,
+    "text": "base",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 1329,
+    "dx": 0,
+    "text": "Duration",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1056,
+    "y": 370,
+    "dx": 0,
+    "text": "because",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 755,
+    "y": 1349,
+    "dx": -44,
+    "text": "been",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 431,
+    "y": 435,
+    "dx": -44,
+    "text": "before",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 732,
+    "y": 389,
+    "dx": -44,
+    "text": "binary",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 521,
+    "y": 484,
+    "dx": -45,
+    "text": "bind",
+    "rotate": true
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 621,
+    "y": 438,
+    "dx": -43,
+    "text": "block",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 430,
+    "y": 340,
+    "dx": -44,
+    "text": "body",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 254,
+    "y": 533,
+    "dx": -44,
+    "text": "border",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 716,
+    "y": 867,
+    "dx": -43,
+    "text": "breeze",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 769,
+    "y": 339,
+    "dx": -44,
+    "text": "broker",
+    "rotate": true
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1150,
+    "y": 197,
+    "dx": -45,
+    "text": "buf",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 839,
+    "y": 918,
+    "dx": -43,
+    "text": "buffer",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1132,
+    "y": 1298,
+    "dx": -44,
+    "text": "build",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1103,
+    "y": 244,
+    "dx": -44,
+    "text": "builder",
+    "rotate": true
+  },
+  {
+    "fontSize": 36,
+    "fontFamily": "Abel, sans-serif",
+    "x": 825,
+    "y": 1394,
+    "dx": -46,
+    "text": "but",
+    "rotate": true
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 594,
+    "y": 419,
+    "dx": 0,
+    "text": "E"
+  },
+  {
+    "fontSize": 21,
+    "fontFamily": "Abel, sans-serif",
+    "x": 462,
+    "y": 388,
+    "dx": -45,
+    "text": "bytes",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 548,
+    "y": 435,
+    "dx": -44,
+    "text": "Empty",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 515,
+    "y": 819,
+    "dx": -44,
+    "text": "cache",
+    "rotate": true
+  },
+  {
+    "fontSize": 35,
+    "fontFamily": "Abel, sans-serif",
+    "x": 463,
+    "y": 242,
+    "dx": -48,
+    "text": "call",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 748,
+    "y": 435,
+    "dx": -43,
+    "text": "called",
+    "rotate": true
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 830,
+    "y": 1250,
+    "dx": -47,
+    "text": "can",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 258,
+    "y": 244,
+    "dx": -43,
+    "text": "Equality",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1156,
+    "y": 1253,
+    "dx": -44,
+    "text": "Error",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 942,
+    "y": 440,
+    "dx": 0,
+    "text": "caught1",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1168,
+    "y": 1061,
+    "dx": -41,
+    "text": "caught2",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1134,
+    "y": 103,
+    "dx": -41,
+    "text": "caught3",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 591,
+    "y": 724,
+    "dx": -44,
+    "text": "cause",
+    "rotate": true
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 868,
+    "y": 1378,
+    "dx": 0,
+    "text": "cc",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 352,
+    "y": 1339,
+    "dx": 0,
+    "text": "cfg",
+    "rotate": false
+  },
+  {
+    "fontSize": 44,
+    "fontFamily": "Abel, sans-serif",
+    "x": 763,
+    "y": 633,
+    "dx": -40,
+    "text": "ch",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 243,
+    "y": 1442,
+    "dx": -45,
+    "text": "chain",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 766,
+    "y": 434,
+    "dx": -44,
+    "text": "change",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 412,
+    "y": 342,
+    "dx": -42,
+    "text": "channel",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 551,
+    "y": 483,
+    "dx": -41,
+    "text": "charset",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 786,
+    "y": 341,
+    "dx": -44,
+    "text": "check",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 393,
+    "y": 1237,
+    "dx": 0,
+    "text": "checkAnswer",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 315,
+    "y": 1444,
+    "dx": -43,
+    "text": "checker",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 243,
+    "y": 1348,
+    "dx": -42,
+    "text": "children",
+    "rotate": true
+  },
+  {
+    "fontSize": 29,
+    "fontFamily": "Abel, sans-serif",
+    "x": 949,
+    "y": 594,
+    "dx": 0,
+    "text": "chk",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1115,
+    "y": 1200,
+    "dx": 0,
+    "text": "Every",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 387,
+    "dx": -41,
+    "text": "classOf",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 430,
+    "dx": 0,
+    "text": "clazz",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 257,
+    "y": 1487,
+    "dx": 0,
+    "text": "clear",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 727,
+    "y": 748,
+    "dx": 0,
+    "text": "client",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1109,
+    "y": 81,
+    "dx": 0,
+    "text": "Exception",
+    "rotate": false
+  },
+  {
+    "fontSize": 33,
+    "fontFamily": "Abel, sans-serif",
+    "x": 470,
+    "y": 205,
+    "dx": 0,
+    "text": "cls",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 242,
+    "y": 1395,
+    "dx": -43,
+    "text": "cluster",
+    "rotate": true
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1149,
+    "y": 1013,
+    "dx": 0,
+    "text": "cmd",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 426,
+    "y": 758,
+    "dx": 0,
+    "text": "ExecutionContext",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 768,
+    "y": 674,
+    "dx": 0,
+    "text": "codec",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 203,
+    "dx": 0,
+    "text": "col",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 905,
+    "y": 608,
+    "dx": 0,
+    "text": "collect",
+    "rotate": false
+  },
+  {
+    "fontSize": 47,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1071,
+    "y": 1347,
+    "dx": -24,
+    "text": "F",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1106,
+    "y": 864,
+    "dx": 0,
+    "text": "color",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 817,
+    "dx": 0,
+    "text": "column",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 962,
+    "y": 1392,
+    "dx": 0,
+    "text": "Failure",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 319,
+    "y": 851,
+    "dx": 0,
+    "text": "command",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 395,
+    "y": 1436,
+    "dx": 0,
+    "text": "common",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 582,
+    "y": 1438,
+    "dx": 0,
+    "text": "commons",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 813,
+    "y": 322,
+    "dx": 0,
+    "text": "compiler",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 399,
+    "y": 1490,
+    "dx": 0,
+    "text": "complete",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 921,
+    "y": 1389,
+    "dx": 0,
+    "text": "File",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 943,
+    "y": 627,
+    "dx": 0,
+    "text": "conf",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 732,
+    "y": 674,
+    "dx": 0,
+    "text": "Filter",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 810,
+    "y": 469,
+    "dx": 0,
+    "text": "configuration",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 355,
+    "y": 1435,
+    "dx": 0,
+    "text": "conn",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 429,
+    "y": 962,
+    "dx": 0,
+    "text": "connection",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1132,
+    "y": 720,
+    "dx": 0,
+    "text": "constructor",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 959,
+    "dx": 0,
+    "text": "consumer",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 518,
+    "y": 530,
+    "dx": 0,
+    "text": "contain",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 597,
+    "y": 1157,
+    "dx": -43,
+    "text": "contains",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1093,
+    "y": 197,
+    "dx": -42,
+    "text": "content",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 469,
+    "y": 480,
+    "dx": 0,
+    "text": "context",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 843,
+    "y": 866,
+    "dx": 0,
+    "text": "control",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1088,
+    "y": 562,
+    "dx": 0,
+    "text": "controller",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 740,
+    "y": 1440,
+    "dx": 0,
+    "text": "controllers",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1052,
+    "y": 1040,
+    "dx": 0,
+    "text": "convert",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 387,
+    "y": 265,
+    "dx": 0,
+    "text": "copy",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 854,
+    "y": 339,
+    "dx": 0,
+    "text": "FixtureParam",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 880,
+    "y": 1345,
+    "dx": 0,
+    "text": "correct",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1099,
+    "y": 846,
+    "dx": 0,
+    "text": "count",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1124,
+    "y": 1269,
+    "dx": 0,
+    "text": "cra",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 925,
+    "y": 1343,
+    "dx": 0,
+    "text": "create",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 676,
+    "y": 826,
+    "dx": -35,
+    "text": "created",
+    "rotate": true
+  },
+  {
+    "fontSize": 32,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1098,
+    "y": 1264,
+    "dx": 0,
+    "text": "ct",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 876,
+    "y": 1086,
+    "dx": 0,
+    "text": "FlatSpec",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1126,
+    "y": 581,
+    "dx": -36,
+    "text": "current",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 846,
+    "y": 1154,
+    "dx": 0,
+    "text": "currentTimeMillis",
+    "rotate": false
+  },
+  {
+    "fontSize": 40,
+    "fontFamily": "Abel, sans-serif",
+    "x": 761,
+    "y": 751,
+    "dx": -19,
+    "text": "d",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 544,
+    "y": 918,
+    "dx": 0,
+    "text": "Float",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 391,
+    "y": 701,
+    "dx": 0,
+    "text": "date",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1125,
+    "y": 157,
+    "dx": 0,
+    "text": "db",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 339,
+    "y": 525,
+    "dx": 0,
+    "text": "de",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 327,
+    "y": 700,
+    "dx": 0,
+    "text": "debug",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 359,
+    "y": 694,
+    "dx": 0,
+    "text": "For",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 845,
+    "y": 196,
+    "dx": -33,
+    "text": "default",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 636,
+    "y": 387,
+    "dx": -34,
+    "text": "defined",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 355,
+    "y": 754,
+    "dx": 0,
+    "text": "delete",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 334,
+    "y": 553,
+    "dx": 0,
+    "text": "depth",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 388,
+    "dx": -39,
+    "text": "description",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 257,
+    "y": 311,
+    "dx": 0,
+    "text": "dir",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 772,
+    "dx": -37,
+    "text": "dispatcher",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 425,
+    "y": 708,
+    "dx": 0,
+    "text": "distributed",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 249,
+    "y": 1189,
+    "dx": 0,
+    "text": "distribution",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 784,
+    "y": 838,
+    "dx": 0,
+    "text": "div",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 257,
+    "y": 333,
+    "dx": 0,
+    "text": "do",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 305,
+    "y": 556,
+    "dx": 0,
+    "text": "doc",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 395,
+    "y": 1429,
+    "dx": 0,
+    "text": "documentation",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 975,
+    "y": 317,
+    "dx": 0,
+    "text": "does",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 245,
+    "y": 924,
+    "dx": -33,
+    "text": "domain",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 648,
+    "y": 792,
+    "dx": 0,
+    "text": "driver",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 995,
+    "y": 611,
+    "dx": 0,
+    "text": "duration",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 709,
+    "y": 263,
+    "dx": 0,
+    "text": "Full",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 589,
+    "y": 1198,
+    "dx": 0,
+    "text": "e1",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1021,
+    "y": 717,
+    "dx": 0,
+    "text": "e2",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 872,
+    "dx": 0,
+    "text": "each",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 708,
+    "y": 1385,
+    "dx": 0,
+    "text": "ec",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 751,
+    "y": 1188,
+    "dx": 0,
+    "text": "eclipse",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 391,
+    "y": 1016,
+    "dx": 0,
+    "text": "editor",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 553,
+    "y": 265,
+    "dx": 0,
+    "text": "edu",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 336,
+    "y": 1296,
+    "dx": 0,
+    "text": "elem",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 997,
+    "y": 420,
+    "dx": 0,
+    "text": "element",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 914,
+    "y": 337,
+    "dx": 0,
+    "text": "elements",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1052,
+    "y": 421,
+    "dx": 0,
+    "text": "FunSpec",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 935,
+    "y": 144,
+    "dx": 0,
+    "text": "email",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 824,
+    "y": 870,
+    "dx": -34,
+    "text": "FunSuite",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1052,
+    "y": 611,
+    "dx": 0,
+    "text": "enables",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 883,
+    "y": 265,
+    "dx": 0,
+    "text": "end",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 989,
+    "y": 122,
+    "dx": 0,
+    "text": "entity",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 311,
+    "dx": 0,
+    "text": "entry",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 268,
+    "y": 1226,
+    "dx": 0,
+    "text": "env",
+    "rotate": false
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 754,
+    "y": 1194,
+    "dx": 0,
+    "text": "eq",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 982,
+    "y": 246,
+    "dx": 0,
+    "text": "equal",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 792,
+    "dx": 0,
+    "text": "equals",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 210,
+    "dx": 0,
+    "text": "err",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 419,
+    "y": 446,
+    "dx": -25,
+    "text": "error",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 297,
+    "y": 1450,
+    "dx": -32,
+    "text": "errors",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1155,
+    "y": 66,
+    "dx": 0,
+    "text": "es",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 243,
+    "y": 877,
+    "dx": -26,
+    "text": "event",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 806,
+    "y": 960,
+    "dx": 0,
+    "text": "events",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 543,
+    "y": 884,
+    "dx": 0,
+    "text": "ex",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 449,
+    "y": 1178,
+    "dx": 0,
+    "text": "example",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 561,
+    "y": 531,
+    "dx": 0,
+    "text": "examples",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1011,
+    "y": 880,
+    "dx": -30,
+    "text": "exception",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 244,
+    "y": 483,
+    "dx": -34,
+    "text": "exceptions",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 255,
+    "y": 482,
+    "dx": -31,
+    "text": "execute",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 600,
+    "y": 866,
+    "dx": 0,
+    "text": "exists",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 365,
+    "dx": 0,
+    "text": "exit",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 653,
+    "y": 805,
+    "dx": 0,
+    "text": "expect",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 262,
+    "y": 1396,
+    "dx": -28,
+    "text": "expected",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 288,
+    "y": 341,
+    "dx": 0,
+    "text": "expr",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 513,
+    "y": 491,
+    "dx": -33,
+    "text": "expression",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1177,
+    "y": 298,
+    "dx": -30,
+    "text": "Function",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 477,
+    "y": 1441,
+    "dx": 0,
+    "text": "Actor",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 245,
+    "y": 532,
+    "dx": -27,
+    "text": "factorie",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 246,
+    "y": 362,
+    "dx": 0,
+    "text": "factory",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 559,
+    "y": 1247,
+    "dx": 0,
+    "text": "fail",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 700,
+    "y": 1233,
+    "dx": 0,
+    "text": "failed",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 510,
+    "y": 1480,
+    "dx": 0,
+    "text": "failedCodeFileName",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1120,
+    "y": 683,
+    "dx": -60,
+    "text": "failedCodeLineNumber",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 365,
+    "y": 852,
+    "dx": 0,
+    "text": "failure",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 256,
+    "y": 295,
+    "dx": 0,
+    "text": "GET",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 501,
+    "y": 1010,
+    "dx": 0,
+    "text": "feature",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1015,
+    "y": 914,
+    "dx": 0,
+    "text": "features",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 1210,
+    "dx": 0,
+    "text": "field",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1120,
+    "y": 1018,
+    "dx": 0,
+    "text": "fields",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 537,
+    "dx": 0,
+    "text": "Gen",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 564,
+    "y": 662,
+    "dx": 0,
+    "text": "fileName",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 929,
+    "y": 320,
+    "dx": 0,
+    "text": "files",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 362,
+    "y": 1017,
+    "dx": 0,
+    "text": "filter",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 345,
+    "dx": 0,
+    "text": "finagle",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1073,
+    "y": 848,
+    "dx": 0,
+    "text": "final",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 424,
+    "y": 1283,
+    "dx": 0,
+    "text": "finally",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 990,
+    "y": 887,
+    "dx": 0,
+    "text": "find",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 559,
+    "y": 1227,
+    "dx": 0,
+    "text": "first",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 445,
+    "y": 794,
+    "dx": 0,
+    "text": "fixture",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 473,
+    "y": 794,
+    "dx": 0,
+    "text": "flatMap",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 521,
+    "y": 266,
+    "dx": 0,
+    "text": "flush",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 731,
+    "y": 767,
+    "dx": 0,
+    "text": "fold",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 394,
+    "y": 531,
+    "dx": 0,
+    "text": "following",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 1392,
+    "dx": 0,
+    "text": "foo",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 1080,
+    "dx": 0,
+    "text": "Get",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 633,
+    "y": 864,
+    "dx": 0,
+    "text": "forAll",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 429,
+    "y": 1380,
+    "dx": 0,
+    "text": "Group",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 246,
+    "y": 1516,
+    "dx": 0,
+    "text": "form",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 757,
+    "y": 1155,
+    "dx": 0,
+    "text": "format",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 316,
+    "y": 782,
+    "dx": -30,
+    "text": "formatter",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 306,
+    "y": 226,
+    "dx": 0,
+    "text": "forms",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 261,
+    "y": 372,
+    "dx": 0,
+    "text": "found",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 1222,
+    "dx": 0,
+    "text": "H",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1024,
+    "y": 194,
+    "dx": -20,
+    "text": "fs",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1159,
+    "y": 1298,
+    "dx": 0,
+    "text": "fun",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 545,
+    "y": 1346,
+    "dx": 0,
+    "text": "function",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 983,
+    "y": 1111,
+    "dx": -29,
+    "text": "functions",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1163,
+    "y": 998,
+    "dx": 0,
+    "text": "future",
+    "rotate": false
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 926,
+    "y": 130,
+    "dx": -13,
+    "text": "g",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 228,
+    "dx": 0,
+    "text": "game",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 291,
+    "y": 961,
+    "dx": 0,
+    "text": "gatling",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 261,
+    "y": 891,
+    "dx": 0,
+    "text": "gen",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 811,
+    "y": 1215,
+    "dx": 0,
+    "text": "generate",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 296,
+    "y": 1207,
+    "dx": -27,
+    "text": "generated",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 726,
+    "y": 400,
+    "dx": -28,
+    "text": "geomesa",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 449,
+    "y": 1489,
+    "dx": 0,
+    "text": "geotools",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 745,
+    "y": 228,
+    "dx": 0,
+    "text": "HList",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 292,
+    "y": 1010,
+    "dx": 0,
+    "text": "getClass",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 614,
+    "y": 677,
+    "dx": -28,
+    "text": "getInstance",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 687,
+    "dx": -23,
+    "text": "getLogger",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 822,
+    "y": 389,
+    "dx": 0,
+    "text": "getMessage",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1106,
+    "y": 606,
+    "dx": 0,
+    "text": "getName",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 301,
+    "y": 282,
+    "dx": 0,
+    "text": "getOrElse",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 624,
+    "dx": 0,
+    "text": "git",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 367,
+    "y": 1179,
+    "dx": 0,
+    "text": "github",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1129,
+    "y": 390,
+    "dx": 0,
+    "text": "given",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 886,
+    "y": 244,
+    "dx": 0,
+    "text": "global",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 965,
+    "y": 117,
+    "dx": 0,
+    "text": "go",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 996,
+    "y": 1064,
+    "dx": 0,
+    "text": "google",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 463,
+    "y": 916,
+    "dx": 0,
+    "text": "gov",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 342,
+    "y": 794,
+    "dx": 0,
+    "text": "graph",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 611,
+    "y": 959,
+    "dx": 0,
+    "text": "group",
+    "rotate": false
+  },
+  {
+    "fontSize": 27,
+    "fontFamily": "Abel, sans-serif",
+    "x": 470,
+    "y": 1010,
+    "dx": -13,
+    "text": "h",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 531,
+    "y": 963,
+    "dx": 0,
+    "text": "hadoop",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 634,
+    "y": 280,
+    "dx": 0,
+    "text": "handler",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 880,
+    "y": 287,
+    "dx": 0,
+    "text": "has",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 383,
+    "y": 434,
+    "dx": 0,
+    "text": "hasNext",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 578,
+    "y": 1427,
+    "dx": 0,
+    "text": "HNil",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1156,
+    "y": 59,
+    "dx": 0,
+    "text": "head",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1023,
+    "y": 1107,
+    "dx": 0,
+    "text": "header",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 353,
+    "y": 278,
+    "dx": 0,
+    "text": "headers",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 288,
+    "dx": 0,
+    "text": "here",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 802,
+    "y": 844,
+    "dx": -22,
+    "text": "⇒",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 991,
+    "y": 924,
+    "dx": 0,
+    "text": "hmrc",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 493,
+    "y": 672,
+    "dx": 0,
+    "text": "host",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 370,
+    "y": 1424,
+    "dx": 0,
+    "text": "href",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1088,
+    "y": 149,
+    "dx": 0,
+    "text": "html",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 760,
+    "y": 1253,
+    "dx": 0,
+    "text": "HashMap",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 566,
+    "y": 676,
+    "dx": 0,
+    "text": "https",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1042,
+    "y": 650,
+    "dx": 0,
+    "text": "Helpers",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 570,
+    "y": 852,
+    "dx": 0,
+    "text": "I"
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 448,
+    "y": 1395,
+    "dx": -20,
+    "text": "idx",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1070,
+    "y": 1269,
+    "dx": 0,
+    "text": "ID",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 751,
+    "dx": 0,
+    "text": "ignore",
+    "rotate": false
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 661,
+    "y": 504,
+    "dx": 0,
+    "text": "im",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 289,
+    "y": 423,
+    "dx": 0,
+    "text": "immutable",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 855,
+    "y": 248,
+    "dx": 0,
+    "text": "impl",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 927,
+    "y": 186,
+    "dx": 0,
+    "text": "implementation",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 719,
+    "dx": 0,
+    "text": "IO",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 366,
+    "y": 867,
+    "dx": 0,
+    "text": "implicitConversions",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 521,
+    "dx": 0,
+    "text": "IOException",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 741,
+    "y": 1317,
+    "dx": 0,
+    "text": "If",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 813,
+    "y": 632,
+    "dx": 0,
+    "text": "include",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 926,
+    "y": 434,
+    "dx": 0,
+    "text": "index",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 686,
+    "y": 1345,
+    "dx": 0,
+    "text": "info",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 916,
+    "y": 626,
+    "dx": 0,
+    "text": "information",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 493,
+    "y": 536,
+    "dx": 0,
+    "text": "init",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 837,
+    "y": 628,
+    "dx": 0,
+    "text": "inject",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 562,
+    "y": 1177,
+    "dx": 0,
+    "text": "inline",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1018,
+    "y": 122,
+    "dx": 0,
+    "text": "input",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 517,
+    "y": 674,
+    "dx": 0,
+    "text": "instance",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 738,
+    "y": 890,
+    "dx": 0,
+    "text": "int",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 419,
+    "y": 1298,
+    "dx": 0,
+    "text": "intellij",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 728,
+    "y": 1145,
+    "dx": 0,
+    "text": "IllegalArgumentException",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 796,
+    "y": 254,
+    "dx": 0,
+    "text": "internal",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 580,
+    "y": 279,
+    "dx": 0,
+    "text": "interval",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 270,
+    "y": 1296,
+    "dx": 0,
+    "text": "into",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1001,
+    "y": 1275,
+    "dx": 0,
+    "text": "Implicits",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 931,
+    "y": 261,
+    "dx": 0,
+    "text": "In",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1047,
+    "y": 1108,
+    "dx": 0,
+    "text": "isDefined",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1160,
+    "y": 535,
+    "dx": 0,
+    "text": "isEmpty",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1117,
+    "y": 146,
+    "dx": 0,
+    "text": "isInstanceOf",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1001,
+    "y": 387,
+    "dx": 0,
+    "text": "ActorRef",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 966,
+    "y": 179,
+    "dx": 0,
+    "text": "item",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 419,
+    "y": 746,
+    "dx": 0,
+    "text": "items",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 467,
+    "y": 534,
+    "dx": 0,
+    "text": "iter",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 773,
+    "y": 255,
+    "dx": 0,
+    "text": "iterator",
+    "rotate": false
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1101,
+    "y": 292,
+    "dx": -21,
+    "text": "its",
+    "rotate": true
+  },
+  {
+    "fontSize": 37,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1095,
+    "y": 236,
+    "dx": 0,
+    "text": "j",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1122,
+    "y": 1182,
+    "dx": 0,
+    "text": "jackson",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 962,
+    "y": 920,
+    "dx": 0,
+    "text": "Integer",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 1225,
+    "dx": 0,
+    "text": "javax",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 371,
+    "y": 1167,
+    "dx": 0,
+    "text": "jetbrains",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 446,
+    "y": 679,
+    "dx": 0,
+    "text": "joda",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1028,
+    "y": 269,
+    "dx": -19,
+    "text": "join",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 868,
+    "y": 472,
+    "dx": 0,
+    "text": "Iterator",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 820,
+    "y": 771,
+    "dx": -19,
+    "text": "jsaf",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1105,
+    "y": 1058,
+    "dx": 0,
+    "text": "JUnitRunner",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 659,
+    "y": 495,
+    "dx": 0,
+    "text": "json4s",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 855,
+    "y": 321,
+    "dx": 0,
+    "text": "junit",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 441,
+    "y": 1293,
+    "dx": 0,
+    "text": "k",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 734,
+    "y": 829,
+    "dx": 0,
+    "text": "kafka",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 702,
+    "y": 1116,
+    "dx": 0,
+    "text": "kaist",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 774,
+    "y": 388,
+    "dx": 0,
+    "text": "JavaConversions",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 651,
+    "y": 891,
+    "dx": -20,
+    "text": "keys",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 672,
+    "y": 720,
+    "dx": 0,
+    "text": "kr",
+    "rotate": false
+  },
+  {
+    "fontSize": 60,
+    "fontFamily": "Abel, sans-serif",
+    "x": 296,
+    "y": 1362,
+    "dx": 0,
+    "text": "l"
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 972,
+    "y": 1085,
+    "dx": 0,
+    "text": "label",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 508,
+    "y": 340,
+    "dx": 0,
+    "text": "JavaConverters",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 692,
+    "y": 234,
+    "dx": 0,
+    "text": "language",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 346,
+    "y": 1323,
+    "dx": -20,
+    "text": "last",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 399,
+    "y": 773,
+    "dx": -20,
+    "text": "lazy",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 990,
+    "y": 915,
+    "dx": 0,
+    "text": "leader",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 820,
+    "y": 1396,
+    "dx": -20,
+    "text": "left",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 369,
+    "y": 1228,
+    "dx": -21,
+    "text": "len",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1002,
+    "y": 1331,
+    "dx": 0,
+    "text": "Json",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 499,
+    "y": 850,
+    "dx": 0,
+    "text": "level",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 503,
+    "y": 244,
+    "dx": -21,
+    "text": "lhs",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 506,
+    "y": 1149,
+    "dx": 0,
+    "text": "li",
+    "rotate": false
+  },
+  {
+    "fontSize": 23,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1105,
+    "y": 580,
+    "dx": -21,
+    "text": "lib",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 603,
+    "y": 329,
+    "dx": 0,
+    "text": "libraryDependencies",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 293,
+    "y": 291,
+    "dx": -21,
+    "text": "libs",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 489,
+    "y": 685,
+    "dx": 0,
+    "text": "liftweb",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1139,
+    "y": 844,
+    "dx": -21,
+    "text": "lila",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 615,
+    "y": 1130,
+    "dx": 0,
+    "text": "limit",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 917,
+    "y": 457,
+    "dx": 0,
+    "text": "linalg",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 1395,
+    "dx": -21,
+    "text": "line",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 604,
+    "y": 196,
+    "dx": -20,
+    "text": "list",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 272,
+    "y": 1177,
+    "dx": 0,
+    "text": "load",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 920,
+    "y": 825,
+    "dx": 0,
+    "text": "local",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1079,
+    "y": 98,
+    "dx": 0,
+    "text": "locationtech",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 809,
+    "y": 652,
+    "dx": -20,
+    "text": "log",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1099,
+    "y": 794,
+    "dx": 0,
+    "text": "logger",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1163,
+    "y": 844,
+    "dx": -19,
+    "text": "logging",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 729,
+    "y": 172,
+    "dx": -19,
+    "text": "loop",
+    "rotate": true
+  },
+  {
+    "fontSize": 30,
+    "fontFamily": "Abel, sans-serif",
+    "x": 915,
+    "y": 843,
+    "dx": -22,
+    "text": "m",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 640,
+    "y": 180,
+    "dx": 0,
+    "text": "macros",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 1251,
+    "dx": -19,
+    "text": "main",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 315,
+    "y": 989,
+    "dx": -19,
+    "text": "make",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 1334,
+    "dx": 0,
+    "text": "manager",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1006,
+    "y": 309,
+    "dx": 0,
+    "text": "K",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 363,
+    "y": 518,
+    "dx": 0,
+    "text": "marathon",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 687,
+    "y": 915,
+    "dx": 0,
+    "text": "KafkaConfig",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 454,
+    "y": 1346,
+    "dx": 0,
+    "text": "matches",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 801,
+    "y": 272,
+    "dx": 0,
+    "text": "math",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1000,
+    "y": 1216,
+    "dx": 0,
+    "text": "matrix",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1067,
+    "y": 1082,
+    "dx": -20,
+    "text": "max",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 551,
+    "y": 329,
+    "dx": 0,
+    "text": "mesosphere",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 630,
+    "y": 939,
+    "dx": -20,
+    "text": "Key",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 390,
+    "y": 687,
+    "dx": 0,
+    "text": "messages",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 878,
+    "y": 758,
+    "dx": 0,
+    "text": "meta",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 743,
+    "y": 194,
+    "dx": 0,
+    "text": "metadata",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 426,
+    "y": 1345,
+    "dx": 0,
+    "text": "method",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1072,
+    "y": 1060,
+    "dx": 0,
+    "text": "methods",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1050,
+    "y": 1374,
+    "dx": 0,
+    "text": "metrics",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1163,
+    "y": 1107,
+    "dx": 0,
+    "text": "minecraft",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 434,
+    "y": 482,
+    "dx": 0,
+    "text": "mkString",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1044,
+    "y": 722,
+    "dx": -19,
+    "text": "mllib",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 833,
+    "y": 653,
+    "dx": -19,
+    "text": "mock",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 268,
+    "y": 435,
+    "dx": 0,
+    "text": "mockito",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 814,
+    "y": 868,
+    "dx": -19,
+    "text": "mode",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 915,
+    "y": 1089,
+    "dx": 0,
+    "text": "model",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 526,
+    "y": 279,
+    "dx": 0,
+    "text": "models",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 666,
+    "y": 483,
+    "dx": 0,
+    "text": "modify",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 997,
+    "y": 1105,
+    "dx": 0,
+    "text": "module",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 905,
+    "y": 469,
+    "dx": 0,
+    "text": "more",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 340,
+    "y": 1016,
+    "dx": 0,
+    "text": "msg",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1029,
+    "y": 245,
+    "dx": -19,
+    "text": "Keys",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 861,
+    "y": 184,
+    "dx": 0,
+    "text": "mustEqual",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 602,
+    "y": 1293,
+    "dx": 0,
+    "text": "L",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 263,
+    "y": 1013,
+    "dx": -19,
+    "text": "mvc",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1009,
+    "y": 246,
+    "dx": 0,
+    "text": "mytags",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 487,
+    "y": 915,
+    "dx": -19,
+    "text": "LINE",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 817,
+    "y": 202,
+    "dx": 0,
+    "text": "Left",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 374,
+    "y": 342,
+    "dx": -23,
+    "text": "names",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 346,
+    "y": 1167,
+    "dx": 0,
+    "text": "native",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 794,
+    "y": 202,
+    "dx": 0,
+    "text": "need",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 940,
+    "dx": -20,
+    "text": "Level",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 495,
+    "y": 698,
+    "dx": 0,
+    "text": "netty",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 951,
+    "y": 435,
+    "dx": 0,
+    "text": "ActorSystem",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 579,
+    "y": 939,
+    "dx": -19,
+    "text": "next",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1043,
+    "y": 1275,
+    "dx": -21,
+    "text": "nio",
+    "rotate": true
+  },
+  {
+    "fontSize": 22,
+    "fontFamily": "Abel, sans-serif",
+    "x": 927,
+    "y": 1324,
+    "dx": -20,
+    "text": "no",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 423,
+    "y": 793,
+    "dx": 0,
+    "text": "node",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 617,
+    "y": 843,
+    "dx": -19,
+    "text": "nodes",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 572,
+    "y": 242,
+    "dx": -20,
+    "text": "non",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 316,
+    "y": 1250,
+    "dx": 0,
+    "text": "nonEmpty",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1181,
+    "y": 648,
+    "dx": -23,
+    "text": "normation",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 260,
+    "y": 521,
+    "dx": 0,
+    "text": "ListBuffer",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 921,
+    "dx": 0,
+    "text": "nothing",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1056,
+    "y": 796,
+    "dx": -19,
+    "text": "now",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 953,
+    "y": 460,
+    "dx": 0,
+    "text": "Logger",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 346,
+    "y": 434,
+    "dx": 0,
+    "text": "number",
+    "rotate": false
+  },
+  {
+    "fontSize": 34,
+    "fontFamily": "Abel, sans-serif",
+    "x": 298,
+    "y": 1476,
+    "dx": 0,
+    "text": "o",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 928,
+    "y": 244,
+    "dx": -20,
+    "text": "obj",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 888,
+    "y": 858,
+    "dx": 0,
+    "text": "LoggerFactory",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 295,
+    "y": 1034,
+    "dx": 0,
+    "text": "Logging",
+    "rotate": false
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 873,
+    "y": 941,
+    "dx": -20,
+    "text": "off",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 657,
+    "y": 869,
+    "dx": -19,
+    "text": "offset",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 932,
+    "y": 192,
+    "dx": 0,
+    "text": "Long",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1122,
+    "y": 1189,
+    "dx": 0,
+    "text": "once",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 265,
+    "y": 748,
+    "dx": -20,
+    "text": "one",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 919,
+    "y": 917,
+    "dx": -19,
+    "text": "only",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 904,
+    "y": 1252,
+    "dx": -19,
+    "text": "op",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 818,
+    "y": 795,
+    "dx": 0,
+    "text": "openapi",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 449,
+    "y": 329,
+    "dx": 0,
+    "text": "operation",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 407,
+    "y": 890,
+    "dx": -20,
+    "text": "option",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 252,
+    "y": 245,
+    "dx": -19,
+    "text": "optional",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1112,
+    "y": 757,
+    "dx": 0,
+    "text": "options",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 480,
+    "y": 845,
+    "dx": -19,
+    "text": "opts",
+    "rotate": true
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 658,
+    "y": 1415,
+    "dx": 0,
+    "text": "M",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1059,
+    "y": 291,
+    "dx": 0,
+    "text": "orbeon",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 995,
+    "y": 602,
+    "dx": 0,
+    "text": "order",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 525,
+    "y": 244,
+    "dx": -19,
+    "text": "Any",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 921,
+    "y": 942,
+    "dx": 0,
+    "text": "other",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 912,
+    "y": 1324,
+    "dx": -21,
+    "text": "out",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 567,
+    "y": 697,
+    "dx": 0,
+    "text": "output",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 427,
+    "y": 282,
+    "dx": 0,
+    "text": "Matchers",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 663,
+    "y": 276,
+    "dx": 0,
+    "text": "owner",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 508,
+    "y": 220,
+    "dx": -20,
+    "text": "oxf",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 487,
+    "y": 329,
+    "dx": 0,
+    "text": "Message",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1131,
+    "y": 75,
+    "dx": 0,
+    "text": "Mockito",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 424,
+    "y": 678,
+    "dx": 0,
+    "text": "page",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1074,
+    "y": 1105,
+    "dx": 0,
+    "text": "Module",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1148,
+    "y": 1011,
+    "dx": 0,
+    "text": "parameter",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 522,
+    "y": 328,
+    "dx": 0,
+    "text": "parameters",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 266,
+    "y": 421,
+    "dx": 0,
+    "text": "params",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 994,
+    "y": 591,
+    "dx": 0,
+    "text": "parent",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 447,
+    "y": 1204,
+    "dx": -19,
+    "text": "parse",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 269,
+    "dx": 0,
+    "text": "parser",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 686,
+    "y": 389,
+    "dx": -19,
+    "text": "part",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 774,
+    "y": 268,
+    "dx": 0,
+    "text": "partition",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 910,
+    "y": 148,
+    "dx": 0,
+    "text": "partitions",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 443,
+    "y": 506,
+    "dx": -20,
+    "text": "passed",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 865,
+    "y": 268,
+    "dx": -19,
+    "text": "path",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 317,
+    "y": 1020,
+    "dx": 0,
+    "text": "pattern",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 533,
+    "y": 1141,
+    "dx": 0,
+    "text": "pending",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 974,
+    "y": 460,
+    "dx": 0,
+    "text": "pipeline",
+    "rotate": false
+  },
+  {
+    "fontSize": 26,
+    "fontFamily": "Abel, sans-serif",
+    "x": 900,
+    "y": 1221,
+    "dx": 0,
+    "text": "N",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 982,
+    "y": 291,
+    "dx": -20,
+    "text": "plugins",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1057,
+    "y": 818,
+    "dx": -20,
+    "text": "point",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 946,
+    "y": 819,
+    "dx": -19,
+    "text": "port",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 933,
+    "y": 1251,
+    "dx": -20,
+    "text": "pos",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 505,
+    "y": 748,
+    "dx": -19,
+    "text": "position",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 419,
+    "y": 988,
+    "dx": -19,
+    "text": "post",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 914,
+    "y": 246,
+    "dx": -18,
+    "text": "Name",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 601,
+    "y": 364,
+    "dx": -20,
+    "text": "prefix",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 289,
+    "y": 938,
+    "dx": -20,
+    "text": "print",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 587,
+    "y": 724,
+    "dx": -19,
+    "text": "AnyRef",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1038,
+    "y": 290,
+    "dx": -20,
+    "text": "Node",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 606,
+    "y": 280,
+    "dx": 0,
+    "text": "process",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 685,
+    "y": 786,
+    "dx": 0,
+    "text": "producer",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 615,
+    "y": 1253,
+    "dx": -19,
+    "text": "project",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 888,
+    "y": 917,
+    "dx": -19,
+    "text": "promise",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 741,
+    "y": 170,
+    "dx": -19,
+    "text": "prop",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 337,
+    "y": 522,
+    "dx": 0,
+    "text": "properties",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1160,
+    "y": 364,
+    "dx": -19,
+    "text": "props",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 716,
+    "y": 256,
+    "dx": 0,
+    "text": "protected",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 828,
+    "y": 917,
+    "dx": -19,
+    "text": "protocol",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 914,
+    "y": 1107,
+    "dx": -20,
+    "text": "provided",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 250,
+    "y": 986,
+    "dx": -19,
+    "text": "provider",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 833,
+    "y": 1108,
+    "dx": -17,
+    "text": "psi",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 911,
+    "y": 411,
+    "dx": -20,
+    "text": "publish",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1057,
+    "y": 1348,
+    "dx": -19,
+    "text": "put",
+    "rotate": true
+  },
+  {
+    "fontSize": 25,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1175,
+    "y": 811,
+    "dx": 0,
+    "text": "q",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1078,
+    "y": 1157,
+    "dx": -19,
+    "text": "query",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 860,
+    "y": 939,
+    "dx": -19,
+    "text": "queue",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 815,
+    "y": 1348,
+    "dx": 0,
+    "text": "NodeSeq",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1017,
+    "y": 111,
+    "dx": 0,
+    "text": "random",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 947,
+    "y": 797,
+    "dx": -19,
+    "text": "range",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1008,
+    "y": 267,
+    "dx": -21,
+    "text": "rdd",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 733,
+    "y": 1291,
+    "dx": 0,
+    "text": "reactivemongo",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 899,
+    "y": 1155,
+    "dx": -19,
+    "text": "read",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1092,
+    "y": 170,
+    "dx": 0,
+    "text": "reader",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 973,
+    "y": 1107,
+    "dx": -20,
+    "text": "receive",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 902,
+    "y": 1300,
+    "dx": -20,
+    "text": "record",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 370,
+    "y": 1493,
+    "dx": -18,
+    "text": "ref",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 950,
+    "y": 771,
+    "dx": -18,
+    "text": "reflect",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 642,
+    "y": 435,
+    "dx": -19,
+    "text": "regex",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 636,
+    "y": 231,
+    "dx": 0,
+    "text": "remove",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1009,
+    "y": 844,
+    "dx": -21,
+    "text": "rep",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 957,
+    "y": 1085,
+    "dx": -18,
+    "text": "replica",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1178,
+    "y": 796,
+    "dx": -19,
+    "text": "replicas",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 282,
+    "y": 891,
+    "dx": -19,
+    "text": "repo",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 804,
+    "y": 748,
+    "dx": -19,
+    "text": "report",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 543,
+    "y": 675,
+    "dx": 0,
+    "text": "reporter",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 716,
+    "y": 233,
+    "dx": 0,
+    "text": "repository",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 905,
+    "y": 268,
+    "dx": -21,
+    "text": "req",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 656,
+    "y": 785,
+    "dx": 0,
+    "text": "NonFatal",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 991,
+    "y": 904,
+    "dx": 0,
+    "text": "requests",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 863,
+    "y": 221,
+    "dx": -19,
+    "text": "require",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 985,
+    "y": 435,
+    "dx": -19,
+    "text": "required",
+    "rotate": true
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 240,
+    "y": 435,
+    "dx": -21,
+    "text": "res",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 249,
+    "y": 770,
+    "dx": -19,
+    "text": "reset",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 707,
+    "y": 311,
+    "dx": -24,
+    "text": "resource",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 807,
+    "y": 353,
+    "dx": -27,
+    "text": "resources",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 313,
+    "y": 1492,
+    "dx": -19,
+    "text": "resp",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 570,
+    "y": 290,
+    "dx": 0,
+    "text": "response",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1024,
+    "y": 1275,
+    "dx": -19,
+    "text": "rest",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1149,
+    "y": 763,
+    "dx": 0,
+    "text": "AppDefinition",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 677,
+    "y": 1119,
+    "dx": 0,
+    "text": "results",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 332,
+    "y": 1494,
+    "dx": -19,
+    "text": "ret",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 688,
+    "y": 483,
+    "dx": 0,
+    "text": "NotAllowedException",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 680,
+    "y": 796,
+    "dx": -20,
+    "text": "returns",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1105,
+    "y": 1299,
+    "dx": -19,
+    "text": "rhs",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1123,
+    "y": 1299,
+    "dx": -20,
+    "text": "right",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 916,
+    "y": 1156,
+    "dx": -19,
+    "text": "root",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 243,
+    "dx": -19,
+    "text": "row",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 838,
+    "y": 724,
+    "dx": -19,
+    "text": "rows",
+    "rotate": true
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 344,
+    "y": 1493,
+    "dx": -18,
+    "text": "rs",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 998,
+    "y": 1208,
+    "dx": 0,
+    "text": "rudder",
+    "rotate": false
+  },
+  {
+    "fontSize": 24,
+    "fontFamily": "Abel, sans-serif",
+    "x": 532,
+    "y": 214,
+    "dx": 0,
+    "text": "O",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 931,
+    "y": 314,
+    "dx": 0,
+    "text": "runner",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 445,
+    "y": 539,
+    "dx": 0,
+    "text": "running",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 867,
+    "dx": 0,
+    "text": "runtime",
+    "rotate": false
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 682,
+    "y": 413,
+    "dx": -17,
+    "text": "OK",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 269,
+    "dx": -19,
+    "text": "same",
+    "rotate": true
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 530,
+    "y": 197,
+    "dx": 0,
+    "text": "sb",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 918,
+    "y": 892,
+    "dx": -19,
+    "text": "sbt",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 475,
+    "y": 822,
+    "dx": -19,
+    "text": "sc",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 818,
+    "y": 269,
+    "dx": -17,
+    "text": "OR",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 617,
+    "y": 1156,
+    "dx": 0,
+    "text": "scalacheck",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 656,
+    "y": 460,
+    "dx": -20,
+    "text": "scaladsl",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 516,
+    "y": 748,
+    "dx": -20,
+    "text": "scalajs",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1077,
+    "y": 843,
+    "dx": 0,
+    "text": "scalastyle",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 354,
+    "y": 822,
+    "dx": -18,
+    "text": "Object",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1063,
+    "y": 385,
+    "dx": 0,
+    "text": "scalaz",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 887,
+    "y": 257,
+    "dx": 0,
+    "text": "scheduler",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 266,
+    "y": 795,
+    "dx": 0,
+    "text": "schema",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1056,
+    "y": 722,
+    "dx": -19,
+    "text": "scope",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 340,
+    "y": 1035,
+    "dx": 0,
+    "text": "sealed",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1069,
+    "y": 724,
+    "dx": -18,
+    "text": "search",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 988,
+    "y": 1202,
+    "dx": -20,
+    "text": "second",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 568,
+    "y": 690,
+    "dx": 0,
+    "text": "seconds",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1011,
+    "y": 255,
+    "dx": 0,
+    "text": "section",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 715,
+    "y": 1131,
+    "dx": -19,
+    "text": "security",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 978,
+    "y": 1250,
+    "dx": -20,
+    "text": "see",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 498,
+    "y": 436,
+    "dx": -20,
+    "text": "select",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1140,
+    "y": 1179,
+    "dx": -19,
+    "text": "self",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 244,
+    "y": 1276,
+    "dx": -19,
+    "text": "send",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1097,
+    "y": 1178,
+    "dx": -20,
+    "text": "seq",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 967,
+    "y": 1153,
+    "dx": 0,
+    "text": "sequence",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 641,
+    "y": 1203,
+    "dx": -19,
+    "text": "server",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 639,
+    "y": 891,
+    "dx": -20,
+    "text": "service",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 932,
+    "y": 1083,
+    "dx": 0,
+    "text": "services",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 724,
+    "y": 1421,
+    "dx": -19,
+    "text": "servlet",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1095,
+    "y": 292,
+    "dx": -18,
+    "text": "session",
+    "rotate": true
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 304,
+    "y": 1421,
+    "dx": -19,
+    "text": "set",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 758,
+    "y": 1289,
+    "dx": 0,
+    "text": "settings",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 975,
+    "y": 1063,
+    "dx": 0,
+    "text": "sft",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 740,
+    "y": 915,
+    "dx": 0,
+    "text": "Observable",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 294,
+    "y": 1252,
+    "dx": 0,
+    "text": "shouldBe",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 738,
+    "y": 868,
+    "dx": 0,
+    "text": "shutdown",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 317,
+    "y": 820,
+    "dx": -18,
+    "text": "simple",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1119,
+    "y": 652,
+    "dx": -19,
+    "text": "since",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1001,
+    "y": 818,
+    "dx": -19,
+    "text": "single",
+    "rotate": true
+  },
+  {
+    "fontSize": 16,
+    "fontFamily": "Abel, sans-serif",
+    "x": 836,
+    "y": 148,
+    "dx": 0,
+    "text": "Ok",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 690,
+    "y": 652,
+    "dx": -19,
+    "text": "sleep",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 273,
+    "y": 706,
+    "dx": 0,
+    "text": "slf4j",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 986,
+    "y": 1181,
+    "dx": -19,
+    "text": "slick",
+    "rotate": true
+  },
+  {
+    "fontSize": 20,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1042,
+    "y": 701,
+    "dx": -19,
+    "text": "so",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 373,
+    "y": 317,
+    "dx": -19,
+    "text": "some",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 882,
+    "y": 145,
+    "dx": 0,
+    "text": "source",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 487,
+    "y": 892,
+    "dx": -19,
+    "text": "span",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 909,
+    "y": 137,
+    "dx": 0,
+    "text": "OneArgTest",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 754,
+    "y": 171,
+    "dx": -19,
+    "text": "spec",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 466,
+    "y": 916,
+    "dx": 0,
+    "text": "specified",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 968,
+    "y": 651,
+    "dx": 0,
+    "text": "specs2",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 369,
+    "y": 794,
+    "dx": 0,
+    "text": "split",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 614,
+    "y": 939,
+    "dx": -19,
+    "text": "spray",
+    "rotate": true
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 999,
+    "y": 1182,
+    "dx": 0,
+    "text": "sql",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 506,
+    "y": 1146,
+    "dx": 0,
+    "text": "sqlContext",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 928,
+    "y": 652,
+    "dx": -21,
+    "text": "src",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 849,
+    "y": 1324,
+    "dx": -20,
+    "text": "ssc",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 436,
+    "dx": 0,
+    "text": "stHighlight",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 589,
+    "y": 366,
+    "dx": -18,
+    "text": "stack",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 259,
+    "y": 940,
+    "dx": -19,
+    "text": "start",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 490,
+    "y": 460,
+    "dx": -19,
+    "text": "state",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 304,
+    "y": 989,
+    "dx": -19,
+    "text": "stats",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 839,
+    "y": 195,
+    "dx": -18,
+    "text": "status",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 318,
+    "y": 1035,
+    "dx": 0,
+    "text": "step",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 863,
+    "y": 481,
+    "dx": 0,
+    "text": "stop",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1063,
+    "y": 846,
+    "dx": -18,
+    "text": "storage",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 719,
+    "y": 675,
+    "dx": -19,
+    "text": "store",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 536,
+    "dx": 0,
+    "text": "str",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 642,
+    "y": 820,
+    "dx": -19,
+    "text": "stream",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 657,
+    "y": 916,
+    "dx": 0,
+    "text": "streaming",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 957,
+    "y": 1108,
+    "dx": -18,
+    "text": "string",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 392,
+    "y": 699,
+    "dx": 0,
+    "text": "stripMargin",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 895,
+    "y": 1131,
+    "dx": -17,
+    "text": "style",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 643,
+    "y": 518,
+    "dx": 0,
+    "text": "subject",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 682,
+    "y": 695,
+    "dx": -23,
+    "text": "success",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1181,
+    "y": 536,
+    "dx": -21,
+    "text": "successful",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1177,
+    "y": 338,
+    "dx": -19,
+    "text": "such",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1102,
+    "y": 1202,
+    "dx": -20,
+    "text": "suite",
+    "rotate": true
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 797,
+    "y": 702,
+    "dx": -18,
+    "text": "sum",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 900,
+    "y": 1275,
+    "dx": -19,
+    "text": "super",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 246,
+    "y": 844,
+    "dx": -18,
+    "text": "swing",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 408,
+    "y": 218,
+    "dx": 0,
+    "text": "sym",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 947,
+    "y": 1373,
+    "dx": -19,
+    "text": "symbol",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 606,
+    "y": 1435,
+    "dx": 0,
+    "text": "synchronized",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 636,
+    "y": 1132,
+    "dx": -18,
+    "text": "syntax",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 432,
+    "dx": 0,
+    "text": "sys",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 577,
+    "y": 387,
+    "dx": 0,
+    "text": "system",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1040,
+    "y": 905,
+    "dx": 0,
+    "text": "Arbitrary",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 839,
+    "y": 1128,
+    "dx": 0,
+    "text": "t1",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 614,
+    "y": 749,
+    "dx": 0,
+    "text": "t2",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 793,
+    "y": 726,
+    "dx": -18,
+    "text": "table",
+    "rotate": true
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 512,
+    "y": 199,
+    "dx": 0,
+    "text": "tag",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 815,
+    "y": 157,
+    "dx": 0,
+    "text": "tags",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1121,
+    "y": 1345,
+    "dx": 0,
+    "text": "tail",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1178,
+    "y": 51,
+    "dx": -18,
+    "text": "tailrec",
+    "rotate": true
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 953,
+    "y": 1069,
+    "dx": 0,
+    "text": "take",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 245,
+    "y": 291,
+    "dx": -19,
+    "text": "target",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 1165,
+    "dx": 0,
+    "text": "task",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 245,
+    "y": 339,
+    "dx": -18,
+    "text": "tasks",
+    "rotate": true
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 752,
+    "y": 699,
+    "dx": -12,
+    "text": "td",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 818,
+    "y": 1288,
+    "dx": 0,
+    "text": "template",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1001,
+    "y": 1225,
+    "dx": 0,
+    "text": "terms",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1125,
+    "y": 793,
+    "dx": 0,
+    "text": "Out",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 791,
+    "y": 867,
+    "dx": 0,
+    "text": "testName",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1109,
+    "y": 554,
+    "dx": 0,
+    "text": "testkit",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 946,
+    "y": 939,
+    "dx": 0,
+    "text": "tests",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 389,
+    "y": 219,
+    "dx": 0,
+    "text": "text",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1125,
+    "y": 1323,
+    "dx": 0,
+    "text": "than",
+    "rotate": false
+  },
+  {
+    "fontSize": 18,
+    "fontFamily": "Abel, sans-serif",
+    "x": 575,
+    "y": 517,
+    "dx": -10,
+    "text": "P",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 862,
+    "y": 387,
+    "dx": 0,
+    "text": "Parser",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 863,
+    "y": 618,
+    "dx": 0,
+    "text": "theTestThatCalled",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 258,
+    "y": 293,
+    "dx": 0,
+    "text": "theTestThisCalled",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1098,
+    "y": 1225,
+    "dx": 0,
+    "text": "then",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 902,
+    "y": 434,
+    "dx": 0,
+    "text": "thenReturn",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 674,
+    "y": 650,
+    "dx": 0,
+    "text": "there",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1015,
+    "y": 827,
+    "dx": 0,
+    "text": "Path",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 543,
+    "y": 882,
+    "dx": 0,
+    "text": "thisLineNumber",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 959,
+    "y": 1216,
+    "dx": 0,
+    "text": "thread",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 599,
+    "y": 386,
+    "dx": 0,
+    "text": "thrift",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 918,
+    "y": 1273,
+    "dx": 0,
+    "text": "Play",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 470,
+    "y": 472,
+    "dx": 0,
+    "text": "throws",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 287,
+    "y": 364,
+    "dx": -19,
+    "text": "Process",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 868,
+    "y": 293,
+    "dx": -18,
+    "text": "timeout",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 451,
+    "y": 1443,
+    "dx": 0,
+    "text": "timestamp",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 840,
+    "y": 1093,
+    "dx": 0,
+    "text": "title",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 911,
+    "y": 1083,
+    "dx": 0,
+    "text": "Project",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 784,
+    "y": 1146,
+    "dx": 0,
+    "text": "toArray",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 470,
+    "y": 206,
+    "dx": 0,
+    "text": "toInt",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 1226,
+    "dx": 0,
+    "text": "toList",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 668,
+    "y": 234,
+    "dx": 0,
+    "text": "toMap",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 753,
+    "y": 638,
+    "dx": 0,
+    "text": "toSeq",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 896,
+    "y": 1251,
+    "dx": 0,
+    "text": "toSet",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 862,
+    "y": 436,
+    "dx": -19,
+    "text": "Promise",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 536,
+    "y": 423,
+    "dx": 0,
+    "text": "token",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1097,
+    "y": 1105,
+    "dx": 0,
+    "text": "tools",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 1382,
+    "dx": 0,
+    "text": "topic",
+    "rotate": false
+  },
+  {
+    "fontSize": 3,
+    "fontFamily": "Abel, sans-serif",
+    "x": 309,
+    "y": 955,
+    "dx": 0,
+    "text": "topicAndPartition",
+    "rotate": false
+  },
+  {
+    "fontSize": 13,
+    "fontFamily": "Abel, sans-serif",
+    "x": 790,
+    "y": 322,
+    "dx": -11,
+    "text": "tp",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 535,
+    "y": 845,
+    "dx": -17,
+    "text": "tparam",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 275,
+    "y": 1514,
+    "dx": 0,
+    "text": "tpe",
+    "rotate": false
+  },
+  {
+    "fontSize": 15,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1108,
+    "y": 1320,
+    "dx": 0,
+    "text": "tr",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 948,
+    "y": 650,
+    "dx": 0,
+    "text": "trait",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 581,
+    "y": 329,
+    "dx": 0,
+    "text": "transform",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1081,
+    "y": 1226,
+    "dx": 0,
+    "text": "tree",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1139,
+    "y": 183,
+    "dx": 0,
+    "text": "trim",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 284,
+    "y": 866,
+    "dx": 0,
+    "text": "PropValue",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1093,
+    "y": 161,
+    "dx": 0,
+    "text": "Properties",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1103,
+    "y": 843,
+    "dx": 0,
+    "text": "tuple",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1001,
+    "y": 1394,
+    "dx": 0,
+    "text": "Props",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 556,
+    "y": 1141,
+    "dx": 0,
+    "text": "two",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 811,
+    "y": 643,
+    "dx": 0,
+    "text": "PsiElement",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1121,
+    "y": 843,
+    "dx": 0,
+    "text": "typed",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 474,
+    "y": 339,
+    "dx": 0,
+    "text": "types",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 742,
+    "y": 438,
+    "dx": -17,
+    "text": "typesafe",
+    "rotate": true
+  },
+  {
+    "fontSize": 19,
+    "fontFamily": "Abel, sans-serif",
+    "x": 576,
+    "y": 1192,
+    "dx": -9,
+    "text": "u",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 409,
+    "y": 759,
+    "dx": 0,
+    "text": "uk",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 454,
+    "y": 1382,
+    "dx": -8,
+    "text": "ul",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 393,
+    "y": 507,
+    "dx": -19,
+    "text": "undefined",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 399,
+    "y": 953,
+    "dx": 0,
+    "text": "underlying",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 600,
+    "y": 1288,
+    "dx": 0,
+    "text": "unit",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1156,
+    "y": 364,
+    "dx": -20,
+    "text": "universe",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 950,
+    "y": 628,
+    "dx": 0,
+    "text": "until",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 304,
+    "y": 839,
+    "dx": 0,
+    "text": "up",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 448,
+    "y": 282,
+    "dx": 0,
+    "text": "update",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 645,
+    "y": 1251,
+    "dx": 0,
+    "text": "updateDynamic",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 250,
+    "y": 373,
+    "dx": 0,
+    "text": "uri",
+    "rotate": false
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 539,
+    "y": 1443,
+    "dx": 0,
+    "text": "url",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 733,
+    "y": 635,
+    "dx": 0,
+    "text": "use",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 591,
+    "y": 1382,
+    "dx": 0,
+    "text": "used",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 381,
+    "y": 1471,
+    "dx": -15,
+    "text": "user",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1064,
+    "y": 626,
+    "dx": -20,
+    "text": "userName",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 1241,
+    "dx": 0,
+    "text": "using",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 966,
+    "y": 1347,
+    "dx": 0,
+    "text": "Query",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1044,
+    "y": 1227,
+    "dx": 0,
+    "text": "utils",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1065,
+    "y": 567,
+    "dx": -8,
+    "text": "R",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 319,
+    "y": 530,
+    "dx": 0,
+    "text": "v1",
+    "rotate": false
+  },
+  {
+    "fontSize": 9,
+    "fontFamily": "Abel, sans-serif",
+    "x": 324,
+    "y": 326,
+    "dx": 0,
+    "text": "v2",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 744,
+    "y": 1312,
+    "dx": 0,
+    "text": "RDD",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 825,
+    "y": 1419,
+    "dx": 0,
+    "text": "valid",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 646,
+    "y": 461,
+    "dx": -19,
+    "text": "validate",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 469,
+    "y": 269,
+    "dx": -19,
+    "text": "Random",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1180,
+    "y": 628,
+    "dx": -18,
+    "text": "values",
+    "rotate": true
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 623,
+    "y": 1348,
+    "dx": 0,
+    "text": "Rep",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 740,
+    "y": 1433,
+    "dx": 0,
+    "text": "variable",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1041,
+    "y": 1361,
+    "dx": 0,
+    "text": "vector",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 963,
+    "y": 1410,
+    "dx": 0,
+    "text": "verify",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 283,
+    "y": 521,
+    "dx": 0,
+    "text": "version",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 640,
+    "y": 1228,
+    "dx": 0,
+    "text": "view",
+    "rotate": false
+  },
+  {
+    "fontSize": 14,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1042,
+    "y": 105,
+    "dx": 0,
+    "text": "w",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 431,
+    "y": 328,
+    "dx": 0,
+    "text": "was",
+    "rotate": false
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 713,
+    "y": 168,
+    "dx": 0,
+    "text": "we",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 598,
+    "y": 711,
+    "dx": 0,
+    "text": "web",
+    "rotate": false
+  },
+  {
+    "fontSize": 6,
+    "fontFamily": "Abel, sans-serif",
+    "x": 450,
+    "y": 1191,
+    "dx": 0,
+    "text": "Req",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1061,
+    "y": 905,
+    "dx": 0,
+    "text": "where",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1162,
+    "y": 1242,
+    "dx": 0,
+    "text": "which",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 841,
+    "y": 963,
+    "dx": 0,
+    "text": "while",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 823,
+    "y": 1144,
+    "dx": 0,
+    "text": "width",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 1104,
+    "y": 374,
+    "dx": 0,
+    "text": "will",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 714,
+    "y": 1346,
+    "dx": 0,
+    "text": "Request",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 271,
+    "y": 1202,
+    "dx": 0,
+    "text": "withFixture",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 422,
+    "y": 967,
+    "dx": -15,
+    "text": "without",
+    "rotate": true
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 905,
+    "y": 186,
+    "dx": 0,
+    "text": "work",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 826,
+    "y": 1097,
+    "dx": 0,
+    "text": "write",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 713,
+    "y": 297,
+    "dx": -12,
+    "text": "writer",
+    "rotate": true
+  },
+  {
+    "fontSize": 8,
+    "fontFamily": "Abel, sans-serif",
+    "x": 977,
+    "y": 1096,
+    "dx": 0,
+    "text": "www",
+    "rotate": false
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 262,
+    "y": 891,
+    "dx": 0,
+    "text": "Response",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 355,
+    "y": 973,
+    "dx": 0,
+    "text": "xml",
+    "rotate": false
+  },
+  {
+    "fontSize": 11,
+    "fontFamily": "Abel, sans-serif",
+    "x": 644,
+    "y": 876,
+    "dx": 0,
+    "text": "xs",
+    "rotate": false
+  },
+  {
+    "fontSize": 12,
+    "fontFamily": "Abel, sans-serif",
+    "x": 360,
+    "y": 406,
+    "dx": 0,
+    "text": "y",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 570,
+    "y": 1446,
+    "dx": 0,
+    "text": "yield",
+    "rotate": false
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 742,
+    "y": 336,
+    "dx": 0,
+    "text": "you",
+    "rotate": false
+  },
+  {
+    "fontSize": 17,
+    "fontFamily": "Abel, sans-serif",
+    "x": 312,
+    "y": 556,
+    "dx": -8,
+    "text": "z",
+    "rotate": true
+  },
+  {
+    "fontSize": 7,
+    "fontFamily": "Abel, sans-serif",
+    "x": 444,
+    "y": 819,
+    "dx": -12,
+    "text": "zero",
+    "rotate": true
+  },
+  {
+    "fontSize": 4,
+    "fontFamily": "Abel, sans-serif",
+    "x": 952,
+    "y": 929,
+    "dx": 0,
+    "text": "zipkin",
+    "rotate": false
+  },
+  {
+    "fontSize": 5,
+    "fontFamily": "Abel, sans-serif",
+    "x": 247,
+    "y": 270,
+    "dx": -16,
+    "text": "zkClient",
+    "rotate": true
+  },
+  {
+    "fontSize": 28,
+    "fontFamily": "Abel, sans-serif",
+    "x": 234,
+    "y": 1493,
+    "dx": -14,
+    "text": "~",
+    "rotate": true
+  },
+  {
+    "fontSize": 10,
+    "fontFamily": "Abel, sans-serif",
+    "x": 592,
+    "y": 1404,
+    "dx": 0,
+    "text": "1L",
+    "rotate": false
+  }
+]
