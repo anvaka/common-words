@@ -1,5 +1,6 @@
-import Language from './Language';
-import bus from './bus';
+import { markRaw } from 'vue';
+import Language from './Language.js';
+import bus from './bus.js';
 
 export default class LanguageCollection {
   constructor() {
@@ -12,7 +13,9 @@ export default class LanguageCollection {
     if (this.known[extension] !== undefined) throw new Error('Extension is already registered');
 
     this.known[extension] = this.list.length;
-    this.list.push(new Language(extension, text, displayExtensions));
+    // Languages hold large, immutable data sets (word positions and contexts).
+    // There is no need to make them reactive.
+    this.list.push(markRaw(new Language(extension, text, displayExtensions)));
   }
 
   select(extension) {

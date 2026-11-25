@@ -9,7 +9,7 @@
       Most used words in
       <drop-click :selected='languages.selected' :items='languages.list'
                   @selected='updateSelectedLanguage'>
-        <template slot='item' scope='props'>
+        <template #item='props'>
           <option :value='props.item.extension'>{{props.item.text}}</option>
         </template>
       </drop-click> files
@@ -17,7 +17,7 @@
 
       <div class='word-list'>
         <div class='all-words list' :class='{ "context-visible": isContextVisible }'>
-          <a class='line' v-for='word in allWords' @click.prevent='selectWord(word.text)' href='#' :title='word.text'>
+          <a class='line' v-for='word in allWords' :key='word.place' @click.prevent='selectWord(word.text)' href='#' :title='word.text'>
             <div class='place'>{{word.place}}</div>
             <div class='word'>{{word.text}}</div>
             <div class='count' align='right'>{{word.total}}</div>
@@ -29,9 +29,9 @@
             <a href='#' class='context-word'  @click.prevent='toggleList'>{{sideBar.header}}</a>
           </div>
           <div class='list'>
-            <div class='line' v-for='line in sideBar.lines'>
+            <div class='line' v-for='line in sideBar.lines' :key='line.text'>
               <div class='parts' :title='line.text'>
-                <span v-for='part in line.parts' :class='{highlight: part.bold}'>{{part.text}}</span>
+                <span v-for='(part, index) in line.parts' :key='index' :class='{highlight: part.bold}'>{{part.text}}</span>
               </div>
               <div class='count'>{{line.count}}</div>
             </div>
@@ -45,9 +45,9 @@
 </template>
 
 <script>
-import appState from './state/appState';
-import WordsCloudRenderer from './components/WordsCloudRenderer';
-import DropClick from './components/DropClick';
+import appState from './state/appState.js';
+import WordsCloudRenderer from './components/WordsCloudRenderer.vue';
+import DropClick from './components/DropClick.vue';
 
 export default {
   name: 'app',
@@ -79,10 +79,11 @@ export default {
 };
 </script>
 
-<style lang="styl">
-
-sidebar-width = 300px;
-small-sidebar-height = 70px;
+<style>
+:root {
+  --sidebar-width: 300px;
+  --small-sidebar-height: 70px;
+}
 
 * {
   box-sizing: border-box;
@@ -114,7 +115,7 @@ a.about {
   flex-direction: column;
   background: #191919;
   height: 100%;
-  width: sidebar-width;
+  width: var(--sidebar-width);
   box-shadow: 0 -2px 22px rgba(0,0,0,.4);
   .header {
     color: #999;
@@ -193,7 +194,7 @@ a.about {
   }
 
   .context {
-    transform: translate(sidebar-width, 0);
+    transform: translate(var(--sidebar-width), 0);
 
     left: 0;
     display: flex;
@@ -204,7 +205,7 @@ a.about {
     .context-header {
       margin: 0;
       font-size: 1.17em;
-      height: small-sidebar-height;
+      height: var(--small-sidebar-height);
       background-color: #111;
       position: relative;
       display: flex;
@@ -212,7 +213,7 @@ a.about {
       padding: 0 10px;
 
       a {
-        line-height: small-sidebar-height;
+        line-height: var(--small-sidebar-height);
       }
 
       .context-word {
@@ -250,7 +251,7 @@ a.about {
   }
 
   .all-words.context-visible {
-    transform: translate(-(sidebar-width), 0);
+    transform: translate(calc(-1 * var(--sidebar-width)), 0);
   }
 }
 
@@ -260,7 +261,7 @@ a.about {
 
 .scene-container {
   position: absolute;
-  left: sidebar-width;
+  left: var(--sidebar-width);
   top: 0;
   bottom: 0;
   right: 0;
@@ -286,7 +287,7 @@ a.about {
   }
   .scene-container {
     left: 0;
-    bottom: small-sidebar-height;
+    bottom: var(--small-sidebar-height);
   }
 
   .list {
@@ -295,7 +296,7 @@ a.about {
   }
   .language-picker {
     width: 100%;
-    height: small-sidebar-height;
+    height: var(--small-sidebar-height);
     bottom: 0;
 
     .header.context-visible {
@@ -307,7 +308,7 @@ a.about {
     }
 
     .all-words.context-visible {
-      transform: translate(-(100vw), 0);
+      transform: translate(-100vw, 0);
     }
     .context-visible {
       transform: translate(0, 0);

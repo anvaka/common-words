@@ -9,5 +9,5 @@ cd ./dist
  git init
  git add .
  git commit -m "Deployed to Github Pages"
- git push --force --quiet "git@github.com:anvaka/common-words.git" main:gh-pages > /dev/null 2>&1
+ git push --force --quiet "git@github.com:anvaka/common-words.git" main:gh-pages
 )

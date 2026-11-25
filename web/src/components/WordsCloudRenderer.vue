@@ -7,20 +7,20 @@
 </template>
 
 <script>
-/* globals document window */
 import panzoom from 'panzoom';
 import asyncFor from 'rafor';
 import svg from 'simplesvg';
-import { instance } from 'query-state';
+import queryStateFactory from 'query-state';
+import createRandom from 'ngraph.random';
 
-import bus from '../state/bus';
+import bus from '../state/bus.js';
 import appState from '../state/appState.js';
 import colors from '../utils/colors.js';
 import clap from '../utils/clap.js';
 import getSVGHeader from '../utils/svgHeader.js';
 
-const queryState = instance();
-const random = require('ngraph.random').random(42);
+const queryState = queryStateFactory.instance();
+const random = createRandom(42);
 
 export default {
   mounted() {
@@ -32,7 +32,7 @@ export default {
     this.disposeClap = clap(this.scene, this.selectText.bind(this));
   },
 
-  destroyed() {
+  unmounted() {
     bus.off('loading', this.clearScene, this);
     bus.off('loaded', this.renderScene, this);
     this.zoomer.dispose();
@@ -154,7 +154,7 @@ function removeAllChildren(node) {
 }
 </script>
 
-<style lang='styl'>
+<style>
 .scene-container svg {
   position: absolute;
   top: 0;

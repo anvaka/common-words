@@ -1,5 +1,4 @@
-import Promise from 'bluebird';
-import request from '../utils/request';
+import request from '../utils/request.js';
 
 const path = 'static/data';
 

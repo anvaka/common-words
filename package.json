@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "preview": "npm --prefix web run preview",
+    "lint": "npm --prefix web run lint"
+  },
   "dependencies": {
     "JSONStream": "^1.2.1",
     "event-stream": "^3.3.4"

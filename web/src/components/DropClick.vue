@@ -15,10 +15,9 @@
 </div>
 </template>
 
-<style lang='stylus'>
-hover-color = #FF4081;
-
+<style>
 .drop-click-container {
+  --hover-color: #FF4081;
   display: inline-block;
   position: relative;
 
@@ -50,9 +49,9 @@ hover-color = #FF4081;
     height: 100%;
     white-space: nowrap;
     &.hover {
-      color: hover-color;
+      color: var(--hover-color);
       .button-dropdown {
-        border-top-color: hover-color;
+        border-top-color: var(--hover-color);
       }
     }
   }
@@ -62,12 +61,13 @@ hover-color = #FF4081;
 export default {
   props: {
     items: {
-      default: []
+      default: () => []
     },
     selected: {
       default: ''
     },
   },
+  emits: ['selected'],
   data() {
     return {
       hover: false,

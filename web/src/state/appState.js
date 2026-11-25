@@ -1,5 +1,6 @@
+import { reactive } from 'vue';
 import queryState from 'query-state';
-import LanguageCollection from './LanguageCollection';
+import LanguageCollection from './LanguageCollection.js';
 import createSideBarState from './createSideBarState.js';
 import bus from './bus.js';
 import formatNumber from '../utils/formatNumber.js';
@@ -8,7 +9,7 @@ const qs = queryState.instance({
   lang: 'js',
 });
 
-const languages = new LanguageCollection();
+const languages = reactive(new LanguageCollection());
 languages.add('js', 'JavaScript');
 languages.add('jsx', 'React');
 languages.add('css', 'Cascading Style Sheets');
@@ -57,7 +58,7 @@ function selectWord(word) {
   appState.sideBar.showContext(word);
 }
 
-const appState = {
+const appState = reactive({
   languages,
   listState: {
     expanded: false,
@@ -66,7 +67,7 @@ const appState = {
   sideBar: createSideBarState(languages),
   updateSelected,
   selectWord,
-};
+});
 
 export default appState;
 

@@ -1,9 +1,6 @@
-/* global window */
 /**
  * A very basic ajax client with promises and progress reporting.
  */
-import Promise from 'bluebird';
-
 function request(url, options) {
   if (!options) options = {};
   if (url.indexOf('.json') === url.length - 5) {

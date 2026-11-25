@@ -1,13 +1,15 @@
+import { reactive } from 'vue';
 import formatNumber from '../utils/formatNumber.js';
 
 export default function createSideBarState(languages) {
-  const state = {
+  const state = reactive({
     show: false,
     header: '',
     word: '',
+    lines: [],
     showContext,
     close,
-  };
+  });
 
   return state;
 
